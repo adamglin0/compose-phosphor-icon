@@ -72,11 +72,11 @@ mavenPublishing {
     }
     coordinates(
         groupId = "com.adamglin",
-        artifactId = "compose-shadow",
+        artifactId = "phosphor-icon",
         version = "0.0.1"
     )
     pom {
-        name.set("compose-shadow")
+        name.set("phosphor-icon")
         description.set("a kotlin platform library for show drop shadow in compose.")
         url.set("https://github.com/adamglin0/compose-shadow")
         licenses {

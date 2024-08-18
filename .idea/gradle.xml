@@ -10,6 +10,11 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/phosphor" />
+            <option value="$PROJECT_DIR$/sample" />
+            <option value="$PROJECT_DIR$/sample/android-app" />
+            <option value="$PROJECT_DIR$/sample/desktop-app" />
+            <option value="$PROJECT_DIR$/sample/ios-app" />
+            <option value="$PROJECT_DIR$/sample/shared" />
           </set>
         </option>
       </GradleProjectSettings>

@@ -1,0 +1,57 @@
+package com.adamglin.phosphor.phosphoricon.fill
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.PathFillType.Companion.NonZero
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.StrokeCap.Companion.Butt
+import androidx.compose.ui.graphics.StrokeJoin.Companion.Miter
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+import com.adamglin.phosphor.phosphoricon.FillGroup
+
+public val FillGroup.`Database-fill`: ImageVector
+    get() {
+        if (`_database-fill` != null) {
+            return `_database-fill`!!
+        }
+        `_database-fill` = Builder(name = "Database-fill", defaultWidth = 256.0.dp, defaultHeight =
+                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+            path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
+                    strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
+                    pathFillType = NonZero) {
+                moveTo(128.0f, 24.0f)
+                curveTo(74.17f, 24.0f, 32.0f, 48.6f, 32.0f, 80.0f)
+                verticalLineToRelative(96.0f)
+                curveToRelative(0.0f, 31.4f, 42.17f, 56.0f, 96.0f, 56.0f)
+                reflectiveCurveToRelative(96.0f, -24.6f, 96.0f, -56.0f)
+                lineTo(224.0f, 80.0f)
+                curveTo(224.0f, 48.6f, 181.83f, 24.0f, 128.0f, 24.0f)
+                close()
+                moveTo(208.0f, 128.0f)
+                curveToRelative(0.0f, 9.62f, -7.88f, 19.43f, -21.61f, 26.92f)
+                curveTo(170.93f, 163.35f, 150.19f, 168.0f, 128.0f, 168.0f)
+                reflectiveCurveToRelative(-42.93f, -4.65f, -58.39f, -13.08f)
+                curveTo(55.88f, 147.43f, 48.0f, 137.62f, 48.0f, 128.0f)
+                lineTo(48.0f, 111.36f)
+                curveToRelative(17.06f, 15.0f, 46.23f, 24.64f, 80.0f, 24.64f)
+                reflectiveCurveToRelative(62.94f, -9.68f, 80.0f, -24.64f)
+                close()
+                moveTo(186.39f, 202.92f)
+                curveTo(170.93f, 211.35f, 150.19f, 216.0f, 128.0f, 216.0f)
+                reflectiveCurveToRelative(-42.93f, -4.65f, -58.39f, -13.08f)
+                curveTo(55.88f, 195.43f, 48.0f, 185.62f, 48.0f, 176.0f)
+                lineTo(48.0f, 159.36f)
+                curveToRelative(17.06f, 15.0f, 46.23f, 24.64f, 80.0f, 24.64f)
+                reflectiveCurveToRelative(62.94f, -9.68f, 80.0f, -24.64f)
+                lineTo(208.0f, 176.0f)
+                curveTo(208.0f, 185.62f, 200.12f, 195.43f, 186.39f, 202.92f)
+                close()
+            }
+        }
+        .build()
+        return `_database-fill`!!
+    }
+
+private var `_database-fill`: ImageVector? = null
