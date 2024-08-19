@@ -73,7 +73,7 @@ mavenPublishing {
     coordinates(
         groupId = "com.adamglin",
         artifactId = "phosphor-icon",
-        version = "0.0.2"
+        version = "0.0.3"
     )
     pom {
         name.set("phosphor-icon")
