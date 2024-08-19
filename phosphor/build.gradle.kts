@@ -40,7 +40,7 @@ kotlin {
 }
 
 android {
-    namespace = "com.adamglin.composeshadow"
+    namespace = "com.adamglin.phosphoricon"
     compileSdk = libs.versions.androidCompileSdk.get().toInt()
     sourceSets["main"].manifest.srcFile("src/androidMain/AndroidManifest.xml")
 
@@ -73,12 +73,12 @@ mavenPublishing {
     coordinates(
         groupId = "com.adamglin",
         artifactId = "phosphor-icon",
-        version = "0.0.1"
+        version = "0.0.2"
     )
     pom {
         name.set("phosphor-icon")
         description.set("a kotlin platform library for show drop shadow in compose.")
-        url.set("https://github.com/adamglin0/compose-shadow")
+        url.set("https://github.com/adamglin0/phosphor-icon")
         licenses {
             license {
                 name.set("MIT")
@@ -93,11 +93,11 @@ mavenPublishing {
         }
         issueManagement {
             system.set("Github")
-            url.set("https://github.com/adamglin0/compose-shadow/issues")
+            url.set("https://github.com/adamglin0/phosphor-icon/issues")
         }
         scm {
-            connection.set("https://github.com/adamglin0/compose-shadow.git")
-            url.set("https://github.com/adamglin0/compose-shadow")
+            connection.set("https://github.com/adamglin0/phosphor-icon.git")
+            url.set("https://github.com/adamglin0/phosphor-icon")
         }
     }
     publishToMavenCentral(SonatypeHost.CENTRAL_PORTAL)
