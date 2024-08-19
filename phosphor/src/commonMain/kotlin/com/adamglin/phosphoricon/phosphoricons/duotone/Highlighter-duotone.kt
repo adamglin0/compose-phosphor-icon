@@ -1,0 +1,82 @@
+package com.adamglin.phosphoricon.phosphoricons.duotone
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.PathFillType
+import androidx.compose.ui.graphics.PathFillType.Companion.NonZero
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.StrokeCap
+import androidx.compose.ui.graphics.StrokeCap.Companion.Butt
+import androidx.compose.ui.graphics.StrokeJoin
+import androidx.compose.ui.graphics.StrokeJoin.Companion.Miter
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+import com.adamglin.phosphoricon.phosphoricons.DuotoneGroup
+
+public val DuotoneGroup.`Highlighter-duotone`: ImageVector
+    get() {
+        if (`_highlighter-duotone` != null) {
+            return `_highlighter-duotone`!!
+        }
+        `_highlighter-duotone` = Builder(name = "Highlighter-duotone", defaultWidth = 256.0.dp,
+                defaultHeight = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+            path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
+                    = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
+                    strokeLineMiter = 4.0f, pathFillType = NonZero) {
+                moveTo(136.0f, 176.0f)
+                lineTo(96.0f, 216.0f)
+                lineTo(24.0f, 192.0f)
+                lineToRelative(64.0f, -64.0f)
+                close()
+            }
+            path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
+                    strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
+                    pathFillType = NonZero) {
+                moveTo(253.66f, 106.34f)
+                arcToRelative(8.0f, 8.0f, 0.0f, false, false, -11.32f, 0.0f)
+                lineTo(192.0f, 156.69f)
+                lineTo(109.66f, 74.34f)
+                horizontalLineToRelative(0.0f)
+                lineTo(107.31f, 72.0f)
+                lineToRelative(50.35f, -50.34f)
+                arcToRelative(8.0f, 8.0f, 0.0f, true, false, -11.32f, -11.32f)
+                lineTo(96.0f, 60.69f)
+                arcTo(16.0f, 16.0f, 0.0f, false, false, 93.18f, 79.5f)
+                lineTo(72.0f, 100.69f)
+                arcToRelative(16.0f, 16.0f, 0.0f, false, false, 0.0f, 22.62f)
+                lineTo(76.69f, 128.0f)
+                lineTo(18.34f, 186.34f)
+                arcToRelative(8.0f, 8.0f, 0.0f, false, false, 3.13f, 13.25f)
+                lineToRelative(72.0f, 24.0f)
+                arcTo(7.88f, 7.88f, 0.0f, false, false, 96.0f, 224.0f)
+                arcToRelative(8.0f, 8.0f, 0.0f, false, false, 5.66f, -2.34f)
+                lineTo(136.0f, 187.31f)
+                lineToRelative(4.69f, 4.69f)
+                arcToRelative(16.0f, 16.0f, 0.0f, false, false, 22.62f, 0.0f)
+                lineToRelative(21.18f, -21.18f)
+                arcTo(16.0f, 16.0f, 0.0f, false, false, 203.31f, 168.0f)
+                lineToRelative(50.35f, -50.34f)
+                arcTo(8.0f, 8.0f, 0.0f, false, false, 253.66f, 106.34f)
+                close()
+                moveTo(93.84f, 206.85f)
+                lineToRelative(-55.0f, -18.35f)
+                lineTo(88.0f, 139.31f)
+                lineTo(124.69f, 176.0f)
+                close()
+                moveTo(152.0f, 180.69f)
+                lineToRelative(-10.34f, -10.35f)
+                horizontalLineToRelative(0.0f)
+                lineToRelative(-48.0f, -48.0f)
+                horizontalLineToRelative(0.0f)
+                lineTo(83.31f, 112.0f)
+                lineTo(104.0f, 91.31f)
+                lineTo(172.69f, 160.0f)
+                close()
+            }
+        }
+        .build()
+        return `_highlighter-duotone`!!
+    }
+
+private var `_highlighter-duotone`: ImageVector? = null

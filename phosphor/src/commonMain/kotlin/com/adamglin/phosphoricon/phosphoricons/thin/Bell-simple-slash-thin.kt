@@ -1,0 +1,67 @@
+package com.adamglin.phosphoricon.phosphoricons.thin
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.PathFillType.Companion.NonZero
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.StrokeCap.Companion.Butt
+import androidx.compose.ui.graphics.StrokeJoin.Companion.Miter
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+import com.adamglin.phosphoricon.phosphoricons.ThinGroup
+
+public val ThinGroup.`Bell-simple-slash-thin`: ImageVector
+    get() {
+        if (`_bell-simple-slash-thin` != null) {
+            return `_bell-simple-slash-thin`!!
+        }
+        `_bell-simple-slash-thin` = Builder(name = "Bell-simple-slash-thin", defaultWidth =
+                256.0.dp, defaultHeight = 256.0.dp, viewportWidth = 256.0f, viewportHeight =
+                256.0f).apply {
+            path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
+                    strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
+                    pathFillType = NonZero) {
+                moveTo(71.75f, 60.18f)
+                horizontalLineToRelative(0.0f)
+                lineTo(51.0f, 37.31f)
+                arcTo(4.0f, 4.0f, 0.0f, false, false, 45.0f, 42.69f)
+                lineTo(63.8f, 63.32f)
+                arcTo(75.52f, 75.52f, 0.0f, false, false, 52.0f, 104.0f)
+                curveToRelative(0.0f, 36.13f, -8.58f, 64.0f, -14.36f, 73.95f)
+                arcTo(12.0f, 12.0f, 0.0f, false, false, 48.0f, 196.0f)
+                lineTo(184.41f, 196.0f)
+                lineTo(205.0f, 218.69f)
+                arcToRelative(4.0f, 4.0f, 0.0f, true, false, 5.92f, -5.38f)
+                close()
+                moveTo(48.0f, 188.0f)
+                arcToRelative(3.89f, 3.89f, 0.0f, false, true, -3.43f, -2.0f)
+                arcToRelative(4.0f, 4.0f, 0.0f, false, true, 0.0f, -4.0f)
+                curveTo(52.0f, 169.17f, 60.0f, 139.32f, 60.0f, 104.0f)
+                arcToRelative(67.58f, 67.58f, 0.0f, false, true, 9.4f, -34.51f)
+                lineTo(177.14f, 188.0f)
+                close()
+                moveTo(164.0f, 224.0f)
+                arcToRelative(4.0f, 4.0f, 0.0f, false, true, -4.0f, 4.0f)
+                lineTo(96.0f, 228.0f)
+                arcToRelative(4.0f, 4.0f, 0.0f, false, true, 0.0f, -8.0f)
+                horizontalLineToRelative(64.0f)
+                arcTo(4.0f, 4.0f, 0.0f, false, true, 164.0f, 224.0f)
+                close()
+                moveTo(212.53f, 175.52f)
+                arcToRelative(3.94f, 3.94f, 0.0f, false, true, -1.46f, 0.28f)
+                arcToRelative(4.0f, 4.0f, 0.0f, false, true, -3.72f, -2.54f)
+                curveTo(200.24f, 155.17f, 196.0f, 129.28f, 196.0f, 104.0f)
+                arcTo(68.0f, 68.0f, 0.0f, false, false, 94.46f, 44.83f)
+                arcToRelative(4.0f, 4.0f, 0.0f, true, true, -4.0f, -6.95f)
+                arcTo(76.0f, 76.0f, 0.0f, false, true, 204.0f, 104.0f)
+                curveToRelative(0.0f, 36.05f, 8.26f, 59.89f, 10.79f, 66.34f)
+                arcTo(4.0f, 4.0f, 0.0f, false, true, 212.53f, 175.52f)
+                close()
+            }
+        }
+        .build()
+        return `_bell-simple-slash-thin`!!
+    }
+
+private var `_bell-simple-slash-thin`: ImageVector? = null
