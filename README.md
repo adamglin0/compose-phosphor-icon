@@ -43,3 +43,9 @@ And unzip it, rename all files as
 #### Download [SVG to Compose](https://plugins.jetbrains.com/plugin/index?xmlId=by.overpass.svg-to-compose-intellij&utm_source=product&utm_medium=link&utm_campaign=IC&utm_content=2024.2) Intellij Plugin
 
 #### Generate by SVG To Compose
+
+
+## Sample
+
+<img width="254" alt="image" src="https://github.com/user-attachments/assets/865cb40c-62b1-42c1-b109-b4a053ea9e4a">
+
