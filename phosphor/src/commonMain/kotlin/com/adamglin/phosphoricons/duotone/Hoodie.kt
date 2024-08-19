@@ -1,0 +1,111 @@
+package com.adamglin.phosphoricons.duotone
+
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.PathFillType
+import androidx.compose.ui.graphics.PathFillType.Companion.NonZero
+import androidx.compose.ui.graphics.SolidColor
+import androidx.compose.ui.graphics.StrokeCap
+import androidx.compose.ui.graphics.StrokeCap.Companion.Butt
+import androidx.compose.ui.graphics.StrokeJoin
+import androidx.compose.ui.graphics.StrokeJoin.Companion.Miter
+import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.graphics.vector.ImageVector.Builder
+import androidx.compose.ui.graphics.vector.path
+import androidx.compose.ui.unit.dp
+import com.adamglin.phosphoricons.DuotoneGroup
+
+public val DuotoneGroup.Hoodie: ImageVector
+    get() {
+        if (_hoodie != null) {
+            return _hoodie!!
+        }
+        _hoodie = Builder(name = "Hoodie", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+                viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+            path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
+                    = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
+                    strokeLineMiter = 4.0f, pathFillType = NonZero) {
+                moveTo(231.72f, 131.51f)
+                lineTo(210.28f, 210.1f)
+                arcToRelative(8.0f, 8.0f, 0.0f, false, true, -7.71f, 5.9f)
+                horizontalLineTo(176.0f)
+                arcToRelative(8.0f, 8.0f, 0.0f, false, true, -8.0f, -8.0f)
+                verticalLineTo(184.0f)
+                horizontalLineTo(88.0f)
+                verticalLineToRelative(24.0f)
+                arcToRelative(8.0f, 8.0f, 0.0f, false, true, -8.0f, 8.0f)
+                horizontalLineTo(53.43f)
+                arcToRelative(8.0f, 8.0f, 0.0f, false, true, -7.71f, -5.9f)
+                lineTo(24.28f, 131.51f)
+                arcTo(8.0f, 8.0f, 0.0f, false, true, 25.34f, 125.0f)
+                lineTo(72.0f, 55.0f)
+                lineToRelative(56.0f, 33.0f)
+                lineToRelative(56.0f, -33.0f)
+                lineToRelative(46.66f, 70.0f)
+                arcTo(8.0f, 8.0f, 0.0f, false, true, 231.72f, 131.51f)
+                close()
+            }
+            path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
+                    strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
+                    pathFillType = NonZero) {
+                moveTo(237.31f, 120.53f)
+                lineTo(183.0f, 39.12f)
+                arcTo(16.0f, 16.0f, 0.0f, false, false, 169.73f, 32.0f)
+                lineTo(86.27f, 32.0f)
+                arcTo(16.0f, 16.0f, 0.0f, false, false, 73.0f, 39.12f)
+                lineTo(18.69f, 120.53f)
+                arcToRelative(16.0f, 16.0f, 0.0f, false, false, -2.13f, 13.09f)
+                lineTo(38.0f, 212.21f)
+                arcTo(16.0f, 16.0f, 0.0f, false, false, 53.43f, 224.0f)
+                lineTo(80.0f, 224.0f)
+                arcToRelative(16.0f, 16.0f, 0.0f, false, false, 16.0f, -16.0f)
+                lineTo(96.0f, 192.0f)
+                horizontalLineToRelative(64.0f)
+                verticalLineToRelative(16.0f)
+                arcToRelative(16.0f, 16.0f, 0.0f, false, false, 16.0f, 16.0f)
+                horizontalLineToRelative(26.57f)
+                arcTo(16.0f, 16.0f, 0.0f, false, false, 218.0f, 212.21f)
+                lineToRelative(21.44f, -78.59f)
+                arcTo(16.0f, 16.0f, 0.0f, false, false, 237.31f, 120.53f)
+                close()
+                moveTo(80.0f, 176.0f)
+                lineTo(80.0f, 69.0f)
+                lineToRelative(24.0f, 14.15f)
+                lineTo(104.0f, 136.0f)
+                arcToRelative(8.0f, 8.0f, 0.0f, false, false, 16.0f, 0.0f)
+                lineTo(120.0f, 92.57f)
+                lineToRelative(3.94f, 2.32f)
+                arcToRelative(8.0f, 8.0f, 0.0f, false, false, 8.12f, 0.0f)
+                lineTo(136.0f, 92.57f)
+                lineTo(136.0f, 128.0f)
+                arcToRelative(8.0f, 8.0f, 0.0f, false, false, 16.0f, 0.0f)
+                lineTo(152.0f, 83.14f)
+                lineTo(176.0f, 69.0f)
+                lineTo(176.0f, 176.0f)
+                close()
+                moveTo(169.73f, 48.0f)
+                lineToRelative(2.92f, 4.39f)
+                lineTo(128.0f, 78.71f)
+                lineTo(83.35f, 52.39f)
+                lineTo(86.27f, 48.0f)
+                close()
+                moveTo(80.0f, 208.0f)
+                lineTo(53.43f, 208.0f)
+                lineTo(32.0f, 129.41f)
+                lineToRelative(32.0f, -48.0f)
+                lineTo(64.0f, 176.0f)
+                arcToRelative(16.0f, 16.0f, 0.0f, false, false, 16.0f, 16.0f)
+                close()
+                moveTo(202.57f, 208.0f)
+                lineTo(176.0f, 208.0f)
+                lineTo(176.0f, 192.0f)
+                arcToRelative(16.0f, 16.0f, 0.0f, false, false, 16.0f, -16.0f)
+                lineTo(192.0f, 81.41f)
+                lineToRelative(32.0f, 48.0f)
+                close()
+            }
+        }
+        .build()
+        return _hoodie!!
+    }
+
+private var _hoodie: ImageVector? = null
