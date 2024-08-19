@@ -23,7 +23,7 @@ implementation("com.adamglin:phosphor-icon:$version")
 ## Using
 
 ```kotlin
-Icon(imageVector = PhosphorIcons.Bold.`Air-traffic-control-bold`, contentDescription = null)
+Icon(imageVector = PhosphorIcons.Bold.AirTrafficControl, contentDescription = null)
 ```
 
 ## Build By Yourself
