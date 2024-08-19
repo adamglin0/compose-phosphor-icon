@@ -20,8 +20,26 @@ compose-shadow supports platforms below.
 implementation("com.adamglin:phosphor-icon:$version")
 ```
 
-
 ## Using
+
 ```kotlin
 Icon(imageVector = PhosphorIcons.Bold.`Air-traffic-control-bold`, contentDescription = null)
 ```
+
+## Build By Yourself
+
+#### run first.kts
+
+   ```bash
+   kotlinc -script first.kts
+   ```
+
+this script will download phosphor icon origin files
+from [this url](https://phosphoricons.com/assets/phosphor-icons.zip) in /temp folder.
+And unzip it, rename all files as
+
+./temp/phosphor-icons/bold/airplane-tilt-bold.svg -> ./temp/phosphor-icons/bold/AirplaneTilt.svg
+
+#### Download [SVG to Compose](https://plugins.jetbrains.com/plugin/index?xmlId=by.overpass.svg-to-compose-intellij&utm_source=product&utm_medium=link&utm_campaign=IC&utm_content=2024.2) Intellij Plugin
+
+#### Generate by SVG To Compose
