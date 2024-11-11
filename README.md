@@ -1,6 +1,6 @@
-# Phosphor Icon For Compose Multiplatform
+# Phosphor Icons for Compose Multiplatform
 
-A kotlin platform library for using [phosphor icon](https://phosphoricons.com/) in compose multiplatform.
+A Kotlin Multiplatform library for using [Phosphor Icons](https://phosphoricons.com/) in Compose Multiplatform.
 
 ![Maven Central Version](https://img.shields.io/maven-central/v/com.adamglin/phosphor-icon)
 
@@ -8,19 +8,20 @@ A kotlin platform library for using [phosphor icon](https://phosphoricons.com/) 
 
 ## Install
 
-compose-shadow supports platforms below.
+This library supports these platforms:
 
-1. [x] android
-2. [x] ios
-3. [x] desktop(jvm)
+1. [x] Android
+2. [x] iOS
+3. [x] Desktop (JVM)
+4. [x] Web (JS / WasmJS)
 
-#### in your kotlin  module
+**In your Kotlin module:**
 
 ```kotlin
 implementation("com.adamglin:phosphor-icon:$version")
 ```
 
-## Using
+## Usage
 
 ```kotlin
 Icon(imageVector = PhosphorIcons.Bold.AirTrafficControl, contentDescription = null)
