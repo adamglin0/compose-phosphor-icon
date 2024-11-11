@@ -74,7 +74,7 @@ mavenPublishing {
     )
     pom {
         name.set("phosphor-icon")
-        description.set("a kotlin platform library for show drop shadow in compose.")
+        description.set("Phosphor Icons for Compose Multiplatform.")
         url.set("https://github.com/adamglin0/phosphor-icon")
         licenses {
             license {

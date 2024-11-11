@@ -7,7 +7,7 @@ plugins {
 }
 
 android {
-    namespace = "com.adamglin.composeshadow.android"
+    namespace = "com.adamglin.phosphoricons.android"
     compileSdk = libs.versions.androidCompileSdk.get().toInt()
     buildFeatures {
         buildConfig = false
@@ -15,8 +15,8 @@ android {
     }
     defaultConfig {
         minSdk = libs.versions.androidMinSdk.get().toInt()
-        lint.targetSdk = libs.versions.androidTargetSdk.get().toInt()
-        applicationId = "com.adamglin.composeshadow"
+        targetSdk = libs.versions.androidTargetSdk.get().toInt()
+        applicationId = "com.adamglin.phosphoricons"
         versionCode = 1
         versionName = "0.0.1"
 
