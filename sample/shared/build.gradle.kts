@@ -1,4 +1,5 @@
 import org.jetbrains.kotlin.gradle.ExperimentalKotlinGradlePluginApi
+import org.jetbrains.kotlin.gradle.ExperimentalWasmDsl
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
 
@@ -26,6 +27,19 @@ kotlin {
             baseName = "sharedApp"
             isStatic = true
         }
+    }
+
+    js(IR) {
+        moduleName = "sharedApp"
+        browser()
+        binaries.executable()
+    }
+
+    @OptIn(ExperimentalWasmDsl::class)
+    wasmJs {
+        moduleName = "sharedApp"
+        browser()
+        binaries.executable()
     }
 
     sourceSets {

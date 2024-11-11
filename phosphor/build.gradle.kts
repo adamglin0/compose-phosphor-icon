@@ -1,5 +1,6 @@
 import com.vanniktech.maven.publish.SonatypeHost
 import org.jetbrains.kotlin.gradle.ExperimentalKotlinGradlePluginApi
+import org.jetbrains.kotlin.gradle.ExperimentalWasmDsl
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
 plugins {
@@ -18,6 +19,15 @@ kotlin {
             jvmTarget.set(JvmTarget.JVM_11)
         }
         publishLibraryVariants("release")
+    }
+
+    js(IR) {
+        browser()
+    }
+
+    @OptIn(ExperimentalWasmDsl::class)
+    wasmJs {
+        browser()
     }
 
     jvm("desktop")
