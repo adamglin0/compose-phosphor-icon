@@ -23,6 +23,7 @@ Svg2Compose.parse(
     vectorsDirectory = assetsDir,
     type = VectorType.SVG,
     allAssetsPropertyName = "AllIcons",
+    generatePreview = false,
     iconNameTransformer = { s1, s2 ->
         return@parse s1
     }
