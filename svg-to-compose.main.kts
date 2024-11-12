@@ -17,7 +17,7 @@ val assetsDir = File("./temp/phosphor-icons/SVGs Flat/")
 val srcDir = File("phosphor/src/commonMain/kotlin/com")
 
 Svg2Compose.parse(
-    applicationIconPackage = "adamglin",
+    applicationIconPackage = "com.adamglin",
     accessorName = "PhosphorIcons",
     outputSourceDirectory = srcDir,
     vectorsDirectory = assetsDir,
