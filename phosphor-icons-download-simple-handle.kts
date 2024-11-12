@@ -20,6 +20,7 @@ rename("./temp/phosphor-icons/SVGs Flat/fill", "fill")
 rename("./temp/phosphor-icons/SVGs Flat/light", "light")
 rename("./temp/phosphor-icons/SVGs Flat/regular", "")
 rename("./temp/phosphor-icons/SVGs Flat/thin", "thin")
+
 for (file in File("./temp/phosphor-icons/SVGs Flat").walk()) {
     if (file.isFile) {
         setSvgSizeTo24(file)
