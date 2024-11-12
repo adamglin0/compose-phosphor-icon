@@ -1,5 +1,6 @@
 import com.vanniktech.maven.publish.SonatypeHost
 import org.jetbrains.kotlin.gradle.ExperimentalKotlinGradlePluginApi
+import org.jetbrains.kotlin.gradle.ExperimentalWasmDsl
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
 plugins {
@@ -18,6 +19,15 @@ kotlin {
             jvmTarget.set(JvmTarget.JVM_11)
         }
         publishLibraryVariants("release")
+    }
+
+    js(IR) {
+        browser()
+    }
+
+    @OptIn(ExperimentalWasmDsl::class)
+    wasmJs {
+        browser()
     }
 
     jvm("desktop")
@@ -74,7 +84,7 @@ mavenPublishing {
     )
     pom {
         name.set("phosphor-icon")
-        description.set("a kotlin platform library for show drop shadow in compose.")
+        description.set("Phosphor Icons for Compose Multiplatform.")
         url.set("https://github.com/adamglin0/phosphor-icon")
         licenses {
             license {

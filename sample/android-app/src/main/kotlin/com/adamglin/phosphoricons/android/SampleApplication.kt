@@ -1,4 +1,4 @@
-package com.adamglin.composeshadow.android
+package com.adamglin.phosphoricons.android
 
 import android.app.Application
 import android.content.Context
