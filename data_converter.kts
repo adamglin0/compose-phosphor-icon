@@ -90,7 +90,7 @@ fun rename(dirString: String, type: String) {
                 file.renameTo(newFile)
             }
         }
-        println("✅$type files have been successfully renamed.")
+        println("✅[$type] files have been successfully renamed.")
     } else {
         println("Directory does not exist or is not a directory.")
     }
