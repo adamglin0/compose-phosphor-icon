@@ -28,10 +28,10 @@ Icon(imageVector = PhosphorIcons.Bold.AirTrafficControl, contentDescription = nu
 
 ## Build By Yourself
 
-#### run first.kts
+#### run data_converter.kts
 
    ```bash
-   kotlinc -script first.kts
+   kotlinc -script data_converter.kts
    ```
 
 this script will download phosphor icon origin files
