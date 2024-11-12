@@ -20,6 +20,11 @@ rename("./temp/phosphor-icons/SVGs Flat/fill", "fill")
 rename("./temp/phosphor-icons/SVGs Flat/light", "light")
 rename("./temp/phosphor-icons/SVGs Flat/regular", "")
 rename("./temp/phosphor-icons/SVGs Flat/thin", "thin")
+for (file in File("./temp/phosphor-icons/SVGs Flat").walk()) {
+    if (file.isFile) {
+        setSvgSizeTo24(file)
+    }
+}
 
 fun downloadFile(targetFile: File, downloadUrl: String) {
     val parentDir = targetFile.parentFile
@@ -112,4 +117,15 @@ fun deleteDirectory(directory: File): Boolean {
         }
     }
     return directory.delete()
+}
+
+fun setSvgSizeTo24(file: File) {
+    val svgContent = file.readText()
+    // viewBox="0 0 256 256"
+    val updatedSvgContent = svgContent.replace(
+        """(viewBox="\d+ \d+ \d+ \d+")""".toRegex(),
+        "viewBox=\"0 0 24 24\""
+    )
+    file.writeText(updatedSvgContent)
+    println("✅ $file size has been set to 24x24")
 }
