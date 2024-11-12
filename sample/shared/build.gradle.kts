@@ -44,7 +44,7 @@ kotlin {
 }
 
 android {
-    namespace = "com.adamglin.composeshadow.shared"
+    namespace = "com.adamglin.phosphoricons.shared"
     compileSdk = libs.versions.androidCompileSdk.get().toInt()
     sourceSets["main"].manifest.srcFile("src/androidMain/AndroidManifest.xml")
     sourceSets["main"].res.srcDirs("src/androidMain/res")

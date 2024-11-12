@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">compose shadow sample</string>
-    <string name="title_activity_main">sample</string>
+    <string name="app_name">Phosphor Icons Sample</string>
+    <string name="title_activity_main">Sample</string>
 </resources>
