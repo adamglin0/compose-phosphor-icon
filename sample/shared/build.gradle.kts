@@ -1,6 +1,6 @@
 import org.jetbrains.kotlin.gradle.ExperimentalKotlinGradlePluginApi
+import org.jetbrains.kotlin.gradle.ExperimentalWasmDsl
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
-
 
 plugins {
     alias(libs.plugins.kotlin.multiplatform)
@@ -16,7 +16,9 @@ kotlin {
             jvmTarget.set(JvmTarget.JVM_11)
         }
     }
+
     jvm("desktop")
+
     listOf(
         iosArm64(),
         iosX64(),
@@ -26,6 +28,27 @@ kotlin {
             baseName = "sharedApp"
             isStatic = true
         }
+    }
+
+    js(IR) {
+        moduleName = "sharedApp"
+        browser {
+            commonWebpackConfig {
+                outputFileName = "sharedApp.js"
+            }
+        }
+        binaries.executable()
+    }
+
+    @OptIn(ExperimentalWasmDsl::class)
+    wasmJs {
+        moduleName = "sharedApp"
+        browser {
+            commonWebpackConfig {
+                outputFileName = "sharedApp.js"
+            }
+        }
+        binaries.executable()
     }
 
     sourceSets {
