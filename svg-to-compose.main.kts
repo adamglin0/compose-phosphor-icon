@@ -14,7 +14,7 @@ import br.com.devsrsouza.svg2compose.VectorType
 import java.io.File
 
 val assetsDir = File("./temp/phosphor-icons/SVGs Flat/")
-val srcDir = File("phosphor/src/commonMain/kotlin/com")
+val srcDir = File("phosphor/src/commonMain/kotlin")
 
 Svg2Compose.parse(
     applicationIconPackage = "com.adamglin",
