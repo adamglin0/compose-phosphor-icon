@@ -42,7 +42,7 @@ Svg2Compose.parse(
     allAssetsPropertyName = "AllIcons",
     generatePreview = false,
     iconNameTransformer = { s1, s2 ->
-        return@parse convertSnakeToCamel(s1, removeLastSplit = s2 != "regular")
+        return@parse convertSnakeToCamel(s1, removeLastSplit = s2 != "Regular")
     }
 )
 
