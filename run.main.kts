@@ -26,13 +26,10 @@ import java.io.File
 import java.util.zip.ZipFile
 import kotlin.time.Duration.Companion.minutes
 
-// 1. download phosphor-icons-zip
-// 2. unzip it
-// 3. convert svg to compose path
-// 4. reset all path's default size
 
-//downloadFile("./temp/icons.zip", "https://github.com/phosphor-icons/homepage/releases/download/v2.1.0/phosphor-icons.zip")
-//unzip("./temp/icons.zip", "./temp/icons")
+
+downloadFile("./temp/icons.zip", "https://github.com/phosphor-icons/homepage/releases/download/v2.1.0/phosphor-icons.zip")
+unzip("./temp/icons.zip", "./temp/icons")
 Svg2Compose.parse(
     applicationIconPackage = "com.adamglin",
     accessorName = "PhosphorIcons",

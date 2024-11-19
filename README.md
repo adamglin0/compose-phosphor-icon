@@ -29,20 +29,14 @@ Icon(imageVector = PhosphorIcons.Bold.AirTrafficControl, contentDescription = nu
 
 ## Build By Yourself
 
-#### run data_converter.kts
-
    ```bash
-   kotlinc -script download-and-preprocessing.kts
+   kotlinc -script run.main.kts
    ```
-
-this script will download phosphor icon origin files
-from [this url](https://phosphoricons.com/assets/phosphor-icons.zip) in /temp folder.
-And unzip it, rename all files with PascalCase style. Final, script will reset the icon size to 24.dp(as Material3 Icons)
-#### run svg-to-compose.main.kts
-
-```bash
-kotlinc -script svg-to-compose.main.kts
-```
+#### what's the script do?
+1. download phosphor-icons-zip
+2. unzip it
+3. reset all path's default size
+4. convert svg to compose path
 
 this script will generate all icons in `phosphor/src/commainMain/kotlin`
 
