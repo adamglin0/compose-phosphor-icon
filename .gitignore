@@ -276,3 +276,5 @@ google-services.json
 .kotlin
 
 \temp
+
+.DS_Store
