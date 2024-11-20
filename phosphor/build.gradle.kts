@@ -1,3 +1,5 @@
+@file:OptIn(ExperimentalKotlinGradlePluginApi::class)
+
 import com.vanniktech.maven.publish.SonatypeHost
 import org.jetbrains.kotlin.gradle.ExperimentalKotlinGradlePluginApi
 import org.jetbrains.kotlin.gradle.ExperimentalWasmDsl
@@ -32,7 +34,7 @@ kotlin {
 
     jvm("desktop") {
         compilerOptions {
-            jvmTarget = !JvmTarget.JVM_1_8
+            jvmTarget = JvmTarget.JVM_1_8
         }
     }
 
@@ -41,7 +43,6 @@ kotlin {
     iosSimulatorArm64()
 
     sourceSets {
-        val desktopMain by getting
         commonMain.dependencies {
             compileOnly(compose.runtime)
             compileOnly(compose.foundation)
@@ -78,9 +79,6 @@ android {
 
 
 mavenPublishing {
-    val javadocJar = tasks.register("javadocJar", Jar::class.java) {
-        archiveClassifier.set("javadoc")
-    }
     coordinates(
         groupId = "com.adamglin",
         artifactId = "phosphor-icon",
