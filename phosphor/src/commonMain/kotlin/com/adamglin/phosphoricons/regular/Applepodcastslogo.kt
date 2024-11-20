@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.RegularGroup
 
-public val RegularGroup.Applepodcastslogo: ImageVector
+public val RegularGroup.ApplePodcastsLogo: ImageVector
     get() {
-        if (_applepodcastslogo != null) {
-            return _applepodcastslogo!!
+        if (_applePodcastsLogo != null) {
+            return _applePodcastsLogo!!
         }
-        _applepodcastslogo = Builder(name = "Applepodcastslogo", defaultWidth = 256.0.dp,
-                defaultHeight = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _applePodcastsLogo = Builder(name = "ApplePodcastsLogo", defaultWidth = 24.0.dp,
+                defaultHeight = 24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -66,7 +66,7 @@ public val RegularGroup.Applepodcastslogo: ImageVector
             }
         }
         .build()
-        return _applepodcastslogo!!
+        return _applePodcastsLogo!!
     }
 
-private var _applepodcastslogo: ImageVector? = null
+private var _applePodcastsLogo: ImageVector? = null

@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.LightGroup
 
-public val LightGroup.Aligncenterhorizontalsimple: ImageVector
+public val LightGroup.AlignCenterHorizontalSimple: ImageVector
     get() {
-        if (_aligncenterhorizontalsimple != null) {
-            return _aligncenterhorizontalsimple!!
+        if (_alignCenterHorizontalSimple != null) {
+            return _alignCenterHorizontalSimple!!
         }
-        _aligncenterhorizontalsimple = Builder(name = "Aligncenterhorizontalsimple", defaultWidth =
-                256.0.dp, defaultHeight = 256.0.dp, viewportWidth = 256.0f, viewportHeight =
+        _alignCenterHorizontalSimple = Builder(name = "AlignCenterHorizontalSimple", defaultWidth =
+                24.0.dp, defaultHeight = 24.0.dp, viewportWidth = 256.0f, viewportHeight =
                 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -52,7 +52,7 @@ public val LightGroup.Aligncenterhorizontalsimple: ImageVector
             }
         }
         .build()
-        return _aligncenterhorizontalsimple!!
+        return _alignCenterHorizontalSimple!!
     }
 
-private var _aligncenterhorizontalsimple: ImageVector? = null
+private var _alignCenterHorizontalSimple: ImageVector? = null

@@ -14,13 +14,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Beziercurve: ImageVector
+public val DuotoneGroup.BezierCurve: ImageVector
     get() {
-        if (_beziercurve != null) {
-            return _beziercurve!!
+        if (_bezierCurve != null) {
+            return _bezierCurve!!
         }
-        _beziercurve = Builder(name = "Beziercurve", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _bezierCurve = Builder(name = "BezierCurve", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
@@ -71,7 +71,7 @@ public val DuotoneGroup.Beziercurve: ImageVector
             }
         }
         .build()
-        return _beziercurve!!
+        return _bezierCurve!!
     }
 
-private var _beziercurve: ImageVector? = null
+private var _bezierCurve: ImageVector? = null

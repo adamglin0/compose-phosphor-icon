@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.RegularGroup
 
-public val RegularGroup.Cloudslash: ImageVector
+public val RegularGroup.CloudSlash: ImageVector
     get() {
-        if (_cloudslash != null) {
-            return _cloudslash!!
+        if (_cloudSlash != null) {
+            return _cloudSlash!!
         }
-        _cloudslash = Builder(name = "Cloudslash", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _cloudSlash = Builder(name = "CloudSlash", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+                viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -52,7 +52,7 @@ public val RegularGroup.Cloudslash: ImageVector
             }
         }
         .build()
-        return _cloudslash!!
+        return _cloudSlash!!
     }
 
-private var _cloudslash: ImageVector? = null
+private var _cloudSlash: ImageVector? = null

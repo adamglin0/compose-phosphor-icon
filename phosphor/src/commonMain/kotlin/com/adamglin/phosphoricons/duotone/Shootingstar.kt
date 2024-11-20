@@ -14,13 +14,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Shootingstar: ImageVector
+public val DuotoneGroup.ShootingStar: ImageVector
     get() {
-        if (_shootingstar != null) {
-            return _shootingstar!!
+        if (_shootingStar != null) {
+            return _shootingStar!!
         }
-        _shootingstar = Builder(name = "Shootingstar", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _shootingStar = Builder(name = "ShootingStar", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
@@ -104,7 +104,7 @@ public val DuotoneGroup.Shootingstar: ImageVector
             }
         }
         .build()
-        return _shootingstar!!
+        return _shootingStar!!
     }
 
-private var _shootingstar: ImageVector? = null
+private var _shootingStar: ImageVector? = null

@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Texthtwo: ImageVector
+public val FillGroup.TextHTwo: ImageVector
     get() {
-        if (_texthtwo != null) {
-            return _texthtwo!!
+        if (_textHTwo != null) {
+            return _textHTwo!!
         }
-        _texthtwo = Builder(name = "Texthtwo", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _textHTwo = Builder(name = "TextHTwo", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -59,7 +59,7 @@ public val FillGroup.Texthtwo: ImageVector
             }
         }
         .build()
-        return _texthtwo!!
+        return _textHTwo!!
     }
 
-private var _texthtwo: ImageVector? = null
+private var _textHTwo: ImageVector? = null

@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.LightGroup
 
-public val LightGroup.Rectangledashed: ImageVector
+public val LightGroup.RectangleDashed: ImageVector
     get() {
-        if (_rectangledashed != null) {
-            return _rectangledashed!!
+        if (_rectangleDashed != null) {
+            return _rectangleDashed!!
         }
-        _rectangledashed = Builder(name = "Rectangledashed", defaultWidth = 256.0.dp, defaultHeight
-                = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _rectangleDashed = Builder(name = "RectangleDashed", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -92,7 +92,7 @@ public val LightGroup.Rectangledashed: ImageVector
             }
         }
         .build()
-        return _rectangledashed!!
+        return _rectangleDashed!!
     }
 
-private var _rectangledashed: ImageVector? = null
+private var _rectangleDashed: ImageVector? = null

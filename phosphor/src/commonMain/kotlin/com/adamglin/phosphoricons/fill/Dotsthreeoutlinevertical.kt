@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Dotsthreeoutlinevertical: ImageVector
+public val FillGroup.DotsThreeOutlineVertical: ImageVector
     get() {
-        if (_dotsthreeoutlinevertical != null) {
-            return _dotsthreeoutlinevertical!!
+        if (_dotsThreeOutlineVertical != null) {
+            return _dotsThreeOutlineVertical!!
         }
-        _dotsthreeoutlinevertical = Builder(name = "Dotsthreeoutlinevertical", defaultWidth =
-                256.0.dp, defaultHeight = 256.0.dp, viewportWidth = 256.0f, viewportHeight =
+        _dotsThreeOutlineVertical = Builder(name = "DotsThreeOutlineVertical", defaultWidth =
+                24.0.dp, defaultHeight = 24.0.dp, viewportWidth = 256.0f, viewportHeight =
                 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -37,7 +37,7 @@ public val FillGroup.Dotsthreeoutlinevertical: ImageVector
             }
         }
         .build()
-        return _dotsthreeoutlinevertical!!
+        return _dotsThreeOutlineVertical!!
     }
 
-private var _dotsthreeoutlinevertical: ImageVector? = null
+private var _dotsThreeOutlineVertical: ImageVector? = null

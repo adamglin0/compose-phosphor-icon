@@ -14,13 +14,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Currencybtc: ImageVector
+public val DuotoneGroup.CurrencyBtc: ImageVector
     get() {
-        if (_currencybtc != null) {
-            return _currencybtc!!
+        if (_currencyBtc != null) {
+            return _currencyBtc!!
         }
-        _currencybtc = Builder(name = "Currencybtc", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _currencyBtc = Builder(name = "CurrencyBtc", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
@@ -77,7 +77,7 @@ public val DuotoneGroup.Currencybtc: ImageVector
             }
         }
         .build()
-        return _currencybtc!!
+        return _currencyBtc!!
     }
 
-private var _currencybtc: ImageVector? = null
+private var _currencyBtc: ImageVector? = null

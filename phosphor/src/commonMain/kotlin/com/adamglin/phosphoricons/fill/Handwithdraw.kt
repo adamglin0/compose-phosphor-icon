@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Handwithdraw: ImageVector
+public val FillGroup.HandWithdraw: ImageVector
     get() {
-        if (_handwithdraw != null) {
-            return _handwithdraw!!
+        if (_handWithdraw != null) {
+            return _handWithdraw!!
         }
-        _handwithdraw = Builder(name = "Handwithdraw", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _handWithdraw = Builder(name = "HandWithdraw", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -63,7 +63,7 @@ public val FillGroup.Handwithdraw: ImageVector
             }
         }
         .build()
-        return _handwithdraw!!
+        return _handWithdraw!!
     }
 
-private var _handwithdraw: ImageVector? = null
+private var _handWithdraw: ImageVector? = null

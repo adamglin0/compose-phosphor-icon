@@ -14,13 +14,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Gamecontroller: ImageVector
+public val DuotoneGroup.GameController: ImageVector
     get() {
-        if (_gamecontroller != null) {
-            return _gamecontroller!!
+        if (_gameController != null) {
+            return _gameController!!
         }
-        _gamecontroller = Builder(name = "Gamecontroller", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _gameController = Builder(name = "GameController", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
@@ -97,7 +97,7 @@ public val DuotoneGroup.Gamecontroller: ImageVector
             }
         }
         .build()
-        return _gamecontroller!!
+        return _gameController!!
     }
 
-private var _gamecontroller: ImageVector? = null
+private var _gameController: ImageVector? = null

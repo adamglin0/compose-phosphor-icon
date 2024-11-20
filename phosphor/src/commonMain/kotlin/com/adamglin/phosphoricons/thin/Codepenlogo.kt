@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.ThinGroup
 
-public val ThinGroup.Codepenlogo: ImageVector
+public val ThinGroup.CodepenLogo: ImageVector
     get() {
-        if (_codepenlogo != null) {
-            return _codepenlogo!!
+        if (_codepenLogo != null) {
+            return _codepenLogo!!
         }
-        _codepenlogo = Builder(name = "Codepenlogo", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _codepenLogo = Builder(name = "CodepenLogo", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -75,7 +75,7 @@ public val ThinGroup.Codepenlogo: ImageVector
             }
         }
         .build()
-        return _codepenlogo!!
+        return _codepenLogo!!
     }
 
-private var _codepenlogo: ImageVector? = null
+private var _codepenLogo: ImageVector? = null

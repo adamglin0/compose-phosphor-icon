@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.RegularGroup
 
-public val RegularGroup.Mopedfront: ImageVector
+public val RegularGroup.MopedFront: ImageVector
     get() {
-        if (_mopedfront != null) {
-            return _mopedfront!!
+        if (_mopedFront != null) {
+            return _mopedFront!!
         }
-        _mopedfront = Builder(name = "Mopedfront", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _mopedFront = Builder(name = "MopedFront", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+                viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -63,7 +63,7 @@ public val RegularGroup.Mopedfront: ImageVector
             }
         }
         .build()
-        return _mopedfront!!
+        return _mopedFront!!
     }
 
-private var _mopedfront: ImageVector? = null
+private var _mopedFront: ImageVector? = null

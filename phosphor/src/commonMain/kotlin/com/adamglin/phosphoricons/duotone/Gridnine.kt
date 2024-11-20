@@ -14,12 +14,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Gridnine: ImageVector
+public val DuotoneGroup.GridNine: ImageVector
     get() {
-        if (_gridnine != null) {
-            return _gridnine!!
+        if (_gridNine != null) {
+            return _gridNine!!
         }
-        _gridnine = Builder(name = "Gridnine", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _gridNine = Builder(name = "GridNine", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
@@ -97,7 +97,7 @@ public val DuotoneGroup.Gridnine: ImageVector
             }
         }
         .build()
-        return _gridnine!!
+        return _gridNine!!
     }
 
-private var _gridnine: ImageVector? = null
+private var _gridNine: ImageVector? = null

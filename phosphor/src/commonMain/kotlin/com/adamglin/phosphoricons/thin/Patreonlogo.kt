@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.ThinGroup
 
-public val ThinGroup.Patreonlogo: ImageVector
+public val ThinGroup.PatreonLogo: ImageVector
     get() {
-        if (_patreonlogo != null) {
-            return _patreonlogo!!
+        if (_patreonLogo != null) {
+            return _patreonLogo!!
         }
-        _patreonlogo = Builder(name = "Patreonlogo", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _patreonLogo = Builder(name = "PatreonLogo", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -48,7 +48,7 @@ public val ThinGroup.Patreonlogo: ImageVector
             }
         }
         .build()
-        return _patreonlogo!!
+        return _patreonLogo!!
     }
 
-private var _patreonlogo: ImageVector? = null
+private var _patreonLogo: ImageVector? = null

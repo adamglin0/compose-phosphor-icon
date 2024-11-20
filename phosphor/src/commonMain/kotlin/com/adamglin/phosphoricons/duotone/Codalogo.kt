@@ -14,12 +14,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Codalogo: ImageVector
+public val DuotoneGroup.CodaLogo: ImageVector
     get() {
-        if (_codalogo != null) {
-            return _codalogo!!
+        if (_codaLogo != null) {
+            return _codaLogo!!
         }
-        _codalogo = Builder(name = "Codalogo", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _codaLogo = Builder(name = "CodaLogo", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
@@ -74,7 +74,7 @@ public val DuotoneGroup.Codalogo: ImageVector
             }
         }
         .build()
-        return _codalogo!!
+        return _codaLogo!!
     }
 
-private var _codalogo: ImageVector? = null
+private var _codaLogo: ImageVector? = null

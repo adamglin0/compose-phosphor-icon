@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.RegularGroup
 
-public val RegularGroup.Hairdryer: ImageVector
+public val RegularGroup.HairDryer: ImageVector
     get() {
-        if (_hairdryer != null) {
-            return _hairdryer!!
+        if (_hairDryer != null) {
+            return _hairDryer!!
         }
-        _hairdryer = Builder(name = "Hairdryer", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _hairDryer = Builder(name = "HairDryer", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -63,7 +63,7 @@ public val RegularGroup.Hairdryer: ImageVector
             }
         }
         .build()
-        return _hairdryer!!
+        return _hairDryer!!
     }
 
-private var _hairdryer: ImageVector? = null
+private var _hairDryer: ImageVector? = null

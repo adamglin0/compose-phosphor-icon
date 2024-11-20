@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.RegularGroup
 
-public val RegularGroup.Redditlogo: ImageVector
+public val RegularGroup.RedditLogo: ImageVector
     get() {
-        if (_redditlogo != null) {
-            return _redditlogo!!
+        if (_redditLogo != null) {
+            return _redditLogo!!
         }
-        _redditlogo = Builder(name = "Redditlogo", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _redditLogo = Builder(name = "RedditLogo", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+                viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -81,7 +81,7 @@ public val RegularGroup.Redditlogo: ImageVector
             }
         }
         .build()
-        return _redditlogo!!
+        return _redditLogo!!
     }
 
-private var _redditlogo: ImageVector? = null
+private var _redditLogo: ImageVector? = null

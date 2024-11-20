@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Cursorclick: ImageVector
+public val FillGroup.CursorClick: ImageVector
     get() {
-        if (_cursorclick != null) {
-            return _cursorclick!!
+        if (_cursorClick != null) {
+            return _cursorClick!!
         }
-        _cursorclick = Builder(name = "Cursorclick", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _cursorClick = Builder(name = "CursorClick", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -67,7 +67,7 @@ public val FillGroup.Cursorclick: ImageVector
             }
         }
         .build()
-        return _cursorclick!!
+        return _cursorClick!!
     }
 
-private var _cursorclick: ImageVector? = null
+private var _cursorClick: ImageVector? = null

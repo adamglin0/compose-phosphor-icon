@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.BoldGroup
 
-public val BoldGroup.Personsimplehike: ImageVector
+public val BoldGroup.PersonSimpleHike: ImageVector
     get() {
-        if (_personsimplehike != null) {
-            return _personsimplehike!!
+        if (_personSimpleHike != null) {
+            return _personSimpleHike!!
         }
-        _personsimplehike = Builder(name = "Personsimplehike", defaultWidth = 256.0.dp,
-                defaultHeight = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _personSimpleHike = Builder(name = "PersonSimpleHike", defaultWidth = 24.0.dp, defaultHeight
+                = 24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -66,7 +66,7 @@ public val BoldGroup.Personsimplehike: ImageVector
             }
         }
         .build()
-        return _personsimplehike!!
+        return _personSimpleHike!!
     }
 
-private var _personsimplehike: ImageVector? = null
+private var _personSimpleHike: ImageVector? = null

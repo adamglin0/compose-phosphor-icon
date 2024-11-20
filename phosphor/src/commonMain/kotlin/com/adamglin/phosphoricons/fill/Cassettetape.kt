@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Cassettetape: ImageVector
+public val FillGroup.CassetteTape: ImageVector
     get() {
-        if (_cassettetape != null) {
-            return _cassettetape!!
+        if (_cassetteTape != null) {
+            return _cassetteTape!!
         }
-        _cassettetape = Builder(name = "Cassettetape", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _cassetteTape = Builder(name = "CassetteTape", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -61,7 +61,7 @@ public val FillGroup.Cassettetape: ImageVector
             }
         }
         .build()
-        return _cassettetape!!
+        return _cassetteTape!!
     }
 
-private var _cassettetape: ImageVector? = null
+private var _cassetteTape: ImageVector? = null

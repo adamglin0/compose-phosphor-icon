@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.LightGroup
 
-public val LightGroup.Paintbrush: ImageVector
+public val LightGroup.PaintBrush: ImageVector
     get() {
-        if (_paintbrush != null) {
-            return _paintbrush!!
+        if (_paintBrush != null) {
+            return _paintBrush!!
         }
-        _paintbrush = Builder(name = "Paintbrush", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _paintBrush = Builder(name = "PaintBrush", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+                viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -52,7 +52,7 @@ public val LightGroup.Paintbrush: ImageVector
             }
         }
         .build()
-        return _paintbrush!!
+        return _paintBrush!!
     }
 
-private var _paintbrush: ImageVector? = null
+private var _paintBrush: ImageVector? = null

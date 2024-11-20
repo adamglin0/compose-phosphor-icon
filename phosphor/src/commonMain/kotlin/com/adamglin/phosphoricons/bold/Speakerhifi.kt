@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.BoldGroup
 
-public val BoldGroup.Speakerhifi: ImageVector
+public val BoldGroup.SpeakerHifi: ImageVector
     get() {
-        if (_speakerhifi != null) {
-            return _speakerhifi!!
+        if (_speakerHifi != null) {
+            return _speakerHifi!!
         }
-        _speakerhifi = Builder(name = "Speakerhifi", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _speakerHifi = Builder(name = "SpeakerHifi", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -51,7 +51,7 @@ public val BoldGroup.Speakerhifi: ImageVector
             }
         }
         .build()
-        return _speakerhifi!!
+        return _speakerHifi!!
     }
 
-private var _speakerhifi: ImageVector? = null
+private var _speakerHifi: ImageVector? = null

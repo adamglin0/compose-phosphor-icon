@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.RegularGroup
 
-public val RegularGroup.Mappinplus: ImageVector
+public val RegularGroup.MapPinPlus: ImageVector
     get() {
-        if (_mappinplus != null) {
-            return _mappinplus!!
+        if (_mapPinPlus != null) {
+            return _mapPinPlus!!
         }
-        _mappinplus = Builder(name = "Mappinplus", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _mapPinPlus = Builder(name = "MapPinPlus", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+                viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -53,7 +53,7 @@ public val RegularGroup.Mappinplus: ImageVector
             }
         }
         .build()
-        return _mappinplus!!
+        return _mapPinPlus!!
     }
 
-private var _mappinplus: ImageVector? = null
+private var _mapPinPlus: ImageVector? = null

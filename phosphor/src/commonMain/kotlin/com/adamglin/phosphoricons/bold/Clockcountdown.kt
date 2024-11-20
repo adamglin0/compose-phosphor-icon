@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.BoldGroup
 
-public val BoldGroup.Clockcountdown: ImageVector
+public val BoldGroup.ClockCountdown: ImageVector
     get() {
-        if (_clockcountdown != null) {
-            return _clockcountdown!!
+        if (_clockCountdown != null) {
+            return _clockCountdown!!
         }
-        _clockcountdown = Builder(name = "Clockcountdown", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _clockCountdown = Builder(name = "ClockCountdown", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -47,7 +47,7 @@ public val BoldGroup.Clockcountdown: ImageVector
             }
         }
         .build()
-        return _clockcountdown!!
+        return _clockCountdown!!
     }
 
-private var _clockcountdown: ImageVector? = null
+private var _clockCountdown: ImageVector? = null

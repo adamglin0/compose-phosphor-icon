@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.LightGroup
 
-public val LightGroup.Speakersimplenone: ImageVector
+public val LightGroup.SpeakerSimpleNone: ImageVector
     get() {
-        if (_speakersimplenone != null) {
-            return _speakersimplenone!!
+        if (_speakerSimpleNone != null) {
+            return _speakerSimpleNone!!
         }
-        _speakersimplenone = Builder(name = "Speakersimplenone", defaultWidth = 256.0.dp,
-                defaultHeight = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _speakerSimpleNone = Builder(name = "SpeakerSimpleNone", defaultWidth = 24.0.dp,
+                defaultHeight = 24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -48,7 +48,7 @@ public val LightGroup.Speakersimplenone: ImageVector
             }
         }
         .build()
-        return _speakersimplenone!!
+        return _speakerSimpleNone!!
     }
 
-private var _speakersimplenone: ImageVector? = null
+private var _speakerSimpleNone: ImageVector? = null

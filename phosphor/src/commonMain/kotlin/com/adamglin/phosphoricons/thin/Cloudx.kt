@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.ThinGroup
 
-public val ThinGroup.Cloudx: ImageVector
+public val ThinGroup.CloudX: ImageVector
     get() {
-        if (_cloudx != null) {
-            return _cloudx!!
+        if (_cloudX != null) {
+            return _cloudX!!
         }
-        _cloudx = Builder(name = "Cloudx", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _cloudX = Builder(name = "CloudX", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -52,7 +52,7 @@ public val ThinGroup.Cloudx: ImageVector
             }
         }
         .build()
-        return _cloudx!!
+        return _cloudX!!
     }
 
-private var _cloudx: ImageVector? = null
+private var _cloudX: ImageVector? = null

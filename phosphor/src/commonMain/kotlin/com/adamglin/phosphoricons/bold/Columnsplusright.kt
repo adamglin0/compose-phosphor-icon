@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.BoldGroup
 
-public val BoldGroup.Columnsplusright: ImageVector
+public val BoldGroup.ColumnsPlusRight: ImageVector
     get() {
-        if (_columnsplusright != null) {
-            return _columnsplusright!!
+        if (_columnsPlusRight != null) {
+            return _columnsPlusRight!!
         }
-        _columnsplusright = Builder(name = "Columnsplusright", defaultWidth = 256.0.dp,
-                defaultHeight = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _columnsPlusRight = Builder(name = "ColumnsPlusRight", defaultWidth = 24.0.dp, defaultHeight
+                = 24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -69,7 +69,7 @@ public val BoldGroup.Columnsplusright: ImageVector
             }
         }
         .build()
-        return _columnsplusright!!
+        return _columnsPlusRight!!
     }
 
-private var _columnsplusright: ImageVector? = null
+private var _columnsPlusRight: ImageVector? = null

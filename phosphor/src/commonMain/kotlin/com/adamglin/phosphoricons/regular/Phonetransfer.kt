@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.RegularGroup
 
-public val RegularGroup.Phonetransfer: ImageVector
+public val RegularGroup.PhoneTransfer: ImageVector
     get() {
-        if (_phonetransfer != null) {
-            return _phonetransfer!!
+        if (_phoneTransfer != null) {
+            return _phoneTransfer!!
         }
-        _phonetransfer = Builder(name = "Phonetransfer", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _phoneTransfer = Builder(name = "PhoneTransfer", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -72,7 +72,7 @@ public val RegularGroup.Phonetransfer: ImageVector
             }
         }
         .build()
-        return _phonetransfer!!
+        return _phoneTransfer!!
     }
 
-private var _phonetransfer: ImageVector? = null
+private var _phoneTransfer: ImageVector? = null

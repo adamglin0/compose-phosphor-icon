@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.ThinGroup
 
-public val ThinGroup.Batterymedium: ImageVector
+public val ThinGroup.BatteryMedium: ImageVector
     get() {
-        if (_batterymedium != null) {
-            return _batterymedium!!
+        if (_batteryMedium != null) {
+            return _batteryMedium!!
         }
-        _batterymedium = Builder(name = "Batterymedium", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _batteryMedium = Builder(name = "BatteryMedium", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -61,7 +61,7 @@ public val ThinGroup.Batterymedium: ImageVector
             }
         }
         .build()
-        return _batterymedium!!
+        return _batteryMedium!!
     }
 
-private var _batterymedium: ImageVector? = null
+private var _batteryMedium: ImageVector? = null

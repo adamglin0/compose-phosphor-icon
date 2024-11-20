@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.RegularGroup
 
-public val RegularGroup.Receiptx: ImageVector
+public val RegularGroup.ReceiptX: ImageVector
     get() {
-        if (_receiptx != null) {
-            return _receiptx!!
+        if (_receiptX != null) {
+            return _receiptX!!
         }
-        _receiptx = Builder(name = "Receiptx", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _receiptX = Builder(name = "ReceiptX", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -68,7 +68,7 @@ public val RegularGroup.Receiptx: ImageVector
             }
         }
         .build()
-        return _receiptx!!
+        return _receiptX!!
     }
 
-private var _receiptx: ImageVector? = null
+private var _receiptX: ImageVector? = null

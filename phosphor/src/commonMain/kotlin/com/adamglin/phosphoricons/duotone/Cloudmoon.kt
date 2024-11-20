@@ -14,12 +14,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Cloudmoon: ImageVector
+public val DuotoneGroup.CloudMoon: ImageVector
     get() {
-        if (_cloudmoon != null) {
-            return _cloudmoon!!
+        if (_cloudMoon != null) {
+            return _cloudMoon!!
         }
-        _cloudmoon = Builder(name = "Cloudmoon", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _cloudMoon = Builder(name = "CloudMoon", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
@@ -75,7 +75,7 @@ public val DuotoneGroup.Cloudmoon: ImageVector
             }
         }
         .build()
-        return _cloudmoon!!
+        return _cloudMoon!!
     }
 
-private var _cloudmoon: ImageVector? = null
+private var _cloudMoon: ImageVector? = null

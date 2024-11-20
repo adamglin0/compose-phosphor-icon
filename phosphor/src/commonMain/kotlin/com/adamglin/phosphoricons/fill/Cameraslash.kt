@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Cameraslash: ImageVector
+public val FillGroup.CameraSlash: ImageVector
     get() {
-        if (_cameraslash != null) {
-            return _cameraslash!!
+        if (_cameraSlash != null) {
+            return _cameraSlash!!
         }
-        _cameraslash = Builder(name = "Cameraslash", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _cameraSlash = Builder(name = "CameraSlash", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -53,7 +53,7 @@ public val FillGroup.Cameraslash: ImageVector
             }
         }
         .build()
-        return _cameraslash!!
+        return _cameraSlash!!
     }
 
-private var _cameraslash: ImageVector? = null
+private var _cameraSlash: ImageVector? = null

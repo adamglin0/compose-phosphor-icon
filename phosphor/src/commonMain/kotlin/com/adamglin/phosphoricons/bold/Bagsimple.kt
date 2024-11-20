@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.BoldGroup
 
-public val BoldGroup.Bagsimple: ImageVector
+public val BoldGroup.BagSimple: ImageVector
     get() {
-        if (_bagsimple != null) {
-            return _bagsimple!!
+        if (_bagSimple != null) {
+            return _bagSimple!!
         }
-        _bagsimple = Builder(name = "Bagsimple", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _bagSimple = Builder(name = "BagSimple", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -46,7 +46,7 @@ public val BoldGroup.Bagsimple: ImageVector
             }
         }
         .build()
-        return _bagsimple!!
+        return _bagSimple!!
     }
 
-private var _bagsimple: ImageVector? = null
+private var _bagSimple: ImageVector? = null

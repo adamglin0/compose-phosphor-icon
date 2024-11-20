@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.ThinGroup
 
-public val ThinGroup.Cellsignalx: ImageVector
+public val ThinGroup.CellSignalX: ImageVector
     get() {
-        if (_cellsignalx != null) {
-            return _cellsignalx!!
+        if (_cellSignalX != null) {
+            return _cellSignalX!!
         }
-        _cellsignalx = Builder(name = "Cellsignalx", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _cellSignalX = Builder(name = "CellSignalX", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -72,7 +72,7 @@ public val ThinGroup.Cellsignalx: ImageVector
             }
         }
         .build()
-        return _cellsignalx!!
+        return _cellSignalX!!
     }
 
-private var _cellsignalx: ImageVector? = null
+private var _cellSignalX: ImageVector? = null

@@ -14,13 +14,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Chargingstation: ImageVector
+public val DuotoneGroup.ChargingStation: ImageVector
     get() {
-        if (_chargingstation != null) {
-            return _chargingstation!!
+        if (_chargingStation != null) {
+            return _chargingStation!!
         }
-        _chargingstation = Builder(name = "Chargingstation", defaultWidth = 256.0.dp, defaultHeight
-                = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _chargingStation = Builder(name = "ChargingStation", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
@@ -87,7 +87,7 @@ public val DuotoneGroup.Chargingstation: ImageVector
             }
         }
         .build()
-        return _chargingstation!!
+        return _chargingStation!!
     }
 
-private var _chargingstation: ImageVector? = null
+private var _chargingStation: ImageVector? = null

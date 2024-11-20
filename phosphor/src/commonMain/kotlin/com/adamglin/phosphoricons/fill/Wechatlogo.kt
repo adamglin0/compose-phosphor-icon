@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Wechatlogo: ImageVector
+public val FillGroup.WechatLogo: ImageVector
     get() {
-        if (_wechatlogo != null) {
-            return _wechatlogo!!
+        if (_wechatLogo != null) {
+            return _wechatLogo!!
         }
-        _wechatlogo = Builder(name = "Wechatlogo", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _wechatLogo = Builder(name = "WechatLogo", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+                viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -53,7 +53,7 @@ public val FillGroup.Wechatlogo: ImageVector
             }
         }
         .build()
-        return _wechatlogo!!
+        return _wechatLogo!!
     }
 
-private var _wechatlogo: ImageVector? = null
+private var _wechatLogo: ImageVector? = null

@@ -14,13 +14,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Lightninga: ImageVector
+public val DuotoneGroup.LightningA: ImageVector
     get() {
-        if (_lightninga != null) {
-            return _lightninga!!
+        if (_lightningA != null) {
+            return _lightningA!!
         }
-        _lightninga = Builder(name = "Lightninga", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _lightningA = Builder(name = "LightningA", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+                viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
@@ -75,7 +75,7 @@ public val DuotoneGroup.Lightninga: ImageVector
             }
         }
         .build()
-        return _lightninga!!
+        return _lightningA!!
     }
 
-private var _lightninga: ImageVector? = null
+private var _lightningA: ImageVector? = null

@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.BoldGroup
 
-public val BoldGroup.Sneakermove: ImageVector
+public val BoldGroup.SneakerMove: ImageVector
     get() {
-        if (_sneakermove != null) {
-            return _sneakermove!!
+        if (_sneakerMove != null) {
+            return _sneakerMove!!
         }
-        _sneakermove = Builder(name = "Sneakermove", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _sneakerMove = Builder(name = "SneakerMove", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -67,7 +67,7 @@ public val BoldGroup.Sneakermove: ImageVector
             }
         }
         .build()
-        return _sneakermove!!
+        return _sneakerMove!!
     }
 
-private var _sneakermove: ImageVector? = null
+private var _sneakerMove: ImageVector? = null

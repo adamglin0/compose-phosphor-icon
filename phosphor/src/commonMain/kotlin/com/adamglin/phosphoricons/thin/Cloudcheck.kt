@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.ThinGroup
 
-public val ThinGroup.Cloudcheck: ImageVector
+public val ThinGroup.CloudCheck: ImageVector
     get() {
-        if (_cloudcheck != null) {
-            return _cloudcheck!!
+        if (_cloudCheck != null) {
+            return _cloudCheck!!
         }
-        _cloudcheck = Builder(name = "Cloudcheck", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _cloudCheck = Builder(name = "CloudCheck", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+                viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -48,7 +48,7 @@ public val ThinGroup.Cloudcheck: ImageVector
             }
         }
         .build()
-        return _cloudcheck!!
+        return _cloudCheck!!
     }
 
-private var _cloudcheck: ImageVector? = null
+private var _cloudCheck: ImageVector? = null

@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.ThinGroup
 
-public val ThinGroup.Googlelogo: ImageVector
+public val ThinGroup.GoogleLogo: ImageVector
     get() {
-        if (_googlelogo != null) {
-            return _googlelogo!!
+        if (_googleLogo != null) {
+            return _googleLogo!!
         }
-        _googlelogo = Builder(name = "Googlelogo", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _googleLogo = Builder(name = "GoogleLogo", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+                viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -33,7 +33,7 @@ public val ThinGroup.Googlelogo: ImageVector
             }
         }
         .build()
-        return _googlelogo!!
+        return _googleLogo!!
     }
 
-private var _googlelogo: ImageVector? = null
+private var _googleLogo: ImageVector? = null

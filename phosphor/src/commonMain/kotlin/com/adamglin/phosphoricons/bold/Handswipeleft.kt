@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.BoldGroup
 
-public val BoldGroup.Handswipeleft: ImageVector
+public val BoldGroup.HandSwipeLeft: ImageVector
     get() {
-        if (_handswipeleft != null) {
-            return _handswipeleft!!
+        if (_handSwipeLeft != null) {
+            return _handSwipeLeft!!
         }
-        _handswipeleft = Builder(name = "Handswipeleft", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _handSwipeLeft = Builder(name = "HandSwipeLeft", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -69,7 +69,7 @@ public val BoldGroup.Handswipeleft: ImageVector
             }
         }
         .build()
-        return _handswipeleft!!
+        return _handSwipeLeft!!
     }
 
-private var _handswipeleft: ImageVector? = null
+private var _handSwipeLeft: ImageVector? = null

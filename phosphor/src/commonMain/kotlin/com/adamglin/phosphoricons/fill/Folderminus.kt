@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Folderminus: ImageVector
+public val FillGroup.FolderMinus: ImageVector
     get() {
-        if (_folderminus != null) {
-            return _folderminus!!
+        if (_folderMinus != null) {
+            return _folderMinus!!
         }
-        _folderminus = Builder(name = "Folderminus", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _folderMinus = Builder(name = "FolderMinus", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -48,7 +48,7 @@ public val FillGroup.Folderminus: ImageVector
             }
         }
         .build()
-        return _folderminus!!
+        return _folderMinus!!
     }
 
-private var _folderminus: ImageVector? = null
+private var _folderMinus: ImageVector? = null

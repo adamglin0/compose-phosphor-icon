@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.BoldGroup
 
-public val BoldGroup.Escalatordown: ImageVector
+public val BoldGroup.EscalatorDown: ImageVector
     get() {
-        if (_escalatordown != null) {
-            return _escalatordown!!
+        if (_escalatorDown != null) {
+            return _escalatorDown!!
         }
-        _escalatordown = Builder(name = "Escalatordown", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _escalatorDown = Builder(name = "EscalatorDown", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -62,7 +62,7 @@ public val BoldGroup.Escalatordown: ImageVector
             }
         }
         .build()
-        return _escalatordown!!
+        return _escalatorDown!!
     }
 
-private var _escalatordown: ImageVector? = null
+private var _escalatorDown: ImageVector? = null

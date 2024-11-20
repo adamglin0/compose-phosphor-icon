@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.ThinGroup
 
-public val ThinGroup.Threadslogo: ImageVector
+public val ThinGroup.ThreadsLogo: ImageVector
     get() {
-        if (_threadslogo != null) {
-            return _threadslogo!!
+        if (_threadsLogo != null) {
+            return _threadsLogo!!
         }
-        _threadslogo = Builder(name = "Threadslogo", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _threadsLogo = Builder(name = "ThreadsLogo", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -60,7 +60,7 @@ public val ThinGroup.Threadslogo: ImageVector
             }
         }
         .build()
-        return _threadslogo!!
+        return _threadsLogo!!
     }
 
-private var _threadslogo: ImageVector? = null
+private var _threadsLogo: ImageVector? = null

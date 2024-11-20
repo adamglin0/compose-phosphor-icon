@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.RegularGroup
 
-public val RegularGroup.Chartbar: ImageVector
+public val RegularGroup.ChartBar: ImageVector
     get() {
-        if (_chartbar != null) {
-            return _chartbar!!
+        if (_chartBar != null) {
+            return _chartBar!!
         }
-        _chartbar = Builder(name = "Chartbar", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _chartBar = Builder(name = "ChartBar", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -57,7 +57,7 @@ public val RegularGroup.Chartbar: ImageVector
             }
         }
         .build()
-        return _chartbar!!
+        return _chartBar!!
     }
 
-private var _chartbar: ImageVector? = null
+private var _chartBar: ImageVector? = null

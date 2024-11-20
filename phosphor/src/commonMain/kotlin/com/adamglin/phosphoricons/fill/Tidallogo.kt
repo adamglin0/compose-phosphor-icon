@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Tidallogo: ImageVector
+public val FillGroup.TidalLogo: ImageVector
     get() {
-        if (_tidallogo != null) {
-            return _tidallogo!!
+        if (_tidalLogo != null) {
+            return _tidalLogo!!
         }
-        _tidallogo = Builder(name = "Tidallogo", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _tidalLogo = Builder(name = "TidalLogo", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -60,7 +60,7 @@ public val FillGroup.Tidallogo: ImageVector
             }
         }
         .build()
-        return _tidallogo!!
+        return _tidalLogo!!
     }
 
-private var _tidallogo: ImageVector? = null
+private var _tidalLogo: ImageVector? = null

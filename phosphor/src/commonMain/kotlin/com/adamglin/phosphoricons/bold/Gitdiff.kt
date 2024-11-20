@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.BoldGroup
 
-public val BoldGroup.Gitdiff: ImageVector
+public val BoldGroup.GitDiff: ImageVector
     get() {
-        if (_gitdiff != null) {
-            return _gitdiff!!
+        if (_gitDiff != null) {
+            return _gitDiff!!
         }
-        _gitdiff = Builder(name = "Gitdiff", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _gitDiff = Builder(name = "GitDiff", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -65,7 +65,7 @@ public val BoldGroup.Gitdiff: ImageVector
             }
         }
         .build()
-        return _gitdiff!!
+        return _gitDiff!!
     }
 
-private var _gitdiff: ImageVector? = null
+private var _gitDiff: ImageVector? = null

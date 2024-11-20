@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.RegularGroup
 
-public val RegularGroup.Pictureinpicture: ImageVector
+public val RegularGroup.PictureInPicture: ImageVector
     get() {
-        if (_pictureinpicture != null) {
-            return _pictureinpicture!!
+        if (_pictureInPicture != null) {
+            return _pictureInPicture!!
         }
-        _pictureinpicture = Builder(name = "Pictureinpicture", defaultWidth = 256.0.dp,
-                defaultHeight = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _pictureInPicture = Builder(name = "PictureInPicture", defaultWidth = 24.0.dp, defaultHeight
+                = 24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -48,7 +48,7 @@ public val RegularGroup.Pictureinpicture: ImageVector
             }
         }
         .build()
-        return _pictureinpicture!!
+        return _pictureInPicture!!
     }
 
-private var _pictureinpicture: ImageVector? = null
+private var _pictureInPicture: ImageVector? = null

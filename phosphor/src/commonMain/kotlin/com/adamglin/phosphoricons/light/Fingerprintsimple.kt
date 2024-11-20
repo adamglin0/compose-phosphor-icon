@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.LightGroup
 
-public val LightGroup.Fingerprintsimple: ImageVector
+public val LightGroup.FingerprintSimple: ImageVector
     get() {
-        if (_fingerprintsimple != null) {
-            return _fingerprintsimple!!
+        if (_fingerprintSimple != null) {
+            return _fingerprintSimple!!
         }
-        _fingerprintsimple = Builder(name = "Fingerprintsimple", defaultWidth = 256.0.dp,
-                defaultHeight = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _fingerprintSimple = Builder(name = "FingerprintSimple", defaultWidth = 24.0.dp,
+                defaultHeight = 24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -76,7 +76,7 @@ public val LightGroup.Fingerprintsimple: ImageVector
             }
         }
         .build()
-        return _fingerprintsimple!!
+        return _fingerprintSimple!!
     }
 
-private var _fingerprintsimple: ImageVector? = null
+private var _fingerprintSimple: ImageVector? = null

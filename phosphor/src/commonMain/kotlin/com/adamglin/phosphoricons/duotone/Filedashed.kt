@@ -14,13 +14,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Filedashed: ImageVector
+public val DuotoneGroup.FileDashed: ImageVector
     get() {
-        if (_filedashed != null) {
-            return _filedashed!!
+        if (_fileDashed != null) {
+            return _fileDashed!!
         }
-        _filedashed = Builder(name = "Filedashed", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _fileDashed = Builder(name = "FileDashed", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+                viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
@@ -95,7 +95,7 @@ public val DuotoneGroup.Filedashed: ImageVector
             }
         }
         .build()
-        return _filedashed!!
+        return _fileDashed!!
     }
 
-private var _filedashed: ImageVector? = null
+private var _fileDashed: ImageVector? = null

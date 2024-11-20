@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.LightGroup
 
-public val LightGroup.Airplanelanding: ImageVector
+public val LightGroup.AirplaneLanding: ImageVector
     get() {
-        if (_airplanelanding != null) {
-            return _airplanelanding!!
+        if (_airplaneLanding != null) {
+            return _airplaneLanding!!
         }
-        _airplanelanding = Builder(name = "Airplanelanding", defaultWidth = 256.0.dp, defaultHeight
-                = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _airplaneLanding = Builder(name = "AirplaneLanding", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -70,7 +70,7 @@ public val LightGroup.Airplanelanding: ImageVector
             }
         }
         .build()
-        return _airplanelanding!!
+        return _airplaneLanding!!
     }
 
-private var _airplanelanding: ImageVector? = null
+private var _airplaneLanding: ImageVector? = null

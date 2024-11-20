@@ -14,13 +14,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Subtitlesslash: ImageVector
+public val DuotoneGroup.SubtitlesSlash: ImageVector
     get() {
-        if (_subtitlesslash != null) {
-            return _subtitlesslash!!
+        if (_subtitlesSlash != null) {
+            return _subtitlesSlash!!
         }
-        _subtitlesslash = Builder(name = "Subtitlesslash", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _subtitlesSlash = Builder(name = "SubtitlesSlash", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
@@ -86,7 +86,7 @@ public val DuotoneGroup.Subtitlesslash: ImageVector
             }
         }
         .build()
-        return _subtitlesslash!!
+        return _subtitlesSlash!!
     }
 
-private var _subtitlesslash: ImageVector? = null
+private var _subtitlesSlash: ImageVector? = null

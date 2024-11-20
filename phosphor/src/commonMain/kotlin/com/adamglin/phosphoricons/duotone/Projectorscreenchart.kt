@@ -14,13 +14,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Projectorscreenchart: ImageVector
+public val DuotoneGroup.ProjectorScreenChart: ImageVector
     get() {
-        if (_projectorscreenchart != null) {
-            return _projectorscreenchart!!
+        if (_projectorScreenChart != null) {
+            return _projectorScreenChart!!
         }
-        _projectorscreenchart = Builder(name = "Projectorscreenchart", defaultWidth = 256.0.dp,
-                defaultHeight = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _projectorScreenChart = Builder(name = "ProjectorScreenChart", defaultWidth = 24.0.dp,
+                defaultHeight = 24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
@@ -90,7 +90,7 @@ public val DuotoneGroup.Projectorscreenchart: ImageVector
             }
         }
         .build()
-        return _projectorscreenchart!!
+        return _projectorScreenChart!!
     }
 
-private var _projectorscreenchart: ImageVector? = null
+private var _projectorScreenChart: ImageVector? = null

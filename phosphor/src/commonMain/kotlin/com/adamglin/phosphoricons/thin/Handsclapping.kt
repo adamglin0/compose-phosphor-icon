@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.ThinGroup
 
-public val ThinGroup.Handsclapping: ImageVector
+public val ThinGroup.HandsClapping: ImageVector
     get() {
-        if (_handsclapping != null) {
-            return _handsclapping!!
+        if (_handsClapping != null) {
+            return _handsClapping!!
         }
-        _handsclapping = Builder(name = "Handsclapping", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _handsClapping = Builder(name = "HandsClapping", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -104,7 +104,7 @@ public val ThinGroup.Handsclapping: ImageVector
             }
         }
         .build()
-        return _handsclapping!!
+        return _handsClapping!!
     }
 
-private var _handsclapping: ImageVector? = null
+private var _handsClapping: ImageVector? = null

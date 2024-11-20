@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.BoldGroup
 
-public val BoldGroup.Hourglasshigh: ImageVector
+public val BoldGroup.HourglassHigh: ImageVector
     get() {
-        if (_hourglasshigh != null) {
-            return _hourglasshigh!!
+        if (_hourglassHigh != null) {
+            return _hourglassHigh!!
         }
-        _hourglasshigh = Builder(name = "Hourglasshigh", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _hourglassHigh = Builder(name = "HourglassHigh", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -59,7 +59,7 @@ public val BoldGroup.Hourglasshigh: ImageVector
             }
         }
         .build()
-        return _hourglasshigh!!
+        return _hourglassHigh!!
     }
 
-private var _hourglasshigh: ImageVector? = null
+private var _hourglassHigh: ImageVector? = null

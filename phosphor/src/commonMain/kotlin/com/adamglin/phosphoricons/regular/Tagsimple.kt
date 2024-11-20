@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.RegularGroup
 
-public val RegularGroup.Tagsimple: ImageVector
+public val RegularGroup.TagSimple: ImageVector
     get() {
-        if (_tagsimple != null) {
-            return _tagsimple!!
+        if (_tagSimple != null) {
+            return _tagSimple!!
         }
-        _tagsimple = Builder(name = "Tagsimple", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _tagSimple = Builder(name = "TagSimple", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -42,7 +42,7 @@ public val RegularGroup.Tagsimple: ImageVector
             }
         }
         .build()
-        return _tagsimple!!
+        return _tagSimple!!
     }
 
-private var _tagsimple: ImageVector? = null
+private var _tagSimple: ImageVector? = null

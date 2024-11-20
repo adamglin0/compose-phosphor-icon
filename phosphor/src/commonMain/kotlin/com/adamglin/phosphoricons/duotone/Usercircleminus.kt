@@ -14,13 +14,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Usercircleminus: ImageVector
+public val DuotoneGroup.UserCircleMinus: ImageVector
     get() {
-        if (_usercircleminus != null) {
-            return _usercircleminus!!
+        if (_userCircleMinus != null) {
+            return _userCircleMinus!!
         }
-        _usercircleminus = Builder(name = "Usercircleminus", defaultWidth = 256.0.dp, defaultHeight
-                = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _userCircleMinus = Builder(name = "UserCircleMinus", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
@@ -67,7 +67,7 @@ public val DuotoneGroup.Usercircleminus: ImageVector
             }
         }
         .build()
-        return _usercircleminus!!
+        return _userCircleMinus!!
     }
 
-private var _usercircleminus: ImageVector? = null
+private var _userCircleMinus: ImageVector? = null

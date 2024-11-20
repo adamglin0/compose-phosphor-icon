@@ -14,13 +14,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Selectionplus: ImageVector
+public val DuotoneGroup.SelectionPlus: ImageVector
     get() {
-        if (_selectionplus != null) {
-            return _selectionplus!!
+        if (_selectionPlus != null) {
+            return _selectionPlus!!
         }
-        _selectionplus = Builder(name = "Selectionplus", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _selectionPlus = Builder(name = "SelectionPlus", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
@@ -103,7 +103,7 @@ public val DuotoneGroup.Selectionplus: ImageVector
             }
         }
         .build()
-        return _selectionplus!!
+        return _selectionPlus!!
     }
 
-private var _selectionplus: ImageVector? = null
+private var _selectionPlus: ImageVector? = null

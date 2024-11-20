@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Trucktrailer: ImageVector
+public val FillGroup.TruckTrailer: ImageVector
     get() {
-        if (_trucktrailer != null) {
-            return _trucktrailer!!
+        if (_truckTrailer != null) {
+            return _truckTrailer!!
         }
-        _trucktrailer = Builder(name = "Trucktrailer", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _truckTrailer = Builder(name = "TruckTrailer", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -55,7 +55,7 @@ public val FillGroup.Trucktrailer: ImageVector
             }
         }
         .build()
-        return _trucktrailer!!
+        return _truckTrailer!!
     }
 
-private var _trucktrailer: ImageVector? = null
+private var _truckTrailer: ImageVector? = null

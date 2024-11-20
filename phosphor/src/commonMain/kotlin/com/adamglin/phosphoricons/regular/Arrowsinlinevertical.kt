@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.RegularGroup
 
-public val RegularGroup.Arrowsinlinevertical: ImageVector
+public val RegularGroup.ArrowsInLineVertical: ImageVector
     get() {
-        if (_arrowsinlinevertical != null) {
-            return _arrowsinlinevertical!!
+        if (_arrowsInLineVertical != null) {
+            return _arrowsInLineVertical!!
         }
-        _arrowsinlinevertical = Builder(name = "Arrowsinlinevertical", defaultWidth = 256.0.dp,
-                defaultHeight = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _arrowsInLineVertical = Builder(name = "ArrowsInLineVertical", defaultWidth = 24.0.dp,
+                defaultHeight = 24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -53,7 +53,7 @@ public val RegularGroup.Arrowsinlinevertical: ImageVector
             }
         }
         .build()
-        return _arrowsinlinevertical!!
+        return _arrowsInLineVertical!!
     }
 
-private var _arrowsinlinevertical: ImageVector? = null
+private var _arrowsInLineVertical: ImageVector? = null

@@ -16,7 +16,7 @@ public val BoldGroup.Monitor: ImageVector
         if (_monitor != null) {
             return _monitor!!
         }
-        _monitor = Builder(name = "Monitor", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _monitor = Builder(name = "Monitor", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,

@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.ThinGroup
 
-public val ThinGroup.Heartbreak: ImageVector
+public val ThinGroup.HeartBreak: ImageVector
     get() {
-        if (_heartbreak != null) {
-            return _heartbreak!!
+        if (_heartBreak != null) {
+            return _heartBreak!!
         }
-        _heartbreak = Builder(name = "Heartbreak", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _heartBreak = Builder(name = "HeartBreak", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+                viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -54,7 +54,7 @@ public val ThinGroup.Heartbreak: ImageVector
             }
         }
         .build()
-        return _heartbreak!!
+        return _heartBreak!!
     }
 
-private var _heartbreak: ImageVector? = null
+private var _heartBreak: ImageVector? = null

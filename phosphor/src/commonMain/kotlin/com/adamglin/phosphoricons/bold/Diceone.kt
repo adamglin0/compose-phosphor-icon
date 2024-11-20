@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.BoldGroup
 
-public val BoldGroup.Diceone: ImageVector
+public val BoldGroup.DiceOne: ImageVector
     get() {
-        if (_diceone != null) {
-            return _diceone!!
+        if (_diceOne != null) {
+            return _diceOne!!
         }
-        _diceone = Builder(name = "Diceone", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _diceOne = Builder(name = "DiceOne", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -47,7 +47,7 @@ public val BoldGroup.Diceone: ImageVector
             }
         }
         .build()
-        return _diceone!!
+        return _diceOne!!
     }
 
-private var _diceone: ImageVector? = null
+private var _diceOne: ImageVector? = null

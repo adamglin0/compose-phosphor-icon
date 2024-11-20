@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.LightGroup
 
-public val LightGroup.Shuffleangular: ImageVector
+public val LightGroup.ShuffleAngular: ImageVector
     get() {
-        if (_shuffleangular != null) {
-            return _shuffleangular!!
+        if (_shuffleAngular != null) {
+            return _shuffleAngular!!
         }
-        _shuffleangular = Builder(name = "Shuffleangular", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _shuffleAngular = Builder(name = "ShuffleAngular", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -67,7 +67,7 @@ public val LightGroup.Shuffleangular: ImageVector
             }
         }
         .build()
-        return _shuffleangular!!
+        return _shuffleAngular!!
     }
 
-private var _shuffleangular: ImageVector? = null
+private var _shuffleAngular: ImageVector? = null

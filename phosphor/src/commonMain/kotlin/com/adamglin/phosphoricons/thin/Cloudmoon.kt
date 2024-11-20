@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.ThinGroup
 
-public val ThinGroup.Cloudmoon: ImageVector
+public val ThinGroup.CloudMoon: ImageVector
     get() {
-        if (_cloudmoon != null) {
-            return _cloudmoon!!
+        if (_cloudMoon != null) {
+            return _cloudMoon!!
         }
-        _cloudmoon = Builder(name = "Cloudmoon", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _cloudMoon = Builder(name = "CloudMoon", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -55,7 +55,7 @@ public val ThinGroup.Cloudmoon: ImageVector
             }
         }
         .build()
-        return _cloudmoon!!
+        return _cloudMoon!!
     }
 
-private var _cloudmoon: ImageVector? = null
+private var _cloudMoon: ImageVector? = null

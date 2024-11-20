@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.BoldGroup
 
-public val BoldGroup.Maskhappy: ImageVector
+public val BoldGroup.MaskHappy: ImageVector
     get() {
-        if (_maskhappy != null) {
-            return _maskhappy!!
+        if (_maskHappy != null) {
+            return _maskHappy!!
         }
-        _maskhappy = Builder(name = "Maskhappy", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _maskHappy = Builder(name = "MaskHappy", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -68,7 +68,7 @@ public val BoldGroup.Maskhappy: ImageVector
             }
         }
         .build()
-        return _maskhappy!!
+        return _maskHappy!!
     }
 
-private var _maskhappy: ImageVector? = null
+private var _maskHappy: ImageVector? = null

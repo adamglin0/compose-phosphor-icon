@@ -14,12 +14,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Stackplus: ImageVector
+public val DuotoneGroup.StackPlus: ImageVector
     get() {
-        if (_stackplus != null) {
-            return _stackplus!!
+        if (_stackPlus != null) {
+            return _stackPlus!!
         }
-        _stackplus = Builder(name = "Stackplus", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _stackPlus = Builder(name = "StackPlus", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
@@ -85,7 +85,7 @@ public val DuotoneGroup.Stackplus: ImageVector
             }
         }
         .build()
-        return _stackplus!!
+        return _stackPlus!!
     }
 
-private var _stackplus: ImageVector? = null
+private var _stackPlus: ImageVector? = null

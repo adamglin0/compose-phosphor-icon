@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Pencilsimpleline: ImageVector
+public val FillGroup.PencilSimpleLine: ImageVector
     get() {
-        if (_pencilsimpleline != null) {
-            return _pencilsimpleline!!
+        if (_pencilSimpleLine != null) {
+            return _pencilSimpleLine!!
         }
-        _pencilsimpleline = Builder(name = "Pencilsimpleline", defaultWidth = 256.0.dp,
-                defaultHeight = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _pencilSimpleLine = Builder(name = "PencilSimpleLine", defaultWidth = 24.0.dp, defaultHeight
+                = 24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -42,7 +42,7 @@ public val FillGroup.Pencilsimpleline: ImageVector
             }
         }
         .build()
-        return _pencilsimpleline!!
+        return _pencilSimpleLine!!
     }
 
-private var _pencilsimpleline: ImageVector? = null
+private var _pencilSimpleLine: ImageVector? = null

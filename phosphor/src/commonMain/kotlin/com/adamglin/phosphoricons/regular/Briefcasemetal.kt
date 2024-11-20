@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.RegularGroup
 
-public val RegularGroup.Briefcasemetal: ImageVector
+public val RegularGroup.BriefcaseMetal: ImageVector
     get() {
-        if (_briefcasemetal != null) {
-            return _briefcasemetal!!
+        if (_briefcaseMetal != null) {
+            return _briefcaseMetal!!
         }
-        _briefcasemetal = Builder(name = "Briefcasemetal", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _briefcaseMetal = Builder(name = "BriefcaseMetal", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -63,7 +63,7 @@ public val RegularGroup.Briefcasemetal: ImageVector
             }
         }
         .build()
-        return _briefcasemetal!!
+        return _briefcaseMetal!!
     }
 
-private var _briefcasemetal: ImageVector? = null
+private var _briefcaseMetal: ImageVector? = null

@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Plussquare: ImageVector
+public val FillGroup.PlusSquare: ImageVector
     get() {
-        if (_plussquare != null) {
-            return _plussquare!!
+        if (_plusSquare != null) {
+            return _plusSquare!!
         }
-        _plussquare = Builder(name = "Plussquare", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _plusSquare = Builder(name = "PlusSquare", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+                viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -48,7 +48,7 @@ public val FillGroup.Plussquare: ImageVector
             }
         }
         .build()
-        return _plussquare!!
+        return _plusSquare!!
     }
 
-private var _plussquare: ImageVector? = null
+private var _plusSquare: ImageVector? = null

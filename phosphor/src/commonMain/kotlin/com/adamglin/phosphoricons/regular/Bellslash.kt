@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.RegularGroup
 
-public val RegularGroup.Bellslash: ImageVector
+public val RegularGroup.BellSlash: ImageVector
     get() {
-        if (_bellslash != null) {
-            return _bellslash!!
+        if (_bellSlash != null) {
+            return _bellSlash!!
         }
-        _bellslash = Builder(name = "Bellslash", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _bellSlash = Builder(name = "BellSlash", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -56,7 +56,7 @@ public val RegularGroup.Bellslash: ImageVector
             }
         }
         .build()
-        return _bellslash!!
+        return _bellSlash!!
     }
 
-private var _bellslash: ImageVector? = null
+private var _bellSlash: ImageVector? = null

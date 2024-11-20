@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Intersectsquare: ImageVector
+public val FillGroup.IntersectSquare: ImageVector
     get() {
-        if (_intersectsquare != null) {
-            return _intersectsquare!!
+        if (_intersectSquare != null) {
+            return _intersectSquare!!
         }
-        _intersectsquare = Builder(name = "Intersectsquare", defaultWidth = 256.0.dp, defaultHeight
-                = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _intersectSquare = Builder(name = "IntersectSquare", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -56,7 +56,7 @@ public val FillGroup.Intersectsquare: ImageVector
             }
         }
         .build()
-        return _intersectsquare!!
+        return _intersectSquare!!
     }
 
-private var _intersectsquare: ImageVector? = null
+private var _intersectSquare: ImageVector? = null

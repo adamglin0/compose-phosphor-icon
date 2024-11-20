@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.ThinGroup
 
-public val ThinGroup.Arrowbendupleft: ImageVector
+public val ThinGroup.ArrowBendUpLeft: ImageVector
     get() {
-        if (_arrowbendupleft != null) {
-            return _arrowbendupleft!!
+        if (_arrowBendUpLeft != null) {
+            return _arrowBendUpLeft!!
         }
-        _arrowbendupleft = Builder(name = "Arrowbendupleft", defaultWidth = 256.0.dp, defaultHeight
-                = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _arrowBendUpLeft = Builder(name = "ArrowBendUpLeft", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -38,7 +38,7 @@ public val ThinGroup.Arrowbendupleft: ImageVector
             }
         }
         .build()
-        return _arrowbendupleft!!
+        return _arrowBendUpLeft!!
     }
 
-private var _arrowbendupleft: ImageVector? = null
+private var _arrowBendUpLeft: ImageVector? = null

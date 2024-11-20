@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.LightGroup
 
-public val LightGroup.Medalmilitary: ImageVector
+public val LightGroup.MedalMilitary: ImageVector
     get() {
-        if (_medalmilitary != null) {
-            return _medalmilitary!!
+        if (_medalMilitary != null) {
+            return _medalMilitary!!
         }
-        _medalmilitary = Builder(name = "Medalmilitary", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _medalMilitary = Builder(name = "MedalMilitary", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -61,7 +61,7 @@ public val LightGroup.Medalmilitary: ImageVector
             }
         }
         .build()
-        return _medalmilitary!!
+        return _medalMilitary!!
     }
 
-private var _medalmilitary: ImageVector? = null
+private var _medalMilitary: ImageVector? = null

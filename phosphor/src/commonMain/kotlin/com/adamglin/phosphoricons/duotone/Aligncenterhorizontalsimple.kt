@@ -14,13 +14,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Aligncenterhorizontalsimple: ImageVector
+public val DuotoneGroup.AlignCenterHorizontalSimple: ImageVector
     get() {
-        if (_aligncenterhorizontalsimple != null) {
-            return _aligncenterhorizontalsimple!!
+        if (_alignCenterHorizontalSimple != null) {
+            return _alignCenterHorizontalSimple!!
         }
-        _aligncenterhorizontalsimple = Builder(name = "Aligncenterhorizontalsimple", defaultWidth =
-                256.0.dp, defaultHeight = 256.0.dp, viewportWidth = 256.0f, viewportHeight =
+        _alignCenterHorizontalSimple = Builder(name = "AlignCenterHorizontalSimple", defaultWidth =
+                24.0.dp, defaultHeight = 24.0.dp, viewportWidth = 256.0f, viewportHeight =
                 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
@@ -66,7 +66,7 @@ public val DuotoneGroup.Aligncenterhorizontalsimple: ImageVector
             }
         }
         .build()
-        return _aligncenterhorizontalsimple!!
+        return _alignCenterHorizontalSimple!!
     }
 
-private var _aligncenterhorizontalsimple: ImageVector? = null
+private var _alignCenterHorizontalSimple: ImageVector? = null

@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.ThinGroup
 
-public val ThinGroup.Washingmachine: ImageVector
+public val ThinGroup.WashingMachine: ImageVector
     get() {
-        if (_washingmachine != null) {
-            return _washingmachine!!
+        if (_washingMachine != null) {
+            return _washingMachine!!
         }
-        _washingmachine = Builder(name = "Washingmachine", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _washingMachine = Builder(name = "WashingMachine", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -68,7 +68,7 @@ public val ThinGroup.Washingmachine: ImageVector
             }
         }
         .build()
-        return _washingmachine!!
+        return _washingMachine!!
     }
 
-private var _washingmachine: ImageVector? = null
+private var _washingMachine: ImageVector? = null

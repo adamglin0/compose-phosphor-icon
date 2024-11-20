@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.RegularGroup
 
-public val RegularGroup.Warningoctagon: ImageVector
+public val RegularGroup.WarningOctagon: ImageVector
     get() {
-        if (_warningoctagon != null) {
-            return _warningoctagon!!
+        if (_warningOctagon != null) {
+            return _warningOctagon!!
         }
-        _warningoctagon = Builder(name = "Warningoctagon", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _warningOctagon = Builder(name = "WarningOctagon", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -61,7 +61,7 @@ public val RegularGroup.Warningoctagon: ImageVector
             }
         }
         .build()
-        return _warningoctagon!!
+        return _warningOctagon!!
     }
 
-private var _warningoctagon: ImageVector? = null
+private var _warningOctagon: ImageVector? = null

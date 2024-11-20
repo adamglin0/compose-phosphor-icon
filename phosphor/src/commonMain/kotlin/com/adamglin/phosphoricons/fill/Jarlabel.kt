@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Jarlabel: ImageVector
+public val FillGroup.JarLabel: ImageVector
     get() {
-        if (_jarlabel != null) {
-            return _jarlabel!!
+        if (_jarLabel != null) {
+            return _jarLabel!!
         }
-        _jarlabel = Builder(name = "Jarlabel", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _jarLabel = Builder(name = "JarLabel", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -69,7 +69,7 @@ public val FillGroup.Jarlabel: ImageVector
             }
         }
         .build()
-        return _jarlabel!!
+        return _jarLabel!!
     }
 
-private var _jarlabel: ImageVector? = null
+private var _jarLabel: ImageVector? = null

@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.BoldGroup
 
-public val BoldGroup.Filmslate: ImageVector
+public val BoldGroup.FilmSlate: ImageVector
     get() {
-        if (_filmslate != null) {
-            return _filmslate!!
+        if (_filmSlate != null) {
+            return _filmSlate!!
         }
-        _filmslate = Builder(name = "Filmslate", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _filmSlate = Builder(name = "FilmSlate", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -61,7 +61,7 @@ public val BoldGroup.Filmslate: ImageVector
             }
         }
         .build()
-        return _filmslate!!
+        return _filmSlate!!
     }
 
-private var _filmslate: ImageVector? = null
+private var _filmSlate: ImageVector? = null

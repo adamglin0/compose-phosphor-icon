@@ -14,13 +14,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Arrowsoutcardinal: ImageVector
+public val DuotoneGroup.ArrowsOutCardinal: ImageVector
     get() {
-        if (_arrowsoutcardinal != null) {
-            return _arrowsoutcardinal!!
+        if (_arrowsOutCardinal != null) {
+            return _arrowsOutCardinal!!
         }
-        _arrowsoutcardinal = Builder(name = "Arrowsoutcardinal", defaultWidth = 256.0.dp,
-                defaultHeight = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _arrowsOutCardinal = Builder(name = "ArrowsOutCardinal", defaultWidth = 24.0.dp,
+                defaultHeight = 24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
@@ -84,7 +84,7 @@ public val DuotoneGroup.Arrowsoutcardinal: ImageVector
             }
         }
         .build()
-        return _arrowsoutcardinal!!
+        return _arrowsOutCardinal!!
     }
 
-private var _arrowsoutcardinal: ImageVector? = null
+private var _arrowsOutCardinal: ImageVector? = null

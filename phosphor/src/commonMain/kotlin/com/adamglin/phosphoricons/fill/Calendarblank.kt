@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Calendarblank: ImageVector
+public val FillGroup.CalendarBlank: ImageVector
     get() {
-        if (_calendarblank != null) {
-            return _calendarblank!!
+        if (_calendarBlank != null) {
+            return _calendarBlank!!
         }
-        _calendarblank = Builder(name = "Calendarblank", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _calendarBlank = Builder(name = "CalendarBlank", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -55,7 +55,7 @@ public val FillGroup.Calendarblank: ImageVector
             }
         }
         .build()
-        return _calendarblank!!
+        return _calendarBlank!!
     }
 
-private var _calendarblank: ImageVector? = null
+private var _calendarBlank: ImageVector? = null

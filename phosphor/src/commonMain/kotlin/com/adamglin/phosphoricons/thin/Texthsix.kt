@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.ThinGroup
 
-public val ThinGroup.Texthsix: ImageVector
+public val ThinGroup.TextHSix: ImageVector
     get() {
-        if (_texthsix != null) {
-            return _texthsix!!
+        if (_textHSix != null) {
+            return _textHSix!!
         }
-        _texthsix = Builder(name = "Texthsix", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _textHSix = Builder(name = "TextHSix", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -50,7 +50,7 @@ public val ThinGroup.Texthsix: ImageVector
             }
         }
         .build()
-        return _texthsix!!
+        return _textHSix!!
     }
 
-private var _texthsix: ImageVector? = null
+private var _textHSix: ImageVector? = null

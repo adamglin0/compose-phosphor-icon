@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.RegularGroup
 
-public val RegularGroup.Shootingstar: ImageVector
+public val RegularGroup.ShootingStar: ImageVector
     get() {
-        if (_shootingstar != null) {
-            return _shootingstar!!
+        if (_shootingStar != null) {
+            return _shootingStar!!
         }
-        _shootingstar = Builder(name = "Shootingstar", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _shootingStar = Builder(name = "ShootingStar", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -80,7 +80,7 @@ public val RegularGroup.Shootingstar: ImageVector
             }
         }
         .build()
-        return _shootingstar!!
+        return _shootingStar!!
     }
 
-private var _shootingstar: ImageVector? = null
+private var _shootingStar: ImageVector? = null

@@ -14,12 +14,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Firstaid: ImageVector
+public val DuotoneGroup.FirstAid: ImageVector
     get() {
-        if (_firstaid != null) {
-            return _firstaid!!
+        if (_firstAid != null) {
+            return _firstAid!!
         }
-        _firstaid = Builder(name = "Firstaid", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _firstAid = Builder(name = "FirstAid", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
@@ -92,7 +92,7 @@ public val DuotoneGroup.Firstaid: ImageVector
             }
         }
         .build()
-        return _firstaid!!
+        return _firstAid!!
     }
 
-private var _firstaid: ImageVector? = null
+private var _firstAid: ImageVector? = null

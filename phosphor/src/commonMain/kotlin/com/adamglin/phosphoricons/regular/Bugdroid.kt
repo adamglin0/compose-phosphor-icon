@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.RegularGroup
 
-public val RegularGroup.Bugdroid: ImageVector
+public val RegularGroup.BugDroid: ImageVector
     get() {
-        if (_bugdroid != null) {
-            return _bugdroid!!
+        if (_bugDroid != null) {
+            return _bugDroid!!
         }
-        _bugdroid = Builder(name = "Bugdroid", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _bugDroid = Builder(name = "BugDroid", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -60,7 +60,7 @@ public val RegularGroup.Bugdroid: ImageVector
             }
         }
         .build()
-        return _bugdroid!!
+        return _bugDroid!!
     }
 
-private var _bugdroid: ImageVector? = null
+private var _bugDroid: ImageVector? = null

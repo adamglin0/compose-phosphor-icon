@@ -14,13 +14,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Youtubelogo: ImageVector
+public val DuotoneGroup.YoutubeLogo: ImageVector
     get() {
-        if (_youtubelogo != null) {
-            return _youtubelogo!!
+        if (_youtubeLogo != null) {
+            return _youtubeLogo!!
         }
-        _youtubelogo = Builder(name = "Youtubelogo", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _youtubeLogo = Builder(name = "YoutubeLogo", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
@@ -90,7 +90,7 @@ public val DuotoneGroup.Youtubelogo: ImageVector
             }
         }
         .build()
-        return _youtubelogo!!
+        return _youtubeLogo!!
     }
 
-private var _youtubelogo: ImageVector? = null
+private var _youtubeLogo: ImageVector? = null

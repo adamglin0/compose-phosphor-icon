@@ -14,13 +14,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Legosmiley: ImageVector
+public val DuotoneGroup.LegoSmiley: ImageVector
     get() {
-        if (_legosmiley != null) {
-            return _legosmiley!!
+        if (_legoSmiley != null) {
+            return _legoSmiley!!
         }
-        _legosmiley = Builder(name = "Legosmiley", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _legoSmiley = Builder(name = "LegoSmiley", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+                viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
@@ -94,7 +94,7 @@ public val DuotoneGroup.Legosmiley: ImageVector
             }
         }
         .build()
-        return _legosmiley!!
+        return _legoSmiley!!
     }
 
-private var _legosmiley: ImageVector? = null
+private var _legoSmiley: ImageVector? = null

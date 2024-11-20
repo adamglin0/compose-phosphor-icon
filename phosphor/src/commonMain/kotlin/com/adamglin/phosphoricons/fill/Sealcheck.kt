@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Sealcheck: ImageVector
+public val FillGroup.SealCheck: ImageVector
     get() {
-        if (_sealcheck != null) {
-            return _sealcheck!!
+        if (_sealCheck != null) {
+            return _sealCheck!!
         }
-        _sealcheck = Builder(name = "Sealcheck", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _sealCheck = Builder(name = "SealCheck", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -67,7 +67,7 @@ public val FillGroup.Sealcheck: ImageVector
             }
         }
         .build()
-        return _sealcheck!!
+        return _sealCheck!!
     }
 
-private var _sealcheck: ImageVector? = null
+private var _sealCheck: ImageVector? = null

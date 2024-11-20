@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.LightGroup
 
-public val LightGroup.Batteryverticallow: ImageVector
+public val LightGroup.BatteryVerticalLow: ImageVector
     get() {
-        if (_batteryverticallow != null) {
-            return _batteryverticallow!!
+        if (_batteryVerticalLow != null) {
+            return _batteryVerticalLow!!
         }
-        _batteryverticallow = Builder(name = "Batteryverticallow", defaultWidth = 256.0.dp,
-                defaultHeight = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _batteryVerticalLow = Builder(name = "BatteryVerticalLow", defaultWidth = 24.0.dp,
+                defaultHeight = 24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -56,7 +56,7 @@ public val LightGroup.Batteryverticallow: ImageVector
             }
         }
         .build()
-        return _batteryverticallow!!
+        return _batteryVerticalLow!!
     }
 
-private var _batteryverticallow: ImageVector? = null
+private var _batteryVerticalLow: ImageVector? = null

@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.ThinGroup
 
-public val ThinGroup.Fediverselogo: ImageVector
+public val ThinGroup.FediverseLogo: ImageVector
     get() {
-        if (_fediverselogo != null) {
-            return _fediverselogo!!
+        if (_fediverseLogo != null) {
+            return _fediverseLogo!!
         }
-        _fediverselogo = Builder(name = "Fediverselogo", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _fediverseLogo = Builder(name = "FediverseLogo", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -94,7 +94,7 @@ public val ThinGroup.Fediverselogo: ImageVector
             }
         }
         .build()
-        return _fediverselogo!!
+        return _fediverseLogo!!
     }
 
-private var _fediverselogo: ImageVector? = null
+private var _fediverseLogo: ImageVector? = null

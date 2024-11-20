@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.ThinGroup
 
-public val ThinGroup.Chatcenteredslash: ImageVector
+public val ThinGroup.ChatCenteredSlash: ImageVector
     get() {
-        if (_chatcenteredslash != null) {
-            return _chatcenteredslash!!
+        if (_chatCenteredSlash != null) {
+            return _chatCenteredSlash!!
         }
-        _chatcenteredslash = Builder(name = "Chatcenteredslash", defaultWidth = 256.0.dp,
-                defaultHeight = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _chatCenteredSlash = Builder(name = "ChatCenteredSlash", defaultWidth = 24.0.dp,
+                defaultHeight = 24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -62,7 +62,7 @@ public val ThinGroup.Chatcenteredslash: ImageVector
             }
         }
         .build()
-        return _chatcenteredslash!!
+        return _chatCenteredSlash!!
     }
 
-private var _chatcenteredslash: ImageVector? = null
+private var _chatCenteredSlash: ImageVector? = null

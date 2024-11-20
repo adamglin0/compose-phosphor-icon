@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.BoldGroup
 
-public val BoldGroup.Calendarx: ImageVector
+public val BoldGroup.CalendarX: ImageVector
     get() {
-        if (_calendarx != null) {
-            return _calendarx!!
+        if (_calendarX != null) {
+            return _calendarX!!
         }
-        _calendarx = Builder(name = "Calendarx", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _calendarX = Builder(name = "CalendarX", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -70,7 +70,7 @@ public val BoldGroup.Calendarx: ImageVector
             }
         }
         .build()
-        return _calendarx!!
+        return _calendarX!!
     }
 
-private var _calendarx: ImageVector? = null
+private var _calendarX: ImageVector? = null

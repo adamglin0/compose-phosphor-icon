@@ -14,12 +14,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Gitmerge: ImageVector
+public val DuotoneGroup.GitMerge: ImageVector
     get() {
-        if (_gitmerge != null) {
-            return _gitmerge!!
+        if (_gitMerge != null) {
+            return _gitMerge!!
         }
-        _gitmerge = Builder(name = "Gitmerge", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _gitMerge = Builder(name = "GitMerge", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
@@ -61,7 +61,7 @@ public val DuotoneGroup.Gitmerge: ImageVector
             }
         }
         .build()
-        return _gitmerge!!
+        return _gitMerge!!
     }
 
-private var _gitmerge: ImageVector? = null
+private var _gitMerge: ImageVector? = null

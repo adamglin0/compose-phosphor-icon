@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.BoldGroup
 
-public val BoldGroup.Devicerotate: ImageVector
+public val BoldGroup.DeviceRotate: ImageVector
     get() {
-        if (_devicerotate != null) {
-            return _devicerotate!!
+        if (_deviceRotate != null) {
+            return _deviceRotate!!
         }
-        _devicerotate = Builder(name = "Devicerotate", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _deviceRotate = Builder(name = "DeviceRotate", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -57,7 +57,7 @@ public val BoldGroup.Devicerotate: ImageVector
             }
         }
         .build()
-        return _devicerotate!!
+        return _deviceRotate!!
     }
 
-private var _devicerotate: ImageVector? = null
+private var _deviceRotate: ImageVector? = null

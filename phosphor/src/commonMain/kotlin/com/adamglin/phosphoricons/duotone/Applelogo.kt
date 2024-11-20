@@ -14,12 +14,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Applelogo: ImageVector
+public val DuotoneGroup.AppleLogo: ImageVector
     get() {
-        if (_applelogo != null) {
-            return _applelogo!!
+        if (_appleLogo != null) {
+            return _appleLogo!!
         }
-        _applelogo = Builder(name = "Applelogo", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _appleLogo = Builder(name = "AppleLogo", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
@@ -87,7 +87,7 @@ public val DuotoneGroup.Applelogo: ImageVector
             }
         }
         .build()
-        return _applelogo!!
+        return _appleLogo!!
     }
 
-private var _applelogo: ImageVector? = null
+private var _appleLogo: ImageVector? = null

@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.ThinGroup
 
-public val ThinGroup.Texthfive: ImageVector
+public val ThinGroup.TextHFive: ImageVector
     get() {
-        if (_texthfive != null) {
-            return _texthfive!!
+        if (_textHFive != null) {
+            return _textHFive!!
         }
-        _texthfive = Builder(name = "Texthfive", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _textHFive = Builder(name = "TextHFive", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -56,7 +56,7 @@ public val ThinGroup.Texthfive: ImageVector
             }
         }
         .build()
-        return _texthfive!!
+        return _textHFive!!
     }
 
-private var _texthfive: ImageVector? = null
+private var _textHFive: ImageVector? = null

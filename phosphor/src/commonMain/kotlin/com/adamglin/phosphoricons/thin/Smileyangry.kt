@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.ThinGroup
 
-public val ThinGroup.Smileyangry: ImageVector
+public val ThinGroup.SmileyAngry: ImageVector
     get() {
-        if (_smileyangry != null) {
-            return _smileyangry!!
+        if (_smileyAngry != null) {
+            return _smileyAngry!!
         }
-        _smileyangry = Builder(name = "Smileyangry", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _smileyAngry = Builder(name = "SmileyAngry", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -57,7 +57,7 @@ public val ThinGroup.Smileyangry: ImageVector
             }
         }
         .build()
-        return _smileyangry!!
+        return _smileyAngry!!
     }
 
-private var _smileyangry: ImageVector? = null
+private var _smileyAngry: ImageVector? = null

@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.ThinGroup
 
-public val ThinGroup.Treasurechest: ImageVector
+public val ThinGroup.TreasureChest: ImageVector
     get() {
-        if (_treasurechest != null) {
-            return _treasurechest!!
+        if (_treasureChest != null) {
+            return _treasureChest!!
         }
-        _treasurechest = Builder(name = "Treasurechest", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _treasureChest = Builder(name = "TreasureChest", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -88,7 +88,7 @@ public val ThinGroup.Treasurechest: ImageVector
             }
         }
         .build()
-        return _treasurechest!!
+        return _treasureChest!!
     }
 
-private var _treasurechest: ImageVector? = null
+private var _treasureChest: ImageVector? = null

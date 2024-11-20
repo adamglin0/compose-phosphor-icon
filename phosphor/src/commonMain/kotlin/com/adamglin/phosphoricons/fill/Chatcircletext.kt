@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Chatcircletext: ImageVector
+public val FillGroup.ChatCircleText: ImageVector
     get() {
-        if (_chatcircletext != null) {
-            return _chatcircletext!!
+        if (_chatCircleText != null) {
+            return _chatCircleText!!
         }
-        _chatcircletext = Builder(name = "Chatcircletext", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _chatCircleText = Builder(name = "ChatCircleText", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -43,7 +43,7 @@ public val FillGroup.Chatcircletext: ImageVector
             }
         }
         .build()
-        return _chatcircletext!!
+        return _chatCircleText!!
     }
 
-private var _chatcircletext: ImageVector? = null
+private var _chatCircleText: ImageVector? = null

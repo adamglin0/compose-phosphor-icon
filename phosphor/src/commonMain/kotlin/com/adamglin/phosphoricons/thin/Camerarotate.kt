@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.ThinGroup
 
-public val ThinGroup.Camerarotate: ImageVector
+public val ThinGroup.CameraRotate: ImageVector
     get() {
-        if (_camerarotate != null) {
-            return _camerarotate!!
+        if (_cameraRotate != null) {
+            return _cameraRotate!!
         }
-        _camerarotate = Builder(name = "Camerarotate", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _cameraRotate = Builder(name = "CameraRotate", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -84,7 +84,7 @@ public val ThinGroup.Camerarotate: ImageVector
             }
         }
         .build()
-        return _camerarotate!!
+        return _cameraRotate!!
     }
 
-private var _camerarotate: ImageVector? = null
+private var _cameraRotate: ImageVector? = null

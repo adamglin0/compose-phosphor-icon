@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.RegularGroup
 
-public val RegularGroup.Dotoutline: ImageVector
+public val RegularGroup.DotOutline: ImageVector
     get() {
-        if (_dotoutline != null) {
-            return _dotoutline!!
+        if (_dotOutline != null) {
+            return _dotOutline!!
         }
-        _dotoutline = Builder(name = "Dotoutline", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _dotOutline = Builder(name = "DotOutline", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+                viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -32,7 +32,7 @@ public val RegularGroup.Dotoutline: ImageVector
             }
         }
         .build()
-        return _dotoutline!!
+        return _dotOutline!!
     }
 
-private var _dotoutline: ImageVector? = null
+private var _dotOutline: ImageVector? = null

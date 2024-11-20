@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Computertower: ImageVector
+public val FillGroup.ComputerTower: ImageVector
     get() {
-        if (_computertower != null) {
-            return _computertower!!
+        if (_computerTower != null) {
+            return _computerTower!!
         }
-        _computertower = Builder(name = "Computertower", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _computerTower = Builder(name = "ComputerTower", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -50,7 +50,7 @@ public val FillGroup.Computertower: ImageVector
             }
         }
         .build()
-        return _computertower!!
+        return _computerTower!!
     }
 
-private var _computertower: ImageVector? = null
+private var _computerTower: ImageVector? = null

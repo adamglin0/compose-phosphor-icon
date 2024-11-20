@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.RegularGroup
 
-public val RegularGroup.Dicefive: ImageVector
+public val RegularGroup.DiceFive: ImageVector
     get() {
-        if (_dicefive != null) {
-            return _dicefive!!
+        if (_diceFive != null) {
+            return _diceFive!!
         }
-        _dicefive = Builder(name = "Dicefive", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _diceFive = Builder(name = "DiceFive", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -63,7 +63,7 @@ public val RegularGroup.Dicefive: ImageVector
             }
         }
         .build()
-        return _dicefive!!
+        return _diceFive!!
     }
 
-private var _dicefive: ImageVector? = null
+private var _diceFive: ImageVector? = null

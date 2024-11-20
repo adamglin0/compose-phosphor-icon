@@ -14,12 +14,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Handsoap: ImageVector
+public val DuotoneGroup.HandSoap: ImageVector
     get() {
-        if (_handsoap != null) {
-            return _handsoap!!
+        if (_handSoap != null) {
+            return _handSoap!!
         }
-        _handsoap = Builder(name = "Handsoap", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _handSoap = Builder(name = "HandSoap", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
@@ -81,7 +81,7 @@ public val DuotoneGroup.Handsoap: ImageVector
             }
         }
         .build()
-        return _handsoap!!
+        return _handSoap!!
     }
 
-private var _handsoap: ImageVector? = null
+private var _handSoap: ImageVector? = null

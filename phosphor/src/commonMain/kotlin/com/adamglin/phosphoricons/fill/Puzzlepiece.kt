@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Puzzlepiece: ImageVector
+public val FillGroup.PuzzlePiece: ImageVector
     get() {
-        if (_puzzlepiece != null) {
-            return _puzzlepiece!!
+        if (_puzzlePiece != null) {
+            return _puzzlePiece!!
         }
-        _puzzlepiece = Builder(name = "Puzzlepiece", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _puzzlePiece = Builder(name = "PuzzlePiece", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -49,7 +49,7 @@ public val FillGroup.Puzzlepiece: ImageVector
             }
         }
         .build()
-        return _puzzlepiece!!
+        return _puzzlePiece!!
     }
 
-private var _puzzlepiece: ImageVector? = null
+private var _puzzlePiece: ImageVector? = null

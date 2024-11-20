@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.ThinGroup
 
-public val ThinGroup.Globehemispherewest: ImageVector
+public val ThinGroup.GlobeHemisphereWest: ImageVector
     get() {
-        if (_globehemispherewest != null) {
-            return _globehemispherewest!!
+        if (_globeHemisphereWest != null) {
+            return _globeHemisphereWest!!
         }
-        _globehemispherewest = Builder(name = "Globehemispherewest", defaultWidth = 256.0.dp,
-                defaultHeight = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _globeHemisphereWest = Builder(name = "GlobeHemisphereWest", defaultWidth = 24.0.dp,
+                defaultHeight = 24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -99,7 +99,7 @@ public val ThinGroup.Globehemispherewest: ImageVector
             }
         }
         .build()
-        return _globehemispherewest!!
+        return _globeHemisphereWest!!
     }
 
-private var _globehemispherewest: ImageVector? = null
+private var _globeHemisphereWest: ImageVector? = null

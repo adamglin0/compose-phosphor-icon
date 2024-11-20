@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Caretdoubledown: ImageVector
+public val FillGroup.CaretDoubleDown: ImageVector
     get() {
-        if (_caretdoubledown != null) {
-            return _caretdoubledown!!
+        if (_caretDoubleDown != null) {
+            return _caretDoubleDown!!
         }
-        _caretdoubledown = Builder(name = "Caretdoubledown", defaultWidth = 256.0.dp, defaultHeight
-                = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _caretDoubleDown = Builder(name = "CaretDoubleDown", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -39,7 +39,7 @@ public val FillGroup.Caretdoubledown: ImageVector
             }
         }
         .build()
-        return _caretdoubledown!!
+        return _caretDoubleDown!!
     }
 
-private var _caretdoubledown: ImageVector? = null
+private var _caretDoubleDown: ImageVector? = null

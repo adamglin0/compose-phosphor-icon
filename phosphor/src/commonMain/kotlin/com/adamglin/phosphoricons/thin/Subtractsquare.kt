@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.ThinGroup
 
-public val ThinGroup.Subtractsquare: ImageVector
+public val ThinGroup.SubtractSquare: ImageVector
     get() {
-        if (_subtractsquare != null) {
-            return _subtractsquare!!
+        if (_subtractSquare != null) {
+            return _subtractSquare!!
         }
-        _subtractsquare = Builder(name = "Subtractsquare", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _subtractSquare = Builder(name = "SubtractSquare", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -65,7 +65,7 @@ public val ThinGroup.Subtractsquare: ImageVector
             }
         }
         .build()
-        return _subtractsquare!!
+        return _subtractSquare!!
     }
 
-private var _subtractsquare: ImageVector? = null
+private var _subtractSquare: ImageVector? = null

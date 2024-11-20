@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.BoldGroup
 
-public val BoldGroup.Speakersimpleslash: ImageVector
+public val BoldGroup.SpeakerSimpleSlash: ImageVector
     get() {
-        if (_speakersimpleslash != null) {
-            return _speakersimpleslash!!
+        if (_speakerSimpleSlash != null) {
+            return _speakerSimpleSlash!!
         }
-        _speakersimpleslash = Builder(name = "Speakersimpleslash", defaultWidth = 256.0.dp,
-                defaultHeight = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _speakerSimpleSlash = Builder(name = "SpeakerSimpleSlash", defaultWidth = 24.0.dp,
+                defaultHeight = 24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -68,7 +68,7 @@ public val BoldGroup.Speakersimpleslash: ImageVector
             }
         }
         .build()
-        return _speakersimpleslash!!
+        return _speakerSimpleSlash!!
     }
 
-private var _speakersimpleslash: ImageVector? = null
+private var _speakerSimpleSlash: ImageVector? = null

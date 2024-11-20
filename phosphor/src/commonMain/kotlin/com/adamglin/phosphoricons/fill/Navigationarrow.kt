@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Navigationarrow: ImageVector
+public val FillGroup.NavigationArrow: ImageVector
     get() {
-        if (_navigationarrow != null) {
-            return _navigationarrow!!
+        if (_navigationArrow != null) {
+            return _navigationArrow!!
         }
-        _navigationarrow = Builder(name = "Navigationarrow", defaultWidth = 256.0.dp, defaultHeight
-                = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _navigationArrow = Builder(name = "NavigationArrow", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -40,7 +40,7 @@ public val FillGroup.Navigationarrow: ImageVector
             }
         }
         .build()
-        return _navigationarrow!!
+        return _navigationArrow!!
     }
 
-private var _navigationarrow: ImageVector? = null
+private var _navigationArrow: ImageVector? = null

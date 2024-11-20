@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Yinyang: ImageVector
+public val FillGroup.YinYang: ImageVector
     get() {
-        if (_yinyang != null) {
-            return _yinyang!!
+        if (_yinYang != null) {
+            return _yinYang!!
         }
-        _yinyang = Builder(name = "Yinyang", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _yinYang = Builder(name = "YinYang", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -42,7 +42,7 @@ public val FillGroup.Yinyang: ImageVector
             }
         }
         .build()
-        return _yinyang!!
+        return _yinYang!!
     }
 
-private var _yinyang: ImageVector? = null
+private var _yinYang: ImageVector? = null

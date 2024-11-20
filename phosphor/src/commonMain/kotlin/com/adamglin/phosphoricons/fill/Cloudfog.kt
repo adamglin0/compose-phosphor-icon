@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Cloudfog: ImageVector
+public val FillGroup.CloudFog: ImageVector
     get() {
-        if (_cloudfog != null) {
-            return _cloudfog!!
+        if (_cloudFog != null) {
+            return _cloudFog!!
         }
-        _cloudfog = Builder(name = "Cloudfog", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _cloudFog = Builder(name = "CloudFog", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -56,7 +56,7 @@ public val FillGroup.Cloudfog: ImageVector
             }
         }
         .build()
-        return _cloudfog!!
+        return _cloudFog!!
     }
 
-private var _cloudfog: ImageVector? = null
+private var _cloudFog: ImageVector? = null

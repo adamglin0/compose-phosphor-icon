@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Devicetabletcamera: ImageVector
+public val FillGroup.DeviceTabletCamera: ImageVector
     get() {
-        if (_devicetabletcamera != null) {
-            return _devicetabletcamera!!
+        if (_deviceTabletCamera != null) {
+            return _deviceTabletCamera!!
         }
-        _devicetabletcamera = Builder(name = "Devicetabletcamera", defaultWidth = 256.0.dp,
-                defaultHeight = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _deviceTabletCamera = Builder(name = "DeviceTabletCamera", defaultWidth = 24.0.dp,
+                defaultHeight = 24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -38,7 +38,7 @@ public val FillGroup.Devicetabletcamera: ImageVector
             }
         }
         .build()
-        return _devicetabletcamera!!
+        return _deviceTabletCamera!!
     }
 
-private var _devicetabletcamera: ImageVector? = null
+private var _deviceTabletCamera: ImageVector? = null

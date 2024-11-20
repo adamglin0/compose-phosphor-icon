@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.ThinGroup
 
-public val ThinGroup.Foldersimple: ImageVector
+public val ThinGroup.FolderSimple: ImageVector
     get() {
-        if (_foldersimple != null) {
-            return _foldersimple!!
+        if (_folderSimple != null) {
+            return _folderSimple!!
         }
-        _foldersimple = Builder(name = "Foldersimple", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _folderSimple = Builder(name = "FolderSimple", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -50,7 +50,7 @@ public val ThinGroup.Foldersimple: ImageVector
             }
         }
         .build()
-        return _foldersimple!!
+        return _folderSimple!!
     }
 
-private var _foldersimple: ImageVector? = null
+private var _folderSimple: ImageVector? = null

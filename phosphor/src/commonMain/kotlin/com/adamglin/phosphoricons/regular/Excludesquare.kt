@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.RegularGroup
 
-public val RegularGroup.Excludesquare: ImageVector
+public val RegularGroup.ExcludeSquare: ImageVector
     get() {
-        if (_excludesquare != null) {
-            return _excludesquare!!
+        if (_excludeSquare != null) {
+            return _excludeSquare!!
         }
-        _excludesquare = Builder(name = "Excludesquare", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _excludeSquare = Builder(name = "ExcludeSquare", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -85,7 +85,7 @@ public val RegularGroup.Excludesquare: ImageVector
             }
         }
         .build()
-        return _excludesquare!!
+        return _excludeSquare!!
     }
 
-private var _excludesquare: ImageVector? = null
+private var _excludeSquare: ImageVector? = null

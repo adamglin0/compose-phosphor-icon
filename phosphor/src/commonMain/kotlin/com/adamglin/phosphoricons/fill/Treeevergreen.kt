@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Treeevergreen: ImageVector
+public val FillGroup.TreeEvergreen: ImageVector
     get() {
-        if (_treeevergreen != null) {
-            return _treeevergreen!!
+        if (_treeEvergreen != null) {
+            return _treeEvergreen!!
         }
-        _treeevergreen = Builder(name = "Treeevergreen", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _treeEvergreen = Builder(name = "TreeEvergreen", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -43,7 +43,7 @@ public val FillGroup.Treeevergreen: ImageVector
             }
         }
         .build()
-        return _treeevergreen!!
+        return _treeEvergreen!!
     }
 
-private var _treeevergreen: ImageVector? = null
+private var _treeEvergreen: ImageVector? = null

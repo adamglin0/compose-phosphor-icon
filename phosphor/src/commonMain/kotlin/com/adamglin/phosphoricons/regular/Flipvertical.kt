@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.RegularGroup
 
-public val RegularGroup.Flipvertical: ImageVector
+public val RegularGroup.FlipVertical: ImageVector
     get() {
-        if (_flipvertical != null) {
-            return _flipvertical!!
+        if (_flipVertical != null) {
+            return _flipVertical!!
         }
-        _flipvertical = Builder(name = "Flipvertical", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _flipVertical = Builder(name = "FlipVertical", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -53,7 +53,7 @@ public val RegularGroup.Flipvertical: ImageVector
             }
         }
         .build()
-        return _flipvertical!!
+        return _flipVertical!!
     }
 
-private var _flipvertical: ImageVector? = null
+private var _flipVertical: ImageVector? = null

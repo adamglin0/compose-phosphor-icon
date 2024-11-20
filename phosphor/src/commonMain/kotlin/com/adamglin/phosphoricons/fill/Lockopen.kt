@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Lockopen: ImageVector
+public val FillGroup.LockOpen: ImageVector
     get() {
-        if (_lockopen != null) {
-            return _lockopen!!
+        if (_lockOpen != null) {
+            return _lockOpen!!
         }
-        _lockopen = Builder(name = "Lockopen", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _lockOpen = Builder(name = "LockOpen", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -46,7 +46,7 @@ public val FillGroup.Lockopen: ImageVector
             }
         }
         .build()
-        return _lockopen!!
+        return _lockOpen!!
     }
 
-private var _lockopen: ImageVector? = null
+private var _lockOpen: ImageVector? = null

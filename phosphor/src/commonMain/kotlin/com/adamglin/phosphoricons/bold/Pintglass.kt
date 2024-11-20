@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.BoldGroup
 
-public val BoldGroup.Pintglass: ImageVector
+public val BoldGroup.PintGlass: ImageVector
     get() {
-        if (_pintglass != null) {
-            return _pintglass!!
+        if (_pintGlass != null) {
+            return _pintGlass!!
         }
-        _pintglass = Builder(name = "Pintglass", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _pintGlass = Builder(name = "PintGlass", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -45,7 +45,7 @@ public val BoldGroup.Pintglass: ImageVector
             }
         }
         .build()
-        return _pintglass!!
+        return _pintGlass!!
     }
 
-private var _pintglass: ImageVector? = null
+private var _pintGlass: ImageVector? = null

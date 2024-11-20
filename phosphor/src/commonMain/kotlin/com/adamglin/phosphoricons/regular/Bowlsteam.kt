@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.RegularGroup
 
-public val RegularGroup.Bowlsteam: ImageVector
+public val RegularGroup.BowlSteam: ImageVector
     get() {
-        if (_bowlsteam != null) {
-            return _bowlsteam!!
+        if (_bowlSteam != null) {
+            return _bowlSteam!!
         }
-        _bowlsteam = Builder(name = "Bowlsteam", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _bowlSteam = Builder(name = "BowlSteam", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -88,7 +88,7 @@ public val RegularGroup.Bowlsteam: ImageVector
             }
         }
         .build()
-        return _bowlsteam!!
+        return _bowlSteam!!
     }
 
-private var _bowlsteam: ImageVector? = null
+private var _bowlSteam: ImageVector? = null

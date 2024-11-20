@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.ThinGroup
 
-public val ThinGroup.Coathanger: ImageVector
+public val ThinGroup.CoatHanger: ImageVector
     get() {
-        if (_coathanger != null) {
-            return _coathanger!!
+        if (_coatHanger != null) {
+            return _coatHanger!!
         }
-        _coathanger = Builder(name = "Coathanger", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _coatHanger = Builder(name = "CoatHanger", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+                viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -46,7 +46,7 @@ public val ThinGroup.Coathanger: ImageVector
             }
         }
         .build()
-        return _coathanger!!
+        return _coatHanger!!
     }
 
-private var _coathanger: ImageVector? = null
+private var _coatHanger: ImageVector? = null

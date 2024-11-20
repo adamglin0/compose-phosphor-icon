@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Chatteardrop: ImageVector
+public val FillGroup.ChatTeardrop: ImageVector
     get() {
-        if (_chatteardrop != null) {
-            return _chatteardrop!!
+        if (_chatTeardrop != null) {
+            return _chatTeardrop!!
         }
-        _chatteardrop = Builder(name = "Chatteardrop", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _chatTeardrop = Builder(name = "ChatTeardrop", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -31,7 +31,7 @@ public val FillGroup.Chatteardrop: ImageVector
             }
         }
         .build()
-        return _chatteardrop!!
+        return _chatTeardrop!!
     }
 
-private var _chatteardrop: ImageVector? = null
+private var _chatTeardrop: ImageVector? = null

@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.RegularGroup
 
-public val RegularGroup.Devtologo: ImageVector
+public val RegularGroup.DevToLogo: ImageVector
     get() {
-        if (_devtologo != null) {
-            return _devtologo!!
+        if (_devToLogo != null) {
+            return _devToLogo!!
         }
-        _devtologo = Builder(name = "Devtologo", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _devToLogo = Builder(name = "DevToLogo", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -79,7 +79,7 @@ public val RegularGroup.Devtologo: ImageVector
             }
         }
         .build()
-        return _devtologo!!
+        return _devToLogo!!
     }
 
-private var _devtologo: ImageVector? = null
+private var _devToLogo: ImageVector? = null

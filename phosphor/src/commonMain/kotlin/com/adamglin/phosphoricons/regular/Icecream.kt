@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.RegularGroup
 
-public val RegularGroup.Icecream: ImageVector
+public val RegularGroup.IceCream: ImageVector
     get() {
-        if (_icecream != null) {
-            return _icecream!!
+        if (_iceCream != null) {
+            return _iceCream!!
         }
-        _icecream = Builder(name = "Icecream", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _iceCream = Builder(name = "IceCream", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -60,7 +60,7 @@ public val RegularGroup.Icecream: ImageVector
             }
         }
         .build()
-        return _icecream!!
+        return _iceCream!!
     }
 
-private var _icecream: ImageVector? = null
+private var _iceCream: ImageVector? = null

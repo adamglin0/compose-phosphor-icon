@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Selectioninverse: ImageVector
+public val FillGroup.SelectionInverse: ImageVector
     get() {
-        if (_selectioninverse != null) {
-            return _selectioninverse!!
+        if (_selectionInverse != null) {
+            return _selectionInverse!!
         }
-        _selectioninverse = Builder(name = "Selectioninverse", defaultWidth = 256.0.dp,
-                defaultHeight = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _selectionInverse = Builder(name = "SelectionInverse", defaultWidth = 24.0.dp, defaultHeight
+                = 24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -65,7 +65,7 @@ public val FillGroup.Selectioninverse: ImageVector
             }
         }
         .build()
-        return _selectioninverse!!
+        return _selectionInverse!!
     }
 
-private var _selectioninverse: ImageVector? = null
+private var _selectionInverse: ImageVector? = null

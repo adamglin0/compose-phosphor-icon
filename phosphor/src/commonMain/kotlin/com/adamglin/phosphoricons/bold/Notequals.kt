@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.BoldGroup
 
-public val BoldGroup.Notequals: ImageVector
+public val BoldGroup.NotEquals: ImageVector
     get() {
-        if (_notequals != null) {
-            return _notequals!!
+        if (_notEquals != null) {
+            return _notEquals!!
         }
-        _notequals = Builder(name = "Notequals", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _notEquals = Builder(name = "NotEquals", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -47,7 +47,7 @@ public val BoldGroup.Notequals: ImageVector
             }
         }
         .build()
-        return _notequals!!
+        return _notEquals!!
     }
 
-private var _notequals: ImageVector? = null
+private var _notEquals: ImageVector? = null

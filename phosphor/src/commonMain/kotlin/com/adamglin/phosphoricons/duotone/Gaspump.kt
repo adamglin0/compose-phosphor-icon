@@ -14,12 +14,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Gaspump: ImageVector
+public val DuotoneGroup.GasPump: ImageVector
     get() {
-        if (_gaspump != null) {
-            return _gaspump!!
+        if (_gasPump != null) {
+            return _gasPump!!
         }
-        _gaspump = Builder(name = "Gaspump", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _gasPump = Builder(name = "GasPump", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
@@ -81,7 +81,7 @@ public val DuotoneGroup.Gaspump: ImageVector
             }
         }
         .build()
-        return _gaspump!!
+        return _gasPump!!
     }
 
-private var _gaspump: ImageVector? = null
+private var _gasPump: ImageVector? = null

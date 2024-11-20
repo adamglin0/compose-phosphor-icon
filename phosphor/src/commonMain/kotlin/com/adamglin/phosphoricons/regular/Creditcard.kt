@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.RegularGroup
 
-public val RegularGroup.Creditcard: ImageVector
+public val RegularGroup.CreditCard: ImageVector
     get() {
-        if (_creditcard != null) {
-            return _creditcard!!
+        if (_creditCard != null) {
+            return _creditCard!!
         }
-        _creditcard = Builder(name = "Creditcard", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _creditCard = Builder(name = "CreditCard", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+                viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -59,7 +59,7 @@ public val RegularGroup.Creditcard: ImageVector
             }
         }
         .build()
-        return _creditcard!!
+        return _creditCard!!
     }
 
-private var _creditcard: ImageVector? = null
+private var _creditCard: ImageVector? = null

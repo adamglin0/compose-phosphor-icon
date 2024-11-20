@@ -14,12 +14,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Testtube: ImageVector
+public val DuotoneGroup.TestTube: ImageVector
     get() {
-        if (_testtube != null) {
-            return _testtube!!
+        if (_testTube != null) {
+            return _testTube!!
         }
-        _testtube = Builder(name = "Testtube", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _testTube = Builder(name = "TestTube", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
@@ -63,7 +63,7 @@ public val DuotoneGroup.Testtube: ImageVector
             }
         }
         .build()
-        return _testtube!!
+        return _testTube!!
     }
 
-private var _testtube: ImageVector? = null
+private var _testTube: ImageVector? = null

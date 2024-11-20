@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Scribbleloop: ImageVector
+public val FillGroup.ScribbleLoop: ImageVector
     get() {
-        if (_scribbleloop != null) {
-            return _scribbleloop!!
+        if (_scribbleLoop != null) {
+            return _scribbleLoop!!
         }
-        _scribbleloop = Builder(name = "Scribbleloop", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _scribbleLoop = Builder(name = "ScribbleLoop", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -59,7 +59,7 @@ public val FillGroup.Scribbleloop: ImageVector
             }
         }
         .build()
-        return _scribbleloop!!
+        return _scribbleLoop!!
     }
 
-private var _scribbleloop: ImageVector? = null
+private var _scribbleLoop: ImageVector? = null

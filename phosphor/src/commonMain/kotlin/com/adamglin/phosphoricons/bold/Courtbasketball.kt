@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.BoldGroup
 
-public val BoldGroup.Courtbasketball: ImageVector
+public val BoldGroup.CourtBasketball: ImageVector
     get() {
-        if (_courtbasketball != null) {
-            return _courtbasketball!!
+        if (_courtBasketball != null) {
+            return _courtBasketball!!
         }
-        _courtbasketball = Builder(name = "Courtbasketball", defaultWidth = 256.0.dp, defaultHeight
-                = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _courtBasketball = Builder(name = "CourtBasketball", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -62,7 +62,7 @@ public val BoldGroup.Courtbasketball: ImageVector
             }
         }
         .build()
-        return _courtbasketball!!
+        return _courtBasketball!!
     }
 
-private var _courtbasketball: ImageVector? = null
+private var _courtBasketball: ImageVector? = null

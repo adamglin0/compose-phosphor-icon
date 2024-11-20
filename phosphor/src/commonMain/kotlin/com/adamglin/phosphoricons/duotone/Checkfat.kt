@@ -14,12 +14,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Checkfat: ImageVector
+public val DuotoneGroup.CheckFat: ImageVector
     get() {
-        if (_checkfat != null) {
-            return _checkfat!!
+        if (_checkFat != null) {
+            return _checkFat!!
         }
-        _checkfat = Builder(name = "Checkfat", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _checkFat = Builder(name = "CheckFat", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
@@ -66,7 +66,7 @@ public val DuotoneGroup.Checkfat: ImageVector
             }
         }
         .build()
-        return _checkfat!!
+        return _checkFat!!
     }
 
-private var _checkfat: ImageVector? = null
+private var _checkFat: ImageVector? = null

@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Devicetabletspeaker: ImageVector
+public val FillGroup.DeviceTabletSpeaker: ImageVector
     get() {
-        if (_devicetabletspeaker != null) {
-            return _devicetabletspeaker!!
+        if (_deviceTabletSpeaker != null) {
+            return _deviceTabletSpeaker!!
         }
-        _devicetabletspeaker = Builder(name = "Devicetabletspeaker", defaultWidth = 256.0.dp,
-                defaultHeight = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _deviceTabletSpeaker = Builder(name = "DeviceTabletSpeaker", defaultWidth = 24.0.dp,
+                defaultHeight = 24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -40,7 +40,7 @@ public val FillGroup.Devicetabletspeaker: ImageVector
             }
         }
         .build()
-        return _devicetabletspeaker!!
+        return _deviceTabletSpeaker!!
     }
 
-private var _devicetabletspeaker: ImageVector? = null
+private var _deviceTabletSpeaker: ImageVector? = null

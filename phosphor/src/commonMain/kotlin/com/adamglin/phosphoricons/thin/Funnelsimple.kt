@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.ThinGroup
 
-public val ThinGroup.Funnelsimple: ImageVector
+public val ThinGroup.FunnelSimple: ImageVector
     get() {
-        if (_funnelsimple != null) {
-            return _funnelsimple!!
+        if (_funnelSimple != null) {
+            return _funnelSimple!!
         }
-        _funnelsimple = Builder(name = "Funnelsimple", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _funnelSimple = Builder(name = "FunnelSimple", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -43,7 +43,7 @@ public val ThinGroup.Funnelsimple: ImageVector
             }
         }
         .build()
-        return _funnelsimple!!
+        return _funnelSimple!!
     }
 
-private var _funnelsimple: ImageVector? = null
+private var _funnelSimple: ImageVector? = null

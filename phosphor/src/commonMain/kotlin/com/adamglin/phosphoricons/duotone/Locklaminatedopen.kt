@@ -14,13 +14,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Locklaminatedopen: ImageVector
+public val DuotoneGroup.LockLaminatedOpen: ImageVector
     get() {
-        if (_locklaminatedopen != null) {
-            return _locklaminatedopen!!
+        if (_lockLaminatedOpen != null) {
+            return _lockLaminatedOpen!!
         }
-        _locklaminatedopen = Builder(name = "Locklaminatedopen", defaultWidth = 256.0.dp,
-                defaultHeight = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _lockLaminatedOpen = Builder(name = "LockLaminatedOpen", defaultWidth = 24.0.dp,
+                defaultHeight = 24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
@@ -80,7 +80,7 @@ public val DuotoneGroup.Locklaminatedopen: ImageVector
             }
         }
         .build()
-        return _locklaminatedopen!!
+        return _lockLaminatedOpen!!
     }
 
-private var _locklaminatedopen: ImageVector? = null
+private var _lockLaminatedOpen: ImageVector? = null

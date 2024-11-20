@@ -14,13 +14,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Numberthree: ImageVector
+public val DuotoneGroup.NumberThree: ImageVector
     get() {
-        if (_numberthree != null) {
-            return _numberthree!!
+        if (_numberThree != null) {
+            return _numberThree!!
         }
-        _numberthree = Builder(name = "Numberthree", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _numberThree = Builder(name = "NumberThree", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
@@ -54,7 +54,7 @@ public val DuotoneGroup.Numberthree: ImageVector
             }
         }
         .build()
-        return _numberthree!!
+        return _numberThree!!
     }
 
-private var _numberthree: ImageVector? = null
+private var _numberThree: ImageVector? = null

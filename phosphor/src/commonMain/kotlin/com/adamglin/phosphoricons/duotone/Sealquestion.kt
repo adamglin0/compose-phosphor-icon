@@ -14,13 +14,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Sealquestion: ImageVector
+public val DuotoneGroup.SealQuestion: ImageVector
     get() {
-        if (_sealquestion != null) {
-            return _sealquestion!!
+        if (_sealQuestion != null) {
+            return _sealQuestion!!
         }
-        _sealquestion = Builder(name = "Sealquestion", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _sealQuestion = Builder(name = "SealQuestion", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
@@ -136,7 +136,7 @@ public val DuotoneGroup.Sealquestion: ImageVector
             }
         }
         .build()
-        return _sealquestion!!
+        return _sealQuestion!!
     }
 
-private var _sealquestion: ImageVector? = null
+private var _sealQuestion: ImageVector? = null

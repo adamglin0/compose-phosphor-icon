@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.ThinGroup
 
-public val ThinGroup.Signout: ImageVector
+public val ThinGroup.SignOut: ImageVector
     get() {
-        if (_signout != null) {
-            return _signout!!
+        if (_signOut != null) {
+            return _signOut!!
         }
-        _signout = Builder(name = "Signout", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _signOut = Builder(name = "SignOut", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -49,7 +49,7 @@ public val ThinGroup.Signout: ImageVector
             }
         }
         .build()
-        return _signout!!
+        return _signOut!!
     }
 
-private var _signout: ImageVector? = null
+private var _signOut: ImageVector? = null

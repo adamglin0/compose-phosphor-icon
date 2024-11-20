@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.ThinGroup
 
-public val ThinGroup.Spraybottle: ImageVector
+public val ThinGroup.SprayBottle: ImageVector
     get() {
-        if (_spraybottle != null) {
-            return _spraybottle!!
+        if (_sprayBottle != null) {
+            return _sprayBottle!!
         }
-        _spraybottle = Builder(name = "Spraybottle", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _sprayBottle = Builder(name = "SprayBottle", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -65,7 +65,7 @@ public val ThinGroup.Spraybottle: ImageVector
             }
         }
         .build()
-        return _spraybottle!!
+        return _sprayBottle!!
     }
 
-private var _spraybottle: ImageVector? = null
+private var _sprayBottle: ImageVector? = null

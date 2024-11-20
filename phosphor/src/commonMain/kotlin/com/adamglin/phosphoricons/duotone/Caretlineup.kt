@@ -14,13 +14,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Caretlineup: ImageVector
+public val DuotoneGroup.CaretLineUp: ImageVector
     get() {
-        if (_caretlineup != null) {
-            return _caretlineup!!
+        if (_caretLineUp != null) {
+            return _caretLineUp!!
         }
-        _caretlineup = Builder(name = "Caretlineup", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _caretLineUp = Builder(name = "CaretLineUp", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
@@ -53,7 +53,7 @@ public val DuotoneGroup.Caretlineup: ImageVector
             }
         }
         .build()
-        return _caretlineup!!
+        return _caretLineUp!!
     }
 
-private var _caretlineup: ImageVector? = null
+private var _caretLineUp: ImageVector? = null

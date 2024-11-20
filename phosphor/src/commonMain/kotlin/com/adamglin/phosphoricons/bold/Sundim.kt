@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.BoldGroup
 
-public val BoldGroup.Sundim: ImageVector
+public val BoldGroup.SunDim: ImageVector
     get() {
-        if (_sundim != null) {
-            return _sundim!!
+        if (_sunDim != null) {
+            return _sunDim!!
         }
-        _sundim = Builder(name = "Sundim", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _sunDim = Builder(name = "SunDim", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -81,7 +81,7 @@ public val BoldGroup.Sundim: ImageVector
             }
         }
         .build()
-        return _sundim!!
+        return _sunDim!!
     }
 
-private var _sundim: ImageVector? = null
+private var _sunDim: ImageVector? = null

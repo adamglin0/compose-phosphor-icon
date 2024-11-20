@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.LightGroup
 
-public val LightGroup.Scansmiley: ImageVector
+public val LightGroup.ScanSmiley: ImageVector
     get() {
-        if (_scansmiley != null) {
-            return _scansmiley!!
+        if (_scanSmiley != null) {
+            return _scanSmiley!!
         }
-        _scansmiley = Builder(name = "Scansmiley", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _scanSmiley = Builder(name = "ScanSmiley", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+                viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -86,7 +86,7 @@ public val LightGroup.Scansmiley: ImageVector
             }
         }
         .build()
-        return _scansmiley!!
+        return _scanSmiley!!
     }
 
-private var _scansmiley: ImageVector? = null
+private var _scanSmiley: ImageVector? = null

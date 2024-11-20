@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.BoldGroup
 
-public val BoldGroup.Fliphorizontal: ImageVector
+public val BoldGroup.FlipHorizontal: ImageVector
     get() {
-        if (_fliphorizontal != null) {
-            return _fliphorizontal!!
+        if (_flipHorizontal != null) {
+            return _flipHorizontal!!
         }
-        _fliphorizontal = Builder(name = "Fliphorizontal", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _flipHorizontal = Builder(name = "FlipHorizontal", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -51,7 +51,7 @@ public val BoldGroup.Fliphorizontal: ImageVector
             }
         }
         .build()
-        return _fliphorizontal!!
+        return _flipHorizontal!!
     }
 
-private var _fliphorizontal: ImageVector? = null
+private var _flipHorizontal: ImageVector? = null

@@ -14,13 +14,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Phoneoutgoing: ImageVector
+public val DuotoneGroup.PhoneOutgoing: ImageVector
     get() {
-        if (_phoneoutgoing != null) {
-            return _phoneoutgoing!!
+        if (_phoneOutgoing != null) {
+            return _phoneOutgoing!!
         }
-        _phoneoutgoing = Builder(name = "Phoneoutgoing", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _phoneOutgoing = Builder(name = "PhoneOutgoing", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
@@ -95,7 +95,7 @@ public val DuotoneGroup.Phoneoutgoing: ImageVector
             }
         }
         .build()
-        return _phoneoutgoing!!
+        return _phoneOutgoing!!
     }
 
-private var _phoneoutgoing: ImageVector? = null
+private var _phoneOutgoing: ImageVector? = null

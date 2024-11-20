@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.LightGroup
 
-public val LightGroup.Earslash: ImageVector
+public val LightGroup.EarSlash: ImageVector
     get() {
-        if (_earslash != null) {
-            return _earslash!!
+        if (_earSlash != null) {
+            return _earSlash!!
         }
-        _earslash = Builder(name = "Earslash", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _earSlash = Builder(name = "EarSlash", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -67,7 +67,7 @@ public val LightGroup.Earslash: ImageVector
             }
         }
         .build()
-        return _earslash!!
+        return _earSlash!!
     }
 
-private var _earslash: ImageVector? = null
+private var _earSlash: ImageVector? = null

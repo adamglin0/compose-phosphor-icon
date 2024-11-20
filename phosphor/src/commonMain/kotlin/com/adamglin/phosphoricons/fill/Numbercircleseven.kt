@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Numbercircleseven: ImageVector
+public val FillGroup.NumberCircleSeven: ImageVector
     get() {
-        if (_numbercircleseven != null) {
-            return _numbercircleseven!!
+        if (_numberCircleSeven != null) {
+            return _numberCircleSeven!!
         }
-        _numbercircleseven = Builder(name = "Numbercircleseven", defaultWidth = 256.0.dp,
-                defaultHeight = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _numberCircleSeven = Builder(name = "NumberCircleSeven", defaultWidth = 24.0.dp,
+                defaultHeight = 24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -39,7 +39,7 @@ public val FillGroup.Numbercircleseven: ImageVector
             }
         }
         .build()
-        return _numbercircleseven!!
+        return _numberCircleSeven!!
     }
 
-private var _numbercircleseven: ImageVector? = null
+private var _numberCircleSeven: ImageVector? = null

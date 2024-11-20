@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.RegularGroup
 
-public val RegularGroup.Handtap: ImageVector
+public val RegularGroup.HandTap: ImageVector
     get() {
-        if (_handtap != null) {
-            return _handtap!!
+        if (_handTap != null) {
+            return _handTap!!
         }
-        _handtap = Builder(name = "Handtap", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _handTap = Builder(name = "HandTap", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -64,7 +64,7 @@ public val RegularGroup.Handtap: ImageVector
             }
         }
         .build()
-        return _handtap!!
+        return _handTap!!
     }
 
-private var _handtap: ImageVector? = null
+private var _handTap: ImageVector? = null

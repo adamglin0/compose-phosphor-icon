@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.LightGroup
 
-public val LightGroup.Calendarminus: ImageVector
+public val LightGroup.CalendarMinus: ImageVector
     get() {
-        if (_calendarminus != null) {
-            return _calendarminus!!
+        if (_calendarMinus != null) {
+            return _calendarMinus!!
         }
-        _calendarminus = Builder(name = "Calendarminus", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _calendarMinus = Builder(name = "CalendarMinus", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -73,7 +73,7 @@ public val LightGroup.Calendarminus: ImageVector
             }
         }
         .build()
-        return _calendarminus!!
+        return _calendarMinus!!
     }
 
-private var _calendarminus: ImageVector? = null
+private var _calendarMinus: ImageVector? = null

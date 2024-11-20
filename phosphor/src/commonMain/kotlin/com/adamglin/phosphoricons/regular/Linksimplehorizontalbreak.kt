@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.RegularGroup
 
-public val RegularGroup.Linksimplehorizontalbreak: ImageVector
+public val RegularGroup.LinkSimpleHorizontalBreak: ImageVector
     get() {
-        if (_linksimplehorizontalbreak != null) {
-            return _linksimplehorizontalbreak!!
+        if (_linkSimpleHorizontalBreak != null) {
+            return _linkSimpleHorizontalBreak!!
         }
-        _linksimplehorizontalbreak = Builder(name = "Linksimplehorizontalbreak", defaultWidth =
-                256.0.dp, defaultHeight = 256.0.dp, viewportWidth = 256.0f, viewportHeight =
+        _linkSimpleHorizontalBreak = Builder(name = "LinkSimpleHorizontalBreak", defaultWidth =
+                24.0.dp, defaultHeight = 24.0.dp, viewportWidth = 256.0f, viewportHeight =
                 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -46,7 +46,7 @@ public val RegularGroup.Linksimplehorizontalbreak: ImageVector
             }
         }
         .build()
-        return _linksimplehorizontalbreak!!
+        return _linkSimpleHorizontalBreak!!
     }
 
-private var _linksimplehorizontalbreak: ImageVector? = null
+private var _linkSimpleHorizontalBreak: ImageVector? = null

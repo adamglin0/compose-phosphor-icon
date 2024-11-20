@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Arrowclockwise: ImageVector
+public val FillGroup.ArrowClockwise: ImageVector
     get() {
-        if (_arrowclockwise != null) {
-            return _arrowclockwise!!
+        if (_arrowClockwise != null) {
+            return _arrowClockwise!!
         }
-        _arrowclockwise = Builder(name = "Arrowclockwise", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _arrowClockwise = Builder(name = "ArrowClockwise", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -41,7 +41,7 @@ public val FillGroup.Arrowclockwise: ImageVector
             }
         }
         .build()
-        return _arrowclockwise!!
+        return _arrowClockwise!!
     }
 
-private var _arrowclockwise: ImageVector? = null
+private var _arrowClockwise: ImageVector? = null

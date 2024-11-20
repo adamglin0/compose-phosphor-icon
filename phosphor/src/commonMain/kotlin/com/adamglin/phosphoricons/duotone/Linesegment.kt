@@ -14,13 +14,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Linesegment: ImageVector
+public val DuotoneGroup.LineSegment: ImageVector
     get() {
-        if (_linesegment != null) {
-            return _linesegment!!
+        if (_lineSegment != null) {
+            return _lineSegment!!
         }
-        _linesegment = Builder(name = "Linesegment", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _lineSegment = Builder(name = "LineSegment", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
@@ -59,7 +59,7 @@ public val DuotoneGroup.Linesegment: ImageVector
             }
         }
         .build()
-        return _linesegment!!
+        return _lineSegment!!
     }
 
-private var _linesegment: ImageVector? = null
+private var _lineSegment: ImageVector? = null

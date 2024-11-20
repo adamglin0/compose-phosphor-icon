@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.LightGroup
 
-public val LightGroup.Tennisball: ImageVector
+public val LightGroup.TennisBall: ImageVector
     get() {
-        if (_tennisball != null) {
-            return _tennisball!!
+        if (_tennisBall != null) {
+            return _tennisBall!!
         }
-        _tennisball = Builder(name = "Tennisball", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _tennisBall = Builder(name = "TennisBall", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+                viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -46,7 +46,7 @@ public val LightGroup.Tennisball: ImageVector
             }
         }
         .build()
-        return _tennisball!!
+        return _tennisBall!!
     }
 
-private var _tennisball: ImageVector? = null
+private var _tennisBall: ImageVector? = null

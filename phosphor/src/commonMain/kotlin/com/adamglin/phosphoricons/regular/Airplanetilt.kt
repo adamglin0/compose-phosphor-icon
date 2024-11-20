@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.RegularGroup
 
-public val RegularGroup.Airplanetilt: ImageVector
+public val RegularGroup.AirplaneTilt: ImageVector
     get() {
-        if (_airplanetilt != null) {
-            return _airplanetilt!!
+        if (_airplaneTilt != null) {
+            return _airplaneTilt!!
         }
-        _airplanetilt = Builder(name = "Airplanetilt", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _airplaneTilt = Builder(name = "AirplaneTilt", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -80,7 +80,7 @@ public val RegularGroup.Airplanetilt: ImageVector
             }
         }
         .build()
-        return _airplanetilt!!
+        return _airplaneTilt!!
     }
 
-private var _airplanetilt: ImageVector? = null
+private var _airplaneTilt: ImageVector? = null

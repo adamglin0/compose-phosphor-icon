@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.ThinGroup
 
-public val ThinGroup.Baseballcap: ImageVector
+public val ThinGroup.BaseballCap: ImageVector
     get() {
-        if (_baseballcap != null) {
-            return _baseballcap!!
+        if (_baseballCap != null) {
+            return _baseballCap!!
         }
-        _baseballcap = Builder(name = "Baseballcap", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _baseballCap = Builder(name = "BaseballCap", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -63,7 +63,7 @@ public val ThinGroup.Baseballcap: ImageVector
             }
         }
         .build()
-        return _baseballcap!!
+        return _baseballCap!!
     }
 
-private var _baseballcap: ImageVector? = null
+private var _baseballCap: ImageVector? = null

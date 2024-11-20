@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.ThinGroup
 
-public val ThinGroup.Arrowsout: ImageVector
+public val ThinGroup.ArrowsOut: ImageVector
     get() {
-        if (_arrowsout != null) {
-            return _arrowsout!!
+        if (_arrowsOut != null) {
+            return _arrowsOut!!
         }
-        _arrowsout = Builder(name = "Arrowsout", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _arrowsOut = Builder(name = "ArrowsOut", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -72,7 +72,7 @@ public val ThinGroup.Arrowsout: ImageVector
             }
         }
         .build()
-        return _arrowsout!!
+        return _arrowsOut!!
     }
 
-private var _arrowsout: ImageVector? = null
+private var _arrowsOut: ImageVector? = null

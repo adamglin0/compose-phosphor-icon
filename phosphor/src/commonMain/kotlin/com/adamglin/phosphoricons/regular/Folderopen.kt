@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.RegularGroup
 
-public val RegularGroup.Folderopen: ImageVector
+public val RegularGroup.FolderOpen: ImageVector
     get() {
-        if (_folderopen != null) {
-            return _folderopen!!
+        if (_folderOpen != null) {
+            return _folderOpen!!
         }
-        _folderopen = Builder(name = "Folderopen", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _folderOpen = Builder(name = "FolderOpen", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+                viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -57,7 +57,7 @@ public val RegularGroup.Folderopen: ImageVector
             }
         }
         .build()
-        return _folderopen!!
+        return _folderOpen!!
     }
 
-private var _folderopen: ImageVector? = null
+private var _folderOpen: ImageVector? = null

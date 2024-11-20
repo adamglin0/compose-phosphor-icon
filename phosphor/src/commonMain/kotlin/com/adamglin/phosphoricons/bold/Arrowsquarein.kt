@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.BoldGroup
 
-public val BoldGroup.Arrowsquarein: ImageVector
+public val BoldGroup.ArrowSquareIn: ImageVector
     get() {
-        if (_arrowsquarein != null) {
-            return _arrowsquarein!!
+        if (_arrowSquareIn != null) {
+            return _arrowSquareIn!!
         }
-        _arrowsquarein = Builder(name = "Arrowsquarein", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _arrowSquareIn = Builder(name = "ArrowSquareIn", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -51,7 +51,7 @@ public val BoldGroup.Arrowsquarein: ImageVector
             }
         }
         .build()
-        return _arrowsquarein!!
+        return _arrowSquareIn!!
     }
 
-private var _arrowsquarein: ImageVector? = null
+private var _arrowSquareIn: ImageVector? = null

@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.ThinGroup
 
-public val ThinGroup.Magnifyingglassplus: ImageVector
+public val ThinGroup.MagnifyingGlassPlus: ImageVector
     get() {
-        if (_magnifyingglassplus != null) {
-            return _magnifyingglassplus!!
+        if (_magnifyingGlassPlus != null) {
+            return _magnifyingGlassPlus!!
         }
-        _magnifyingglassplus = Builder(name = "Magnifyingglassplus", defaultWidth = 256.0.dp,
-                defaultHeight = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _magnifyingGlassPlus = Builder(name = "MagnifyingGlassPlus", defaultWidth = 24.0.dp,
+                defaultHeight = 24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -50,7 +50,7 @@ public val ThinGroup.Magnifyingglassplus: ImageVector
             }
         }
         .build()
-        return _magnifyingglassplus!!
+        return _magnifyingGlassPlus!!
     }
 
-private var _magnifyingglassplus: ImageVector? = null
+private var _magnifyingGlassPlus: ImageVector? = null

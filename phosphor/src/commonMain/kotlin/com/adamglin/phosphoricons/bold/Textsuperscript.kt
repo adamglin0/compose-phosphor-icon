@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.BoldGroup
 
-public val BoldGroup.Textsuperscript: ImageVector
+public val BoldGroup.TextSuperscript: ImageVector
     get() {
-        if (_textsuperscript != null) {
-            return _textsuperscript!!
+        if (_textSuperscript != null) {
+            return _textSuperscript!!
         }
-        _textsuperscript = Builder(name = "Textsuperscript", defaultWidth = 256.0.dp, defaultHeight
-                = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _textSuperscript = Builder(name = "TextSuperscript", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -52,7 +52,7 @@ public val BoldGroup.Textsuperscript: ImageVector
             }
         }
         .build()
-        return _textsuperscript!!
+        return _textSuperscript!!
     }
 
-private var _textsuperscript: ImageVector? = null
+private var _textSuperscript: ImageVector? = null

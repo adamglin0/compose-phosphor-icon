@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Musicnote: ImageVector
+public val FillGroup.MusicNote: ImageVector
     get() {
-        if (_musicnote != null) {
-            return _musicnote!!
+        if (_musicNote != null) {
+            return _musicNote!!
         }
-        _musicnote = Builder(name = "Musicnote", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _musicNote = Builder(name = "MusicNote", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -35,7 +35,7 @@ public val FillGroup.Musicnote: ImageVector
             }
         }
         .build()
-        return _musicnote!!
+        return _musicNote!!
     }
 
-private var _musicnote: ImageVector? = null
+private var _musicNote: ImageVector? = null

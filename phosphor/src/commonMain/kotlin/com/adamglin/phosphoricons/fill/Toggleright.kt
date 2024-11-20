@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Toggleright: ImageVector
+public val FillGroup.ToggleRight: ImageVector
     get() {
-        if (_toggleright != null) {
-            return _toggleright!!
+        if (_toggleRight != null) {
+            return _toggleRight!!
         }
-        _toggleright = Builder(name = "Toggleright", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _toggleRight = Builder(name = "ToggleRight", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -34,7 +34,7 @@ public val FillGroup.Toggleright: ImageVector
             }
         }
         .build()
-        return _toggleright!!
+        return _toggleRight!!
     }
 
-private var _toggleright: ImageVector? = null
+private var _toggleRight: ImageVector? = null

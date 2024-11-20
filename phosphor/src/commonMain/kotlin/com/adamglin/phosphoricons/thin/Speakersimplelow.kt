@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.ThinGroup
 
-public val ThinGroup.Speakersimplelow: ImageVector
+public val ThinGroup.SpeakerSimpleLow: ImageVector
     get() {
-        if (_speakersimplelow != null) {
-            return _speakersimplelow!!
+        if (_speakerSimpleLow != null) {
+            return _speakerSimpleLow!!
         }
-        _speakersimplelow = Builder(name = "Speakersimplelow", defaultWidth = 256.0.dp,
-                defaultHeight = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _speakerSimpleLow = Builder(name = "SpeakerSimpleLow", defaultWidth = 24.0.dp, defaultHeight
+                = 24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -56,7 +56,7 @@ public val ThinGroup.Speakersimplelow: ImageVector
             }
         }
         .build()
-        return _speakersimplelow!!
+        return _speakerSimpleLow!!
     }
 
-private var _speakersimplelow: ImageVector? = null
+private var _speakerSimpleLow: ImageVector? = null

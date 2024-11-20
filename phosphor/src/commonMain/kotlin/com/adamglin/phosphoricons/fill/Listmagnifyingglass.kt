@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Listmagnifyingglass: ImageVector
+public val FillGroup.ListMagnifyingGlass: ImageVector
     get() {
-        if (_listmagnifyingglass != null) {
-            return _listmagnifyingglass!!
+        if (_listMagnifyingGlass != null) {
+            return _listMagnifyingGlass!!
         }
-        _listmagnifyingglass = Builder(name = "Listmagnifyingglass", defaultWidth = 256.0.dp,
-                defaultHeight = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _listMagnifyingGlass = Builder(name = "ListMagnifyingGlass", defaultWidth = 24.0.dp,
+                defaultHeight = 24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -49,7 +49,7 @@ public val FillGroup.Listmagnifyingglass: ImageVector
             }
         }
         .build()
-        return _listmagnifyingglass!!
+        return _listMagnifyingGlass!!
     }
 
-private var _listmagnifyingglass: ImageVector? = null
+private var _listMagnifyingGlass: ImageVector? = null

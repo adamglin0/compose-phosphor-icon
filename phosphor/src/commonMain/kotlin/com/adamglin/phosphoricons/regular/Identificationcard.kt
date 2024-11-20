@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.RegularGroup
 
-public val RegularGroup.Identificationcard: ImageVector
+public val RegularGroup.IdentificationCard: ImageVector
     get() {
-        if (_identificationcard != null) {
-            return _identificationcard!!
+        if (_identificationCard != null) {
+            return _identificationCard!!
         }
-        _identificationcard = Builder(name = "Identificationcard", defaultWidth = 256.0.dp,
-                defaultHeight = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _identificationCard = Builder(name = "IdentificationCard", defaultWidth = 24.0.dp,
+                defaultHeight = 24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -66,7 +66,7 @@ public val RegularGroup.Identificationcard: ImageVector
             }
         }
         .build()
-        return _identificationcard!!
+        return _identificationCard!!
     }
 
-private var _identificationcard: ImageVector? = null
+private var _identificationCard: ImageVector? = null

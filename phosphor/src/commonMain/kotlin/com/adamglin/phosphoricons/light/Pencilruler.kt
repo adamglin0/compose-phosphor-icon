@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.LightGroup
 
-public val LightGroup.Pencilruler: ImageVector
+public val LightGroup.PencilRuler: ImageVector
     get() {
-        if (_pencilruler != null) {
-            return _pencilruler!!
+        if (_pencilRuler != null) {
+            return _pencilRuler!!
         }
-        _pencilruler = Builder(name = "Pencilruler", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _pencilRuler = Builder(name = "PencilRuler", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -88,7 +88,7 @@ public val LightGroup.Pencilruler: ImageVector
             }
         }
         .build()
-        return _pencilruler!!
+        return _pencilRuler!!
     }
 
-private var _pencilruler: ImageVector? = null
+private var _pencilRuler: ImageVector? = null

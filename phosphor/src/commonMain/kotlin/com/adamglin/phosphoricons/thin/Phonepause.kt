@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.ThinGroup
 
-public val ThinGroup.Phonepause: ImageVector
+public val ThinGroup.PhonePause: ImageVector
     get() {
-        if (_phonepause != null) {
-            return _phonepause!!
+        if (_phonePause != null) {
+            return _phonePause!!
         }
-        _phonepause = Builder(name = "Phonepause", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _phonePause = Builder(name = "PhonePause", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+                viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -73,7 +73,7 @@ public val ThinGroup.Phonepause: ImageVector
             }
         }
         .build()
-        return _phonepause!!
+        return _phonePause!!
     }
 
-private var _phonepause: ImageVector? = null
+private var _phonePause: ImageVector? = null

@@ -14,13 +14,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Numbersquarefour: ImageVector
+public val DuotoneGroup.NumberSquareFour: ImageVector
     get() {
-        if (_numbersquarefour != null) {
-            return _numbersquarefour!!
+        if (_numberSquareFour != null) {
+            return _numberSquareFour!!
         }
-        _numbersquarefour = Builder(name = "Numbersquarefour", defaultWidth = 256.0.dp,
-                defaultHeight = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _numberSquareFour = Builder(name = "NumberSquareFour", defaultWidth = 24.0.dp, defaultHeight
+                = 24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
@@ -74,7 +74,7 @@ public val DuotoneGroup.Numbersquarefour: ImageVector
             }
         }
         .build()
-        return _numbersquarefour!!
+        return _numberSquareFour!!
     }
 
-private var _numbersquarefour: ImageVector? = null
+private var _numberSquareFour: ImageVector? = null

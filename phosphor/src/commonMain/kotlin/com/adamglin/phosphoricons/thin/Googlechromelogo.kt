@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.ThinGroup
 
-public val ThinGroup.Googlechromelogo: ImageVector
+public val ThinGroup.GoogleChromeLogo: ImageVector
     get() {
-        if (_googlechromelogo != null) {
-            return _googlechromelogo!!
+        if (_googleChromeLogo != null) {
+            return _googleChromeLogo!!
         }
-        _googlechromelogo = Builder(name = "Googlechromelogo", defaultWidth = 256.0.dp,
-                defaultHeight = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _googleChromeLogo = Builder(name = "GoogleChromeLogo", defaultWidth = 24.0.dp, defaultHeight
+                = 24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -55,7 +55,7 @@ public val ThinGroup.Googlechromelogo: ImageVector
             }
         }
         .build()
-        return _googlechromelogo!!
+        return _googleChromeLogo!!
     }
 
-private var _googlechromelogo: ImageVector? = null
+private var _googleChromeLogo: ImageVector? = null

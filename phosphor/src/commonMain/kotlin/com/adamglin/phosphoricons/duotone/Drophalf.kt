@@ -14,12 +14,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Drophalf: ImageVector
+public val DuotoneGroup.DropHalf: ImageVector
     get() {
-        if (_drophalf != null) {
-            return _drophalf!!
+        if (_dropHalf != null) {
+            return _dropHalf!!
         }
-        _drophalf = Builder(name = "Drophalf", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _dropHalf = Builder(name = "DropHalf", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
@@ -54,7 +54,7 @@ public val DuotoneGroup.Drophalf: ImageVector
             }
         }
         .build()
-        return _drophalf!!
+        return _dropHalf!!
     }
 
-private var _drophalf: ImageVector? = null
+private var _dropHalf: ImageVector? = null

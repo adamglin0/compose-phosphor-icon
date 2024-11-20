@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.RegularGroup
 
-public val RegularGroup.Googlephotoslogo: ImageVector
+public val RegularGroup.GooglePhotosLogo: ImageVector
     get() {
-        if (_googlephotoslogo != null) {
-            return _googlephotoslogo!!
+        if (_googlePhotosLogo != null) {
+            return _googlePhotosLogo!!
         }
-        _googlephotoslogo = Builder(name = "Googlephotoslogo", defaultWidth = 256.0.dp,
-                defaultHeight = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _googlePhotosLogo = Builder(name = "GooglePhotosLogo", defaultWidth = 24.0.dp, defaultHeight
+                = 24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -62,7 +62,7 @@ public val RegularGroup.Googlephotoslogo: ImageVector
             }
         }
         .build()
-        return _googlephotoslogo!!
+        return _googlePhotosLogo!!
     }
 
-private var _googlephotoslogo: ImageVector? = null
+private var _googlePhotosLogo: ImageVector? = null

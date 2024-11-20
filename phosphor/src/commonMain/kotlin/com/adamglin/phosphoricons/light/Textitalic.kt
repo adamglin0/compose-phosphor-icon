@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.LightGroup
 
-public val LightGroup.Textitalic: ImageVector
+public val LightGroup.TextItalic: ImageVector
     get() {
-        if (_textitalic != null) {
-            return _textitalic!!
+        if (_textItalic != null) {
+            return _textItalic!!
         }
-        _textitalic = Builder(name = "Textitalic", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _textItalic = Builder(name = "TextItalic", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+                viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -39,7 +39,7 @@ public val LightGroup.Textitalic: ImageVector
             }
         }
         .build()
-        return _textitalic!!
+        return _textItalic!!
     }
 
-private var _textitalic: ImageVector? = null
+private var _textItalic: ImageVector? = null

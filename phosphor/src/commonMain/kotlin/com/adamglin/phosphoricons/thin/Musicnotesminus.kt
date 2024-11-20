@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.ThinGroup
 
-public val ThinGroup.Musicnotesminus: ImageVector
+public val ThinGroup.MusicNotesMinus: ImageVector
     get() {
-        if (_musicnotesminus != null) {
-            return _musicnotesminus!!
+        if (_musicNotesMinus != null) {
+            return _musicNotesMinus!!
         }
-        _musicnotesminus = Builder(name = "Musicnotesminus", defaultWidth = 256.0.dp, defaultHeight
-                = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _musicNotesMinus = Builder(name = "MusicNotesMinus", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -57,7 +57,7 @@ public val ThinGroup.Musicnotesminus: ImageVector
             }
         }
         .build()
-        return _musicnotesminus!!
+        return _musicNotesMinus!!
     }
 
-private var _musicnotesminus: ImageVector? = null
+private var _musicNotesMinus: ImageVector? = null

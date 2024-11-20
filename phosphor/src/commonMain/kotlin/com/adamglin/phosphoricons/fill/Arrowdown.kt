@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Arrowdown: ImageVector
+public val FillGroup.ArrowDown: ImageVector
     get() {
-        if (_arrowdown != null) {
-            return _arrowdown!!
+        if (_arrowDown != null) {
+            return _arrowDown!!
         }
-        _arrowdown = Builder(name = "Arrowdown", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _arrowDown = Builder(name = "ArrowDown", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -36,7 +36,7 @@ public val FillGroup.Arrowdown: ImageVector
             }
         }
         .build()
-        return _arrowdown!!
+        return _arrowDown!!
     }
 
-private var _arrowdown: ImageVector? = null
+private var _arrowDown: ImageVector? = null

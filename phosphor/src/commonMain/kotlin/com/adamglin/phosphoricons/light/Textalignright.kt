@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.LightGroup
 
-public val LightGroup.Textalignright: ImageVector
+public val LightGroup.TextAlignRight: ImageVector
     get() {
-        if (_textalignright != null) {
-            return _textalignright!!
+        if (_textAlignRight != null) {
+            return _textAlignRight!!
         }
-        _textalignright = Builder(name = "Textalignright", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _textAlignRight = Builder(name = "TextAlignRight", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -49,7 +49,7 @@ public val LightGroup.Textalignright: ImageVector
             }
         }
         .build()
-        return _textalignright!!
+        return _textAlignRight!!
     }
 
-private var _textalignright: ImageVector? = null
+private var _textAlignRight: ImageVector? = null

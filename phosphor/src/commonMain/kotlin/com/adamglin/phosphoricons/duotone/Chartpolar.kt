@@ -14,13 +14,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Chartpolar: ImageVector
+public val DuotoneGroup.ChartPolar: ImageVector
     get() {
-        if (_chartpolar != null) {
-            return _chartpolar!!
+        if (_chartPolar != null) {
+            return _chartPolar!!
         }
-        _chartpolar = Builder(name = "Chartpolar", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _chartPolar = Builder(name = "ChartPolar", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+                viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
@@ -79,7 +79,7 @@ public val DuotoneGroup.Chartpolar: ImageVector
             }
         }
         .build()
-        return _chartpolar!!
+        return _chartPolar!!
     }
 
-private var _chartpolar: ImageVector? = null
+private var _chartPolar: ImageVector? = null

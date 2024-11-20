@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.ThinGroup
 
-public val ThinGroup.Googledrivelogo: ImageVector
+public val ThinGroup.GoogleDriveLogo: ImageVector
     get() {
-        if (_googledrivelogo != null) {
-            return _googledrivelogo!!
+        if (_googleDriveLogo != null) {
+            return _googleDriveLogo!!
         }
-        _googledrivelogo = Builder(name = "Googledrivelogo", defaultWidth = 256.0.dp, defaultHeight
-                = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _googleDriveLogo = Builder(name = "GoogleDriveLogo", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -70,7 +70,7 @@ public val ThinGroup.Googledrivelogo: ImageVector
             }
         }
         .build()
-        return _googledrivelogo!!
+        return _googleDriveLogo!!
     }
 
-private var _googledrivelogo: ImageVector? = null
+private var _googleDriveLogo: ImageVector? = null

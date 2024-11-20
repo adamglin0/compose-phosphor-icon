@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.LightGroup
 
-public val LightGroup.Solarpanel: ImageVector
+public val LightGroup.SolarPanel: ImageVector
     get() {
-        if (_solarpanel != null) {
-            return _solarpanel!!
+        if (_solarPanel != null) {
+            return _solarPanel!!
         }
-        _solarpanel = Builder(name = "Solarpanel", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _solarPanel = Builder(name = "SolarPanel", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+                viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -105,7 +105,7 @@ public val LightGroup.Solarpanel: ImageVector
             }
         }
         .build()
-        return _solarpanel!!
+        return _solarPanel!!
     }
 
-private var _solarpanel: ImageVector? = null
+private var _solarPanel: ImageVector? = null

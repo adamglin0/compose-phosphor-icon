@@ -14,13 +14,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Globehemisphereeast: ImageVector
+public val DuotoneGroup.GlobeHemisphereEast: ImageVector
     get() {
-        if (_globehemisphereeast != null) {
-            return _globehemisphereeast!!
+        if (_globeHemisphereEast != null) {
+            return _globeHemisphereEast!!
         }
-        _globehemisphereeast = Builder(name = "Globehemisphereeast", defaultWidth = 256.0.dp,
-                defaultHeight = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _globeHemisphereEast = Builder(name = "GlobeHemisphereEast", defaultWidth = 24.0.dp,
+                defaultHeight = 24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
@@ -109,7 +109,7 @@ public val DuotoneGroup.Globehemisphereeast: ImageVector
             }
         }
         .build()
-        return _globehemisphereeast!!
+        return _globeHemisphereEast!!
     }
 
-private var _globehemisphereeast: ImageVector? = null
+private var _globeHemisphereEast: ImageVector? = null

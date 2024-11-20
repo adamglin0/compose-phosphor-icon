@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.RegularGroup
 
-public val RegularGroup.Arrowshorizontal: ImageVector
+public val RegularGroup.ArrowsHorizontal: ImageVector
     get() {
-        if (_arrowshorizontal != null) {
-            return _arrowshorizontal!!
+        if (_arrowsHorizontal != null) {
+            return _arrowsHorizontal!!
         }
-        _arrowshorizontal = Builder(name = "Arrowshorizontal", defaultWidth = 256.0.dp,
-                defaultHeight = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _arrowsHorizontal = Builder(name = "ArrowsHorizontal", defaultWidth = 24.0.dp, defaultHeight
+                = 24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -42,7 +42,7 @@ public val RegularGroup.Arrowshorizontal: ImageVector
             }
         }
         .build()
-        return _arrowshorizontal!!
+        return _arrowsHorizontal!!
     }
 
-private var _arrowshorizontal: ImageVector? = null
+private var _arrowsHorizontal: ImageVector? = null

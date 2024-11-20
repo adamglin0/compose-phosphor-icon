@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Arrowsin: ImageVector
+public val FillGroup.ArrowsIn: ImageVector
     get() {
-        if (_arrowsin != null) {
-            return _arrowsin!!
+        if (_arrowsIn != null) {
+            return _arrowsIn!!
         }
-        _arrowsin = Builder(name = "Arrowsin", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _arrowsIn = Builder(name = "ArrowsIn", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -72,7 +72,7 @@ public val FillGroup.Arrowsin: ImageVector
             }
         }
         .build()
-        return _arrowsin!!
+        return _arrowsIn!!
     }
 
-private var _arrowsin: ImageVector? = null
+private var _arrowsIn: ImageVector? = null

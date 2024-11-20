@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.ThinGroup
 
-public val ThinGroup.Alignleft: ImageVector
+public val ThinGroup.AlignLeft: ImageVector
     get() {
-        if (_alignleft != null) {
-            return _alignleft!!
+        if (_alignLeft != null) {
+            return _alignLeft!!
         }
-        _alignleft = Builder(name = "Alignleft", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _alignLeft = Builder(name = "AlignLeft", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -68,7 +68,7 @@ public val ThinGroup.Alignleft: ImageVector
             }
         }
         .build()
-        return _alignleft!!
+        return _alignLeft!!
     }
 
-private var _alignleft: ImageVector? = null
+private var _alignLeft: ImageVector? = null

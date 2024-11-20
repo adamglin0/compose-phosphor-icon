@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.LightGroup
 
-public val LightGroup.Trainsimple: ImageVector
+public val LightGroup.TrainSimple: ImageVector
     get() {
-        if (_trainsimple != null) {
-            return _trainsimple!!
+        if (_trainSimple != null) {
+            return _trainSimple!!
         }
-        _trainsimple = Builder(name = "Trainsimple", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _trainSimple = Builder(name = "TrainSimple", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -66,7 +66,7 @@ public val LightGroup.Trainsimple: ImageVector
             }
         }
         .build()
-        return _trainsimple!!
+        return _trainSimple!!
     }
 
-private var _trainsimple: ImageVector? = null
+private var _trainSimple: ImageVector? = null

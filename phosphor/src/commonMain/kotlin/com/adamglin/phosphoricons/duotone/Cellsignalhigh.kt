@@ -14,13 +14,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Cellsignalhigh: ImageVector
+public val DuotoneGroup.CellSignalHigh: ImageVector
     get() {
-        if (_cellsignalhigh != null) {
-            return _cellsignalhigh!!
+        if (_cellSignalHigh != null) {
+            return _cellSignalHigh!!
         }
-        _cellsignalhigh = Builder(name = "Cellsignalhigh", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _cellSignalHigh = Builder(name = "CellSignalHigh", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
@@ -54,7 +54,7 @@ public val DuotoneGroup.Cellsignalhigh: ImageVector
             }
         }
         .build()
-        return _cellsignalhigh!!
+        return _cellSignalHigh!!
     }
 
-private var _cellsignalhigh: ImageVector? = null
+private var _cellSignalHigh: ImageVector? = null

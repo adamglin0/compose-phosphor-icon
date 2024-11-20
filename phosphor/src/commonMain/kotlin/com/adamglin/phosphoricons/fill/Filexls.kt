@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Filexls: ImageVector
+public val FillGroup.FileXls: ImageVector
     get() {
-        if (_filexls != null) {
-            return _filexls!!
+        if (_fileXls != null) {
+            return _fileXls!!
         }
-        _filexls = Builder(name = "Filexls", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _fileXls = Builder(name = "FileXls", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -84,7 +84,7 @@ public val FillGroup.Filexls: ImageVector
             }
         }
         .build()
-        return _filexls!!
+        return _fileXls!!
     }
 
-private var _filexls: ImageVector? = null
+private var _fileXls: ImageVector? = null

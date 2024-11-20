@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.ThinGroup
 
-public val ThinGroup.Firetruck: ImageVector
+public val ThinGroup.FireTruck: ImageVector
     get() {
-        if (_firetruck != null) {
-            return _firetruck!!
+        if (_fireTruck != null) {
+            return _fireTruck!!
         }
-        _firetruck = Builder(name = "Firetruck", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _fireTruck = Builder(name = "FireTruck", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -94,7 +94,7 @@ public val ThinGroup.Firetruck: ImageVector
             }
         }
         .build()
-        return _firetruck!!
+        return _fireTruck!!
     }
 
-private var _firetruck: ImageVector? = null
+private var _fireTruck: ImageVector? = null

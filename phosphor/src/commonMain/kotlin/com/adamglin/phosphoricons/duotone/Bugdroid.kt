@@ -14,12 +14,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Bugdroid: ImageVector
+public val DuotoneGroup.BugDroid: ImageVector
     get() {
-        if (_bugdroid != null) {
-            return _bugdroid!!
+        if (_bugDroid != null) {
+            return _bugDroid!!
         }
-        _bugdroid = Builder(name = "Bugdroid", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _bugDroid = Builder(name = "BugDroid", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
@@ -72,7 +72,7 @@ public val DuotoneGroup.Bugdroid: ImageVector
             }
         }
         .build()
-        return _bugdroid!!
+        return _bugDroid!!
     }
 
-private var _bugdroid: ImageVector? = null
+private var _bugDroid: ImageVector? = null

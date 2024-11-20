@@ -14,13 +14,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Suitcasesimple: ImageVector
+public val DuotoneGroup.SuitcaseSimple: ImageVector
     get() {
-        if (_suitcasesimple != null) {
-            return _suitcasesimple!!
+        if (_suitcaseSimple != null) {
+            return _suitcaseSimple!!
         }
-        _suitcasesimple = Builder(name = "Suitcasesimple", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _suitcaseSimple = Builder(name = "SuitcaseSimple", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
@@ -72,7 +72,7 @@ public val DuotoneGroup.Suitcasesimple: ImageVector
             }
         }
         .build()
-        return _suitcasesimple!!
+        return _suitcaseSimple!!
     }
 
-private var _suitcasesimple: ImageVector? = null
+private var _suitcaseSimple: ImageVector? = null

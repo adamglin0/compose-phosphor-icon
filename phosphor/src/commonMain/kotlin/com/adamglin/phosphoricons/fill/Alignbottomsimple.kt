@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Alignbottomsimple: ImageVector
+public val FillGroup.AlignBottomSimple: ImageVector
     get() {
-        if (_alignbottomsimple != null) {
-            return _alignbottomsimple!!
+        if (_alignBottomSimple != null) {
+            return _alignBottomSimple!!
         }
-        _alignbottomsimple = Builder(name = "Alignbottomsimple", defaultWidth = 256.0.dp,
-                defaultHeight = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _alignBottomSimple = Builder(name = "AlignBottomSimple", defaultWidth = 24.0.dp,
+                defaultHeight = 24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -41,7 +41,7 @@ public val FillGroup.Alignbottomsimple: ImageVector
             }
         }
         .build()
-        return _alignbottomsimple!!
+        return _alignBottomSimple!!
     }
 
-private var _alignbottomsimple: ImageVector? = null
+private var _alignBottomSimple: ImageVector? = null

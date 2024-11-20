@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.BoldGroup
 
-public val BoldGroup.Userlist: ImageVector
+public val BoldGroup.UserList: ImageVector
     get() {
-        if (_userlist != null) {
-            return _userlist!!
+        if (_userList != null) {
+            return _userList!!
         }
-        _userlist = Builder(name = "Userlist", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _userList = Builder(name = "UserList", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -56,7 +56,7 @@ public val BoldGroup.Userlist: ImageVector
             }
         }
         .build()
-        return _userlist!!
+        return _userList!!
     }
 
-private var _userlist: ImageVector? = null
+private var _userList: ImageVector? = null

@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.RegularGroup
 
-public val RegularGroup.Bookuser: ImageVector
+public val RegularGroup.BookUser: ImageVector
     get() {
-        if (_bookuser != null) {
-            return _bookuser!!
+        if (_bookUser != null) {
+            return _bookUser!!
         }
-        _bookuser = Builder(name = "Bookuser", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _bookUser = Builder(name = "BookUser", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -62,7 +62,7 @@ public val RegularGroup.Bookuser: ImageVector
             }
         }
         .build()
-        return _bookuser!!
+        return _bookUser!!
     }
 
-private var _bookuser: ImageVector? = null
+private var _bookUser: ImageVector? = null

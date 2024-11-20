@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.LightGroup
 
-public val LightGroup.Arrowcircleupright: ImageVector
+public val LightGroup.ArrowCircleUpRight: ImageVector
     get() {
-        if (_arrowcircleupright != null) {
-            return _arrowcircleupright!!
+        if (_arrowCircleUpRight != null) {
+            return _arrowCircleUpRight!!
         }
-        _arrowcircleupright = Builder(name = "Arrowcircleupright", defaultWidth = 256.0.dp,
-                defaultHeight = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _arrowCircleUpRight = Builder(name = "ArrowCircleUpRight", defaultWidth = 24.0.dp,
+                defaultHeight = 24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -44,7 +44,7 @@ public val LightGroup.Arrowcircleupright: ImageVector
             }
         }
         .build()
-        return _arrowcircleupright!!
+        return _arrowCircleUpRight!!
     }
 
-private var _arrowcircleupright: ImageVector? = null
+private var _arrowCircleUpRight: ImageVector? = null

@@ -14,13 +14,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Batteryempty: ImageVector
+public val DuotoneGroup.BatteryEmpty: ImageVector
     get() {
-        if (_batteryempty != null) {
-            return _batteryempty!!
+        if (_batteryEmpty != null) {
+            return _batteryEmpty!!
         }
-        _batteryempty = Builder(name = "Batteryempty", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _batteryEmpty = Builder(name = "BatteryEmpty", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
@@ -66,7 +66,7 @@ public val DuotoneGroup.Batteryempty: ImageVector
             }
         }
         .build()
-        return _batteryempty!!
+        return _batteryEmpty!!
     }
 
-private var _batteryempty: ImageVector? = null
+private var _batteryEmpty: ImageVector? = null

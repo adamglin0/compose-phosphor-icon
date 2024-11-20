@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.ThinGroup
 
-public val ThinGroup.Boxarrowup: ImageVector
+public val ThinGroup.BoxArrowUp: ImageVector
     get() {
-        if (_boxarrowup != null) {
-            return _boxarrowup!!
+        if (_boxArrowUp != null) {
+            return _boxArrowUp!!
         }
-        _boxarrowup = Builder(name = "Boxarrowup", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _boxArrowUp = Builder(name = "BoxArrowUp", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+                viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -62,7 +62,7 @@ public val ThinGroup.Boxarrowup: ImageVector
             }
         }
         .build()
-        return _boxarrowup!!
+        return _boxArrowUp!!
     }
 
-private var _boxarrowup: ImageVector? = null
+private var _boxArrowUp: ImageVector? = null

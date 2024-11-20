@@ -11,14 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.ThinGroup
 
-public val ThinGroup.Microsoftpowerpointlogo: ImageVector
+public val ThinGroup.MicrosoftPowerpointLogo: ImageVector
     get() {
-        if (_microsoftpowerpointlogo != null) {
-            return _microsoftpowerpointlogo!!
+        if (_microsoftPowerpointLogo != null) {
+            return _microsoftPowerpointLogo!!
         }
-        _microsoftpowerpointlogo = Builder(name = "Microsoftpowerpointlogo", defaultWidth =
-                256.0.dp, defaultHeight = 256.0.dp, viewportWidth = 256.0f, viewportHeight =
-                256.0f).apply {
+        _microsoftPowerpointLogo = Builder(name = "MicrosoftPowerpointLogo", defaultWidth = 24.0.dp,
+                defaultHeight = 24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -85,7 +84,7 @@ public val ThinGroup.Microsoftpowerpointlogo: ImageVector
             }
         }
         .build()
-        return _microsoftpowerpointlogo!!
+        return _microsoftPowerpointLogo!!
     }
 
-private var _microsoftpowerpointlogo: ImageVector? = null
+private var _microsoftPowerpointLogo: ImageVector? = null
