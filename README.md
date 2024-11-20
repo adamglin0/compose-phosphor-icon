@@ -29,22 +29,16 @@ Icon(imageVector = PhosphorIcons.Bold.AirTrafficControl, contentDescription = nu
 
 ## Build By Yourself
 
-#### run first.kts
-
    ```bash
-   kotlinc -script first.kts
+   kotlinc -script run.main.kts
    ```
+#### what's the script do?
+1. download phosphor-icons-zip
+2. unzip it
+3. reset all path's default size
+4. convert svg to compose path
 
-this script will download phosphor icon origin files
-from [this url](https://phosphoricons.com/assets/phosphor-icons.zip) in /temp folder.
-And unzip it, rename all files as
-
-./temp/phosphor-icons/bold/airplane-tilt-bold.svg -> ./temp/phosphor-icons/bold/AirplaneTilt.svg
-
-#### Download [SVG to Compose](https://plugins.jetbrains.com/plugin/index?xmlId=by.overpass.svg-to-compose-intellij&utm_source=product&utm_medium=link&utm_campaign=IC&utm_content=2024.2) Intellij Plugin
-
-#### Generate by SVG To Compose
-
+this script will generate all icons in `phosphor/src/commainMain/kotlin`
 
 ## Sample
 

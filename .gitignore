@@ -256,6 +256,7 @@ captures/
 *.apk
 output.json
 
+
 # IntelliJ
 *.iml
 .idea/
@@ -276,3 +277,5 @@ google-services.json
 .kotlin
 
 \temp
+
+.DS_Store
