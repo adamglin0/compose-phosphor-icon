@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.LightGroup
 
-public val LightGroup.Sortascending: ImageVector
+public val LightGroup.SortAscending: ImageVector
     get() {
-        if (_sortascending != null) {
-            return _sortascending!!
+        if (_sortAscending != null) {
+            return _sortAscending!!
         }
-        _sortascending = Builder(name = "Sortascending", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _sortAscending = Builder(name = "SortAscending", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -56,7 +56,7 @@ public val LightGroup.Sortascending: ImageVector
             }
         }
         .build()
-        return _sortascending!!
+        return _sortAscending!!
     }
 
-private var _sortascending: ImageVector? = null
+private var _sortAscending: ImageVector? = null

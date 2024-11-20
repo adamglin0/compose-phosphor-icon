@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.ThinGroup
 
-public val ThinGroup.Lightbulbfilament: ImageVector
+public val ThinGroup.LightbulbFilament: ImageVector
     get() {
-        if (_lightbulbfilament != null) {
-            return _lightbulbfilament!!
+        if (_lightbulbFilament != null) {
+            return _lightbulbFilament!!
         }
-        _lightbulbfilament = Builder(name = "Lightbulbfilament", defaultWidth = 256.0.dp,
-                defaultHeight = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _lightbulbFilament = Builder(name = "LightbulbFilament", defaultWidth = 24.0.dp,
+                defaultHeight = 24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -66,7 +66,7 @@ public val ThinGroup.Lightbulbfilament: ImageVector
             }
         }
         .build()
-        return _lightbulbfilament!!
+        return _lightbulbFilament!!
     }
 
-private var _lightbulbfilament: ImageVector? = null
+private var _lightbulbFilament: ImageVector? = null

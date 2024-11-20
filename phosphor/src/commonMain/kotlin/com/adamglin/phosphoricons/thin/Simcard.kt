@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.ThinGroup
 
-public val ThinGroup.Simcard: ImageVector
+public val ThinGroup.SimCard: ImageVector
     get() {
-        if (_simcard != null) {
-            return _simcard!!
+        if (_simCard != null) {
+            return _simCard!!
         }
-        _simcard = Builder(name = "Simcard", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _simCard = Builder(name = "SimCard", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -68,7 +68,7 @@ public val ThinGroup.Simcard: ImageVector
             }
         }
         .build()
-        return _simcard!!
+        return _simCard!!
     }
 
-private var _simcard: ImageVector? = null
+private var _simCard: ImageVector? = null

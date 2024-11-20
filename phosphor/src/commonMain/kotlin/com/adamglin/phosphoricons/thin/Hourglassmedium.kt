@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.ThinGroup
 
-public val ThinGroup.Hourglassmedium: ImageVector
+public val ThinGroup.HourglassMedium: ImageVector
     get() {
-        if (_hourglassmedium != null) {
-            return _hourglassmedium!!
+        if (_hourglassMedium != null) {
+            return _hourglassMedium!!
         }
-        _hourglassmedium = Builder(name = "Hourglassmedium", defaultWidth = 256.0.dp, defaultHeight
-                = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _hourglassMedium = Builder(name = "HourglassMedium", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -73,7 +73,7 @@ public val ThinGroup.Hourglassmedium: ImageVector
             }
         }
         .build()
-        return _hourglassmedium!!
+        return _hourglassMedium!!
     }
 
-private var _hourglassmedium: ImageVector? = null
+private var _hourglassMedium: ImageVector? = null

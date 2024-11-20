@@ -14,13 +14,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Arrowsinsimple: ImageVector
+public val DuotoneGroup.ArrowsInSimple: ImageVector
     get() {
-        if (_arrowsinsimple != null) {
-            return _arrowsinsimple!!
+        if (_arrowsInSimple != null) {
+            return _arrowsInSimple!!
         }
-        _arrowsinsimple = Builder(name = "Arrowsinsimple", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _arrowsInSimple = Builder(name = "ArrowsInSimple", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
@@ -65,7 +65,7 @@ public val DuotoneGroup.Arrowsinsimple: ImageVector
             }
         }
         .build()
-        return _arrowsinsimple!!
+        return _arrowsInSimple!!
     }
 
-private var _arrowsinsimple: ImageVector? = null
+private var _arrowsInSimple: ImageVector? = null

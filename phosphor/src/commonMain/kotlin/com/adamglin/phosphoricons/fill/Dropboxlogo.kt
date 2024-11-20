@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Dropboxlogo: ImageVector
+public val FillGroup.DropboxLogo: ImageVector
     get() {
-        if (_dropboxlogo != null) {
-            return _dropboxlogo!!
+        if (_dropboxLogo != null) {
+            return _dropboxLogo!!
         }
-        _dropboxlogo = Builder(name = "Dropboxlogo", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _dropboxLogo = Builder(name = "DropboxLogo", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -63,7 +63,7 @@ public val FillGroup.Dropboxlogo: ImageVector
             }
         }
         .build()
-        return _dropboxlogo!!
+        return _dropboxLogo!!
     }
 
-private var _dropboxlogo: ImageVector? = null
+private var _dropboxLogo: ImageVector? = null

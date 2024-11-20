@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Networkx: ImageVector
+public val FillGroup.NetworkX: ImageVector
     get() {
-        if (_networkx != null) {
-            return _networkx!!
+        if (_networkX != null) {
+            return _networkX!!
         }
-        _networkx = Builder(name = "Networkx", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _networkX = Builder(name = "NetworkX", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -74,7 +74,7 @@ public val FillGroup.Networkx: ImageVector
             }
         }
         .build()
-        return _networkx!!
+        return _networkX!!
     }
 
-private var _networkx: ImageVector? = null
+private var _networkX: ImageVector? = null

@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.RegularGroup
 
-public val RegularGroup.Androidlogo: ImageVector
+public val RegularGroup.AndroidLogo: ImageVector
     get() {
-        if (_androidlogo != null) {
-            return _androidlogo!!
+        if (_androidLogo != null) {
+            return _androidLogo!!
         }
-        _androidlogo = Builder(name = "Androidlogo", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _androidLogo = Builder(name = "AndroidLogo", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -56,7 +56,7 @@ public val RegularGroup.Androidlogo: ImageVector
             }
         }
         .build()
-        return _androidlogo!!
+        return _androidLogo!!
     }
 
-private var _androidlogo: ImageVector? = null
+private var _androidLogo: ImageVector? = null

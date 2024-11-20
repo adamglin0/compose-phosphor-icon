@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Chalkboardsimple: ImageVector
+public val FillGroup.ChalkboardSimple: ImageVector
     get() {
-        if (_chalkboardsimple != null) {
-            return _chalkboardsimple!!
+        if (_chalkboardSimple != null) {
+            return _chalkboardSimple!!
         }
-        _chalkboardsimple = Builder(name = "Chalkboardsimple", defaultWidth = 256.0.dp,
-                defaultHeight = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _chalkboardSimple = Builder(name = "ChalkboardSimple", defaultWidth = 24.0.dp, defaultHeight
+                = 24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -43,7 +43,7 @@ public val FillGroup.Chalkboardsimple: ImageVector
             }
         }
         .build()
-        return _chalkboardsimple!!
+        return _chalkboardSimple!!
     }
 
-private var _chalkboardsimple: ImageVector? = null
+private var _chalkboardSimple: ImageVector? = null

@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.BoldGroup
 
-public val BoldGroup.Graduationcap: ImageVector
+public val BoldGroup.GraduationCap: ImageVector
     get() {
-        if (_graduationcap != null) {
-            return _graduationcap!!
+        if (_graduationCap != null) {
+            return _graduationCap!!
         }
-        _graduationcap = Builder(name = "Graduationcap", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _graduationCap = Builder(name = "GraduationCap", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -67,7 +67,7 @@ public val BoldGroup.Graduationcap: ImageVector
             }
         }
         .build()
-        return _graduationcap!!
+        return _graduationCap!!
     }
 
-private var _graduationcap: ImageVector? = null
+private var _graduationCap: ImageVector? = null

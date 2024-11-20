@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.LightGroup
 
-public val LightGroup.Whatsapplogo: ImageVector
+public val LightGroup.WhatsappLogo: ImageVector
     get() {
-        if (_whatsapplogo != null) {
-            return _whatsapplogo!!
+        if (_whatsappLogo != null) {
+            return _whatsappLogo!!
         }
-        _whatsapplogo = Builder(name = "Whatsapplogo", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _whatsappLogo = Builder(name = "WhatsappLogo", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -67,7 +67,7 @@ public val LightGroup.Whatsapplogo: ImageVector
             }
         }
         .build()
-        return _whatsapplogo!!
+        return _whatsappLogo!!
     }
 
-private var _whatsapplogo: ImageVector? = null
+private var _whatsappLogo: ImageVector? = null

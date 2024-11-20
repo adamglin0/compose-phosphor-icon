@@ -14,13 +14,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Shoppingbag: ImageVector
+public val DuotoneGroup.ShoppingBag: ImageVector
     get() {
-        if (_shoppingbag != null) {
-            return _shoppingbag!!
+        if (_shoppingBag != null) {
+            return _shoppingBag!!
         }
-        _shoppingbag = Builder(name = "Shoppingbag", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _shoppingBag = Builder(name = "ShoppingBag", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
@@ -63,7 +63,7 @@ public val DuotoneGroup.Shoppingbag: ImageVector
             }
         }
         .build()
-        return _shoppingbag!!
+        return _shoppingBag!!
     }
 
-private var _shoppingbag: ImageVector? = null
+private var _shoppingBag: ImageVector? = null

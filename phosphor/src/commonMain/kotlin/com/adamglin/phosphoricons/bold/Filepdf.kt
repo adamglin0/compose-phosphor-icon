@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.BoldGroup
 
-public val BoldGroup.Filepdf: ImageVector
+public val BoldGroup.FilePdf: ImageVector
     get() {
-        if (_filepdf != null) {
-            return _filepdf!!
+        if (_filePdf != null) {
+            return _filePdf!!
         }
-        _filepdf = Builder(name = "Filepdf", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _filePdf = Builder(name = "FilePdf", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -90,7 +90,7 @@ public val BoldGroup.Filepdf: ImageVector
             }
         }
         .build()
-        return _filepdf!!
+        return _filePdf!!
     }
 
-private var _filepdf: ImageVector? = null
+private var _filePdf: ImageVector? = null

@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.LightGroup
 
-public val LightGroup.Baseballhelmet: ImageVector
+public val LightGroup.BaseballHelmet: ImageVector
     get() {
-        if (_baseballhelmet != null) {
-            return _baseballhelmet!!
+        if (_baseballHelmet != null) {
+            return _baseballHelmet!!
         }
-        _baseballhelmet = Builder(name = "Baseballhelmet", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _baseballHelmet = Builder(name = "BaseballHelmet", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -57,7 +57,7 @@ public val LightGroup.Baseballhelmet: ImageVector
             }
         }
         .build()
-        return _baseballhelmet!!
+        return _baseballHelmet!!
     }
 
-private var _baseballhelmet: ImageVector? = null
+private var _baseballHelmet: ImageVector? = null

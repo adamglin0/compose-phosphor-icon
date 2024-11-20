@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.ThinGroup
 
-public val ThinGroup.Numbercirclesix: ImageVector
+public val ThinGroup.NumberCircleSix: ImageVector
     get() {
-        if (_numbercirclesix != null) {
-            return _numbercirclesix!!
+        if (_numberCircleSix != null) {
+            return _numberCircleSix!!
         }
-        _numbercirclesix = Builder(name = "Numbercirclesix", defaultWidth = 256.0.dp, defaultHeight
-                = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _numberCircleSix = Builder(name = "NumberCircleSix", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -43,7 +43,7 @@ public val ThinGroup.Numbercirclesix: ImageVector
             }
         }
         .build()
-        return _numbercirclesix!!
+        return _numberCircleSix!!
     }
 
-private var _numbercirclesix: ImageVector? = null
+private var _numberCircleSix: ImageVector? = null

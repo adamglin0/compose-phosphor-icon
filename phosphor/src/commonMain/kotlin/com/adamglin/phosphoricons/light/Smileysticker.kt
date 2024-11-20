@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.LightGroup
 
-public val LightGroup.Smileysticker: ImageVector
+public val LightGroup.SmileySticker: ImageVector
     get() {
-        if (_smileysticker != null) {
-            return _smileysticker!!
+        if (_smileySticker != null) {
+            return _smileySticker!!
         }
-        _smileysticker = Builder(name = "Smileysticker", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _smileySticker = Builder(name = "SmileySticker", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -51,7 +51,7 @@ public val LightGroup.Smileysticker: ImageVector
             }
         }
         .build()
-        return _smileysticker!!
+        return _smileySticker!!
     }
 
-private var _smileysticker: ImageVector? = null
+private var _smileySticker: ImageVector? = null

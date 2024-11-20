@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.ThinGroup
 
-public val ThinGroup.Caretcircleupdown: ImageVector
+public val ThinGroup.CaretCircleUpDown: ImageVector
     get() {
-        if (_caretcircleupdown != null) {
-            return _caretcircleupdown!!
+        if (_caretCircleUpDown != null) {
+            return _caretCircleUpDown!!
         }
-        _caretcircleupdown = Builder(name = "Caretcircleupdown", defaultWidth = 256.0.dp,
-                defaultHeight = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _caretCircleUpDown = Builder(name = "CaretCircleUpDown", defaultWidth = 24.0.dp,
+                defaultHeight = 24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -50,7 +50,7 @@ public val ThinGroup.Caretcircleupdown: ImageVector
             }
         }
         .build()
-        return _caretcircleupdown!!
+        return _caretCircleUpDown!!
     }
 
-private var _caretcircleupdown: ImageVector? = null
+private var _caretCircleUpDown: ImageVector? = null

@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.ThinGroup
 
-public val ThinGroup.Currencyeur: ImageVector
+public val ThinGroup.CurrencyEur: ImageVector
     get() {
-        if (_currencyeur != null) {
-            return _currencyeur!!
+        if (_currencyEur != null) {
+            return _currencyEur!!
         }
-        _currencyeur = Builder(name = "Currencyeur", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _currencyEur = Builder(name = "CurrencyEur", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -47,7 +47,7 @@ public val ThinGroup.Currencyeur: ImageVector
             }
         }
         .build()
-        return _currencyeur!!
+        return _currencyEur!!
     }
 
-private var _currencyeur: ImageVector? = null
+private var _currencyEur: ImageVector? = null

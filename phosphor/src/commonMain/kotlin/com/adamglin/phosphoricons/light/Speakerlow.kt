@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.LightGroup
 
-public val LightGroup.Speakerlow: ImageVector
+public val LightGroup.SpeakerLow: ImageVector
     get() {
-        if (_speakerlow != null) {
-            return _speakerlow!!
+        if (_speakerLow != null) {
+            return _speakerLow!!
         }
-        _speakerlow = Builder(name = "Speakerlow", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _speakerLow = Builder(name = "SpeakerLow", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+                viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -57,7 +57,7 @@ public val LightGroup.Speakerlow: ImageVector
             }
         }
         .build()
-        return _speakerlow!!
+        return _speakerLow!!
     }
 
-private var _speakerlow: ImageVector? = null
+private var _speakerLow: ImageVector? = null

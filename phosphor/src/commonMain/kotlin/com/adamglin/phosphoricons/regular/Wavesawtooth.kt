@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.RegularGroup
 
-public val RegularGroup.Wavesawtooth: ImageVector
+public val RegularGroup.WaveSawtooth: ImageVector
     get() {
-        if (_wavesawtooth != null) {
-            return _wavesawtooth!!
+        if (_waveSawtooth != null) {
+            return _waveSawtooth!!
         }
-        _wavesawtooth = Builder(name = "Wavesawtooth", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _waveSawtooth = Builder(name = "WaveSawtooth", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -36,7 +36,7 @@ public val RegularGroup.Wavesawtooth: ImageVector
             }
         }
         .build()
-        return _wavesawtooth!!
+        return _waveSawtooth!!
     }
 
-private var _wavesawtooth: ImageVector? = null
+private var _waveSawtooth: ImageVector? = null

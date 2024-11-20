@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Eggcrack: ImageVector
+public val FillGroup.EggCrack: ImageVector
     get() {
-        if (_eggcrack != null) {
-            return _eggcrack!!
+        if (_eggCrack != null) {
+            return _eggCrack!!
         }
-        _eggcrack = Builder(name = "Eggcrack", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _eggCrack = Builder(name = "EggCrack", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -46,7 +46,7 @@ public val FillGroup.Eggcrack: ImageVector
             }
         }
         .build()
-        return _eggcrack!!
+        return _eggCrack!!
     }
 
-private var _eggcrack: ImageVector? = null
+private var _eggCrack: ImageVector? = null

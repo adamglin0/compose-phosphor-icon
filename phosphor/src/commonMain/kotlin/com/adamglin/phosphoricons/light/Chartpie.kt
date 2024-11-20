@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.LightGroup
 
-public val LightGroup.Chartpie: ImageVector
+public val LightGroup.ChartPie: ImageVector
     get() {
-        if (_chartpie != null) {
-            return _chartpie!!
+        if (_chartPie != null) {
+            return _chartPie!!
         }
-        _chartpie = Builder(name = "Chartpie", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _chartPie = Builder(name = "ChartPie", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -43,7 +43,7 @@ public val LightGroup.Chartpie: ImageVector
             }
         }
         .build()
-        return _chartpie!!
+        return _chartPie!!
     }
 
-private var _chartpie: ImageVector? = null
+private var _chartPie: ImageVector? = null

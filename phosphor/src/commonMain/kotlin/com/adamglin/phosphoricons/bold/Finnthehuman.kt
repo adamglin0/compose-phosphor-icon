@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.BoldGroup
 
-public val BoldGroup.Finnthehuman: ImageVector
+public val BoldGroup.FinnTheHuman: ImageVector
     get() {
-        if (_finnthehuman != null) {
-            return _finnthehuman!!
+        if (_finnTheHuman != null) {
+            return _finnTheHuman!!
         }
-        _finnthehuman = Builder(name = "Finnthehuman", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _finnTheHuman = Builder(name = "FinnTheHuman", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -66,7 +66,7 @@ public val BoldGroup.Finnthehuman: ImageVector
             }
         }
         .build()
-        return _finnthehuman!!
+        return _finnTheHuman!!
     }
 
-private var _finnthehuman: ImageVector? = null
+private var _finnTheHuman: ImageVector? = null

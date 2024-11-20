@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.BoldGroup
 
-public val BoldGroup.Arrowsleftright: ImageVector
+public val BoldGroup.ArrowsLeftRight: ImageVector
     get() {
-        if (_arrowsleftright != null) {
-            return _arrowsleftright!!
+        if (_arrowsLeftRight != null) {
+            return _arrowsLeftRight!!
         }
-        _arrowsleftright = Builder(name = "Arrowsleftright", defaultWidth = 256.0.dp, defaultHeight
-                = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _arrowsLeftRight = Builder(name = "ArrowsLeftRight", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -47,7 +47,7 @@ public val BoldGroup.Arrowsleftright: ImageVector
             }
         }
         .build()
-        return _arrowsleftright!!
+        return _arrowsLeftRight!!
     }
 
-private var _arrowsleftright: ImageVector? = null
+private var _arrowsLeftRight: ImageVector? = null

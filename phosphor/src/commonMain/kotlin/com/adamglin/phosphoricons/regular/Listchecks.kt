@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.RegularGroup
 
-public val RegularGroup.Listchecks: ImageVector
+public val RegularGroup.ListChecks: ImageVector
     get() {
-        if (_listchecks != null) {
-            return _listchecks!!
+        if (_listChecks != null) {
+            return _listChecks!!
         }
-        _listchecks = Builder(name = "Listchecks", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _listChecks = Builder(name = "ListChecks", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+                viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -70,7 +70,7 @@ public val RegularGroup.Listchecks: ImageVector
             }
         }
         .build()
-        return _listchecks!!
+        return _listChecks!!
     }
 
-private var _listchecks: ImageVector? = null
+private var _listChecks: ImageVector? = null

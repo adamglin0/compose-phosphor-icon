@@ -14,12 +14,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Slacklogo: ImageVector
+public val DuotoneGroup.SlackLogo: ImageVector
     get() {
-        if (_slacklogo != null) {
-            return _slacklogo!!
+        if (_slackLogo != null) {
+            return _slackLogo!!
         }
-        _slacklogo = Builder(name = "Slacklogo", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _slackLogo = Builder(name = "SlackLogo", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
@@ -132,7 +132,7 @@ public val DuotoneGroup.Slacklogo: ImageVector
             }
         }
         .build()
-        return _slacklogo!!
+        return _slackLogo!!
     }
 
-private var _slacklogo: ImageVector? = null
+private var _slackLogo: ImageVector? = null

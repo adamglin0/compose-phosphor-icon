@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.ThinGroup
 
-public val ThinGroup.Solarroof: ImageVector
+public val ThinGroup.SolarRoof: ImageVector
     get() {
-        if (_solarroof != null) {
-            return _solarroof!!
+        if (_solarRoof != null) {
+            return _solarRoof!!
         }
-        _solarroof = Builder(name = "Solarroof", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _solarRoof = Builder(name = "SolarRoof", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -83,7 +83,7 @@ public val ThinGroup.Solarroof: ImageVector
             }
         }
         .build()
-        return _solarroof!!
+        return _solarRoof!!
     }
 
-private var _solarroof: ImageVector? = null
+private var _solarRoof: ImageVector? = null

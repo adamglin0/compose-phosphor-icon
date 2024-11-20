@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.ThinGroup
 
-public val ThinGroup.Pawprint: ImageVector
+public val ThinGroup.PawPrint: ImageVector
     get() {
-        if (_pawprint != null) {
-            return _pawprint!!
+        if (_pawPrint != null) {
+            return _pawPrint!!
         }
-        _pawprint = Builder(name = "Pawprint", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _pawPrint = Builder(name = "PawPrint", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -74,7 +74,7 @@ public val ThinGroup.Pawprint: ImageVector
             }
         }
         .build()
-        return _pawprint!!
+        return _pawPrint!!
     }
 
-private var _pawprint: ImageVector? = null
+private var _pawPrint: ImageVector? = null

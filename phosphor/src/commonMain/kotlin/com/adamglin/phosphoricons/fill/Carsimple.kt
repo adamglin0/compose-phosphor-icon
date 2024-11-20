@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Carsimple: ImageVector
+public val FillGroup.CarSimple: ImageVector
     get() {
-        if (_carsimple != null) {
-            return _carsimple!!
+        if (_carSimple != null) {
+            return _carSimple!!
         }
-        _carsimple = Builder(name = "Carsimple", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _carSimple = Builder(name = "CarSimple", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -53,7 +53,7 @@ public val FillGroup.Carsimple: ImageVector
             }
         }
         .build()
-        return _carsimple!!
+        return _carSimple!!
     }
 
-private var _carsimple: ImageVector? = null
+private var _carSimple: ImageVector? = null

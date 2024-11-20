@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.LightGroup
 
-public val LightGroup.Spinnerball: ImageVector
+public val LightGroup.SpinnerBall: ImageVector
     get() {
-        if (_spinnerball != null) {
-            return _spinnerball!!
+        if (_spinnerBall != null) {
+            return _spinnerBall!!
         }
-        _spinnerball = Builder(name = "Spinnerball", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _spinnerBall = Builder(name = "SpinnerBall", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -59,7 +59,7 @@ public val LightGroup.Spinnerball: ImageVector
             }
         }
         .build()
-        return _spinnerball!!
+        return _spinnerBall!!
     }
 
-private var _spinnerball: ImageVector? = null
+private var _spinnerBall: ImageVector? = null

@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.ThinGroup
 
-public val ThinGroup.Plusminus: ImageVector
+public val ThinGroup.PlusMinus: ImageVector
     get() {
-        if (_plusminus != null) {
-            return _plusminus!!
+        if (_plusMinus != null) {
+            return _plusMinus!!
         }
-        _plusminus = Builder(name = "Plusminus", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _plusMinus = Builder(name = "PlusMinus", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -49,7 +49,7 @@ public val ThinGroup.Plusminus: ImageVector
             }
         }
         .build()
-        return _plusminus!!
+        return _plusMinus!!
     }
 
-private var _plusminus: ImageVector? = null
+private var _plusMinus: ImageVector? = null

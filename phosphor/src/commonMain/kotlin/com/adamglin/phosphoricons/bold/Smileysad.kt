@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.BoldGroup
 
-public val BoldGroup.Smileysad: ImageVector
+public val BoldGroup.SmileySad: ImageVector
     get() {
-        if (_smileysad != null) {
-            return _smileysad!!
+        if (_smileySad != null) {
+            return _smileySad!!
         }
-        _smileysad = Builder(name = "Smileysad", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _smileySad = Builder(name = "SmileySad", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -46,7 +46,7 @@ public val BoldGroup.Smileysad: ImageVector
             }
         }
         .build()
-        return _smileysad!!
+        return _smileySad!!
     }
 
-private var _smileysad: ImageVector? = null
+private var _smileySad: ImageVector? = null

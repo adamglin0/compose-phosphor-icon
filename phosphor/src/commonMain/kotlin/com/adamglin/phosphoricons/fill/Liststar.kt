@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Liststar: ImageVector
+public val FillGroup.ListStar: ImageVector
     get() {
-        if (_liststar != null) {
-            return _liststar!!
+        if (_listStar != null) {
+            return _listStar!!
         }
-        _liststar = Builder(name = "Liststar", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _listStar = Builder(name = "ListStar", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -71,7 +71,7 @@ public val FillGroup.Liststar: ImageVector
             }
         }
         .build()
-        return _liststar!!
+        return _listStar!!
     }
 
-private var _liststar: ImageVector? = null
+private var _listStar: ImageVector? = null

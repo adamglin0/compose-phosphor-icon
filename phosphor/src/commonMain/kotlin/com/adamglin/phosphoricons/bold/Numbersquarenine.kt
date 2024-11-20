@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.BoldGroup
 
-public val BoldGroup.Numbersquarenine: ImageVector
+public val BoldGroup.NumberSquareNine: ImageVector
     get() {
-        if (_numbersquarenine != null) {
-            return _numbersquarenine!!
+        if (_numberSquareNine != null) {
+            return _numberSquareNine!!
         }
-        _numbersquarenine = Builder(name = "Numbersquarenine", defaultWidth = 256.0.dp,
-                defaultHeight = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _numberSquareNine = Builder(name = "NumberSquareNine", defaultWidth = 24.0.dp, defaultHeight
+                = 24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -51,7 +51,7 @@ public val BoldGroup.Numbersquarenine: ImageVector
             }
         }
         .build()
-        return _numbersquarenine!!
+        return _numberSquareNine!!
     }
 
-private var _numbersquarenine: ImageVector? = null
+private var _numberSquareNine: ImageVector? = null

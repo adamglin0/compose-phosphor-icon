@@ -14,13 +14,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Stacksimple: ImageVector
+public val FillGroup.StackSimple: ImageVector
     get() {
-        if (_stacksimple != null) {
-            return _stacksimple!!
+        if (_stackSimple != null) {
+            return _stackSimple!!
         }
-        _stacksimple = Builder(name = "Stacksimple", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _stackSimple = Builder(name = "StackSimple", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -50,7 +50,7 @@ public val FillGroup.Stacksimple: ImageVector
             }
         }
         .build()
-        return _stacksimple!!
+        return _stackSimple!!
     }
 
-private var _stacksimple: ImageVector? = null
+private var _stackSimple: ImageVector? = null

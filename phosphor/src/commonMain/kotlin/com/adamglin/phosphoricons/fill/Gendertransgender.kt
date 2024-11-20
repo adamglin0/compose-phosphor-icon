@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Gendertransgender: ImageVector
+public val FillGroup.GenderTransgender: ImageVector
     get() {
-        if (_gendertransgender != null) {
-            return _gendertransgender!!
+        if (_genderTransgender != null) {
+            return _genderTransgender!!
         }
-        _gendertransgender = Builder(name = "Gendertransgender", defaultWidth = 256.0.dp,
-                defaultHeight = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _genderTransgender = Builder(name = "GenderTransgender", defaultWidth = 24.0.dp,
+                defaultHeight = 24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -61,7 +61,7 @@ public val FillGroup.Gendertransgender: ImageVector
             }
         }
         .build()
-        return _gendertransgender!!
+        return _genderTransgender!!
     }
 
-private var _gendertransgender: ImageVector? = null
+private var _genderTransgender: ImageVector? = null

@@ -14,13 +14,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Soundcloudlogo: ImageVector
+public val DuotoneGroup.SoundcloudLogo: ImageVector
     get() {
-        if (_soundcloudlogo != null) {
-            return _soundcloudlogo!!
+        if (_soundcloudLogo != null) {
+            return _soundcloudLogo!!
         }
-        _soundcloudlogo = Builder(name = "Soundcloudlogo", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _soundcloudLogo = Builder(name = "SoundcloudLogo", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
@@ -76,7 +76,7 @@ public val DuotoneGroup.Soundcloudlogo: ImageVector
             }
         }
         .build()
-        return _soundcloudlogo!!
+        return _soundcloudLogo!!
     }
 
-private var _soundcloudlogo: ImageVector? = null
+private var _soundcloudLogo: ImageVector? = null

@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.LightGroup
 
-public val LightGroup.Handcoins: ImageVector
+public val LightGroup.HandCoins: ImageVector
     get() {
-        if (_handcoins != null) {
-            return _handcoins!!
+        if (_handCoins != null) {
+            return _handCoins!!
         }
-        _handcoins = Builder(name = "Handcoins", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _handCoins = Builder(name = "HandCoins", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -82,7 +82,7 @@ public val LightGroup.Handcoins: ImageVector
             }
         }
         .build()
-        return _handcoins!!
+        return _handCoins!!
     }
 
-private var _handcoins: ImageVector? = null
+private var _handCoins: ImageVector? = null

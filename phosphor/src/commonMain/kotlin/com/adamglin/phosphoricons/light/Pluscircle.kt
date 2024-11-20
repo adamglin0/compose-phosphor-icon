@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.LightGroup
 
-public val LightGroup.Pluscircle: ImageVector
+public val LightGroup.PlusCircle: ImageVector
     get() {
-        if (_pluscircle != null) {
-            return _pluscircle!!
+        if (_plusCircle != null) {
+            return _plusCircle!!
         }
-        _pluscircle = Builder(name = "Pluscircle", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _plusCircle = Builder(name = "PlusCircle", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+                viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -47,7 +47,7 @@ public val LightGroup.Pluscircle: ImageVector
             }
         }
         .build()
-        return _pluscircle!!
+        return _plusCircle!!
     }
 
-private var _pluscircle: ImageVector? = null
+private var _plusCircle: ImageVector? = null

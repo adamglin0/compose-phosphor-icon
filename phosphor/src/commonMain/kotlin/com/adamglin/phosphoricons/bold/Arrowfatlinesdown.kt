@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.BoldGroup
 
-public val BoldGroup.Arrowfatlinesdown: ImageVector
+public val BoldGroup.ArrowFatLinesDown: ImageVector
     get() {
-        if (_arrowfatlinesdown != null) {
-            return _arrowfatlinesdown!!
+        if (_arrowFatLinesDown != null) {
+            return _arrowFatLinesDown!!
         }
-        _arrowfatlinesdown = Builder(name = "Arrowfatlinesdown", defaultWidth = 256.0.dp,
-                defaultHeight = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _arrowFatLinesDown = Builder(name = "ArrowFatLinesDown", defaultWidth = 24.0.dp,
+                defaultHeight = 24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -63,7 +63,7 @@ public val BoldGroup.Arrowfatlinesdown: ImageVector
             }
         }
         .build()
-        return _arrowfatlinesdown!!
+        return _arrowFatLinesDown!!
     }
 
-private var _arrowfatlinesdown: ImageVector? = null
+private var _arrowFatLinesDown: ImageVector? = null

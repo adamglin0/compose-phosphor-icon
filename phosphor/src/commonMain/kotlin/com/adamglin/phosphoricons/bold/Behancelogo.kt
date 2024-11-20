@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.BoldGroup
 
-public val BoldGroup.Behancelogo: ImageVector
+public val BoldGroup.BehanceLogo: ImageVector
     get() {
-        if (_behancelogo != null) {
-            return _behancelogo!!
+        if (_behanceLogo != null) {
+            return _behanceLogo!!
         }
-        _behancelogo = Builder(name = "Behancelogo", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _behanceLogo = Builder(name = "BehanceLogo", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -64,7 +64,7 @@ public val BoldGroup.Behancelogo: ImageVector
             }
         }
         .build()
-        return _behancelogo!!
+        return _behanceLogo!!
     }
 
-private var _behancelogo: ImageVector? = null
+private var _behanceLogo: ImageVector? = null

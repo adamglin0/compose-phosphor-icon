@@ -14,12 +14,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Wifislash: ImageVector
+public val DuotoneGroup.WifiSlash: ImageVector
     get() {
-        if (_wifislash != null) {
-            return _wifislash!!
+        if (_wifiSlash != null) {
+            return _wifiSlash!!
         }
-        _wifislash = Builder(name = "Wifislash", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _wifiSlash = Builder(name = "WifiSlash", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
@@ -70,7 +70,7 @@ public val DuotoneGroup.Wifislash: ImageVector
             }
         }
         .build()
-        return _wifislash!!
+        return _wifiSlash!!
     }
 
-private var _wifislash: ImageVector? = null
+private var _wifiSlash: ImageVector? = null

@@ -14,13 +14,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Thumbsdown: ImageVector
+public val DuotoneGroup.ThumbsDown: ImageVector
     get() {
-        if (_thumbsdown != null) {
-            return _thumbsdown!!
+        if (_thumbsDown != null) {
+            return _thumbsDown!!
         }
-        _thumbsdown = Builder(name = "Thumbsdown", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _thumbsDown = Builder(name = "ThumbsDown", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+                viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
@@ -71,7 +71,7 @@ public val DuotoneGroup.Thumbsdown: ImageVector
             }
         }
         .build()
-        return _thumbsdown!!
+        return _thumbsDown!!
     }
 
-private var _thumbsdown: ImageVector? = null
+private var _thumbsDown: ImageVector? = null

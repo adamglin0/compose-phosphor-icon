@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.ThinGroup
 
-public val ThinGroup.Notmemberof: ImageVector
+public val ThinGroup.NotMemberOf: ImageVector
     get() {
-        if (_notmemberof != null) {
-            return _notmemberof!!
+        if (_notMemberOf != null) {
+            return _notMemberOf!!
         }
-        _notmemberof = Builder(name = "Notmemberof", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _notMemberOf = Builder(name = "NotMemberOf", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -53,7 +53,7 @@ public val ThinGroup.Notmemberof: ImageVector
             }
         }
         .build()
-        return _notmemberof!!
+        return _notMemberOf!!
     }
 
-private var _notmemberof: ImageVector? = null
+private var _notMemberOf: ImageVector? = null

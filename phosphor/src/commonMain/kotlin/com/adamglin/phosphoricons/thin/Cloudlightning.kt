@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.ThinGroup
 
-public val ThinGroup.Cloudlightning: ImageVector
+public val ThinGroup.CloudLightning: ImageVector
     get() {
-        if (_cloudlightning != null) {
-            return _cloudlightning!!
+        if (_cloudLightning != null) {
+            return _cloudLightning!!
         }
-        _cloudlightning = Builder(name = "Cloudlightning", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _cloudLightning = Builder(name = "CloudLightning", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -47,7 +47,7 @@ public val ThinGroup.Cloudlightning: ImageVector
             }
         }
         .build()
-        return _cloudlightning!!
+        return _cloudLightning!!
     }
 
-private var _cloudlightning: ImageVector? = null
+private var _cloudLightning: ImageVector? = null

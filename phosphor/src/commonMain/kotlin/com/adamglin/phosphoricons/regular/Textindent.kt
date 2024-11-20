@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.RegularGroup
 
-public val RegularGroup.Textindent: ImageVector
+public val RegularGroup.TextIndent: ImageVector
     get() {
-        if (_textindent != null) {
-            return _textindent!!
+        if (_textIndent != null) {
+            return _textIndent!!
         }
-        _textindent = Builder(name = "Textindent", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _textIndent = Builder(name = "TextIndent", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+                viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -53,7 +53,7 @@ public val RegularGroup.Textindent: ImageVector
             }
         }
         .build()
-        return _textindent!!
+        return _textIndent!!
     }
 
-private var _textindent: ImageVector? = null
+private var _textIndent: ImageVector? = null

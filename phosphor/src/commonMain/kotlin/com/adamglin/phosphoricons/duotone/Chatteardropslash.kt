@@ -14,13 +14,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Chatteardropslash: ImageVector
+public val DuotoneGroup.ChatTeardropSlash: ImageVector
     get() {
-        if (_chatteardropslash != null) {
-            return _chatteardropslash!!
+        if (_chatTeardropSlash != null) {
+            return _chatTeardropSlash!!
         }
-        _chatteardropslash = Builder(name = "Chatteardropslash", defaultWidth = 256.0.dp,
-                defaultHeight = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _chatTeardropSlash = Builder(name = "ChatTeardropSlash", defaultWidth = 24.0.dp,
+                defaultHeight = 24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
@@ -66,7 +66,7 @@ public val DuotoneGroup.Chatteardropslash: ImageVector
             }
         }
         .build()
-        return _chatteardropslash!!
+        return _chatTeardropSlash!!
     }
 
-private var _chatteardropslash: ImageVector? = null
+private var _chatTeardropSlash: ImageVector? = null

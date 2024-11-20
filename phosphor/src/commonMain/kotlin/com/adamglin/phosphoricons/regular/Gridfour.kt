@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.RegularGroup
 
-public val RegularGroup.Gridfour: ImageVector
+public val RegularGroup.GridFour: ImageVector
     get() {
-        if (_gridfour != null) {
-            return _gridfour!!
+        if (_gridFour != null) {
+            return _gridFour!!
         }
-        _gridfour = Builder(name = "Gridfour", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _gridFour = Builder(name = "GridFour", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -55,7 +55,7 @@ public val RegularGroup.Gridfour: ImageVector
             }
         }
         .build()
-        return _gridfour!!
+        return _gridFour!!
     }
 
-private var _gridfour: ImageVector? = null
+private var _gridFour: ImageVector? = null

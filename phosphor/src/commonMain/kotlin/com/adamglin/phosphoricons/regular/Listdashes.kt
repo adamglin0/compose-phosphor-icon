@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.RegularGroup
 
-public val RegularGroup.Listdashes: ImageVector
+public val RegularGroup.ListDashes: ImageVector
     get() {
-        if (_listdashes != null) {
-            return _listdashes!!
+        if (_listDashes != null) {
+            return _listDashes!!
         }
-        _listdashes = Builder(name = "Listdashes", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _listDashes = Builder(name = "ListDashes", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+                viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -61,7 +61,7 @@ public val RegularGroup.Listdashes: ImageVector
             }
         }
         .build()
-        return _listdashes!!
+        return _listDashes!!
     }
 
-private var _listdashes: ImageVector? = null
+private var _listDashes: ImageVector? = null

@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.BoldGroup
 
-public val BoldGroup.Desktoptower: ImageVector
+public val BoldGroup.DesktopTower: ImageVector
     get() {
-        if (_desktoptower != null) {
-            return _desktoptower!!
+        if (_desktopTower != null) {
+            return _desktopTower!!
         }
-        _desktoptower = Builder(name = "Desktoptower", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _desktopTower = Builder(name = "DesktopTower", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -77,7 +77,7 @@ public val BoldGroup.Desktoptower: ImageVector
             }
         }
         .build()
-        return _desktoptower!!
+        return _desktopTower!!
     }
 
-private var _desktoptower: ImageVector? = null
+private var _desktopTower: ImageVector? = null

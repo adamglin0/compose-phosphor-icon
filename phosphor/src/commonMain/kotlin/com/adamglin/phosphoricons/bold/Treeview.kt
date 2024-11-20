@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.BoldGroup
 
-public val BoldGroup.Treeview: ImageVector
+public val BoldGroup.TreeView: ImageVector
     get() {
-        if (_treeview != null) {
-            return _treeview!!
+        if (_treeView != null) {
+            return _treeView!!
         }
-        _treeview = Builder(name = "Treeview", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _treeView = Builder(name = "TreeView", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -77,7 +77,7 @@ public val BoldGroup.Treeview: ImageVector
             }
         }
         .build()
-        return _treeview!!
+        return _treeView!!
     }
 
-private var _treeview: ImageVector? = null
+private var _treeView: ImageVector? = null

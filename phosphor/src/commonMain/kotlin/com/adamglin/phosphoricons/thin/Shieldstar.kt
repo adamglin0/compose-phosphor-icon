@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.ThinGroup
 
-public val ThinGroup.Shieldstar: ImageVector
+public val ThinGroup.ShieldStar: ImageVector
     get() {
-        if (_shieldstar != null) {
-            return _shieldstar!!
+        if (_shieldStar != null) {
+            return _shieldStar!!
         }
-        _shieldstar = Builder(name = "Shieldstar", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _shieldStar = Builder(name = "ShieldStar", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+                viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -64,7 +64,7 @@ public val ThinGroup.Shieldstar: ImageVector
             }
         }
         .build()
-        return _shieldstar!!
+        return _shieldStar!!
     }
 
-private var _shieldstar: ImageVector? = null
+private var _shieldStar: ImageVector? = null

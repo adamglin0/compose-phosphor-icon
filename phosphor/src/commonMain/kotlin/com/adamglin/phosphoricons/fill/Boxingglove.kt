@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Boxingglove: ImageVector
+public val FillGroup.BoxingGlove: ImageVector
     get() {
-        if (_boxingglove != null) {
-            return _boxingglove!!
+        if (_boxingGlove != null) {
+            return _boxingGlove!!
         }
-        _boxingglove = Builder(name = "Boxingglove", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _boxingGlove = Builder(name = "BoxingGlove", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -60,7 +60,7 @@ public val FillGroup.Boxingglove: ImageVector
             }
         }
         .build()
-        return _boxingglove!!
+        return _boxingGlove!!
     }
 
-private var _boxingglove: ImageVector? = null
+private var _boxingGlove: ImageVector? = null

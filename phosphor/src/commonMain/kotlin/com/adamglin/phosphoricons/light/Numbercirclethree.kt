@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.LightGroup
 
-public val LightGroup.Numbercirclethree: ImageVector
+public val LightGroup.NumberCircleThree: ImageVector
     get() {
-        if (_numbercirclethree != null) {
-            return _numbercirclethree!!
+        if (_numberCircleThree != null) {
+            return _numberCircleThree!!
         }
-        _numbercirclethree = Builder(name = "Numbercirclethree", defaultWidth = 256.0.dp,
-                defaultHeight = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _numberCircleThree = Builder(name = "NumberCircleThree", defaultWidth = 24.0.dp,
+                defaultHeight = 24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -45,7 +45,7 @@ public val LightGroup.Numbercirclethree: ImageVector
             }
         }
         .build()
-        return _numbercirclethree!!
+        return _numberCircleThree!!
     }
 
-private var _numbercirclethree: ImageVector? = null
+private var _numberCircleThree: ImageVector? = null

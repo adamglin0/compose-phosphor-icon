@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.BoldGroup
 
-public val BoldGroup.Harddrive: ImageVector
+public val BoldGroup.HardDrive: ImageVector
     get() {
-        if (_harddrive != null) {
-            return _harddrive!!
+        if (_hardDrive != null) {
+            return _hardDrive!!
         }
-        _harddrive = Builder(name = "Harddrive", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _hardDrive = Builder(name = "HardDrive", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -43,7 +43,7 @@ public val BoldGroup.Harddrive: ImageVector
             }
         }
         .build()
-        return _harddrive!!
+        return _hardDrive!!
     }
 
-private var _harddrive: ImageVector? = null
+private var _hardDrive: ImageVector? = null

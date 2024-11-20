@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Papercliphorizontal: ImageVector
+public val FillGroup.PaperclipHorizontal: ImageVector
     get() {
-        if (_papercliphorizontal != null) {
-            return _papercliphorizontal!!
+        if (_paperclipHorizontal != null) {
+            return _paperclipHorizontal!!
         }
-        _papercliphorizontal = Builder(name = "Papercliphorizontal", defaultWidth = 256.0.dp,
-                defaultHeight = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _paperclipHorizontal = Builder(name = "PaperclipHorizontal", defaultWidth = 24.0.dp,
+                defaultHeight = 24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -42,7 +42,7 @@ public val FillGroup.Papercliphorizontal: ImageVector
             }
         }
         .build()
-        return _papercliphorizontal!!
+        return _paperclipHorizontal!!
     }
 
-private var _papercliphorizontal: ImageVector? = null
+private var _paperclipHorizontal: ImageVector? = null

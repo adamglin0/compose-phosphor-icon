@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Compasstool: ImageVector
+public val FillGroup.CompassTool: ImageVector
     get() {
-        if (_compasstool != null) {
-            return _compasstool!!
+        if (_compassTool != null) {
+            return _compassTool!!
         }
-        _compasstool = Builder(name = "Compasstool", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _compassTool = Builder(name = "CompassTool", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -50,7 +50,7 @@ public val FillGroup.Compasstool: ImageVector
             }
         }
         .build()
-        return _compasstool!!
+        return _compassTool!!
     }
 
-private var _compasstool: ImageVector? = null
+private var _compassTool: ImageVector? = null

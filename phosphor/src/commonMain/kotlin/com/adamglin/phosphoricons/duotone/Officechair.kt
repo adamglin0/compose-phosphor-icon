@@ -14,13 +14,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Officechair: ImageVector
+public val DuotoneGroup.OfficeChair: ImageVector
     get() {
-        if (_officechair != null) {
-            return _officechair!!
+        if (_officeChair != null) {
+            return _officeChair!!
         }
-        _officechair = Builder(name = "Officechair", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _officeChair = Builder(name = "OfficeChair", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
@@ -90,7 +90,7 @@ public val DuotoneGroup.Officechair: ImageVector
             }
         }
         .build()
-        return _officechair!!
+        return _officeChair!!
     }
 
-private var _officechair: ImageVector? = null
+private var _officeChair: ImageVector? = null

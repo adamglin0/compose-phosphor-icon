@@ -14,13 +14,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Instagramlogo: ImageVector
+public val DuotoneGroup.InstagramLogo: ImageVector
     get() {
-        if (_instagramlogo != null) {
-            return _instagramlogo!!
+        if (_instagramLogo != null) {
+            return _instagramLogo!!
         }
-        _instagramlogo = Builder(name = "Instagramlogo", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _instagramLogo = Builder(name = "InstagramLogo", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
@@ -76,7 +76,7 @@ public val DuotoneGroup.Instagramlogo: ImageVector
             }
         }
         .build()
-        return _instagramlogo!!
+        return _instagramLogo!!
     }
 
-private var _instagramlogo: ImageVector? = null
+private var _instagramLogo: ImageVector? = null

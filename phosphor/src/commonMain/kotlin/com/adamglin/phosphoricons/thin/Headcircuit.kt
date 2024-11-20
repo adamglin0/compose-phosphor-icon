@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.ThinGroup
 
-public val ThinGroup.Headcircuit: ImageVector
+public val ThinGroup.HeadCircuit: ImageVector
     get() {
-        if (_headcircuit != null) {
-            return _headcircuit!!
+        if (_headCircuit != null) {
+            return _headCircuit!!
         }
-        _headcircuit = Builder(name = "Headcircuit", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _headCircuit = Builder(name = "HeadCircuit", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -72,7 +72,7 @@ public val ThinGroup.Headcircuit: ImageVector
             }
         }
         .build()
-        return _headcircuit!!
+        return _headCircuit!!
     }
 
-private var _headcircuit: ImageVector? = null
+private var _headCircuit: ImageVector? = null

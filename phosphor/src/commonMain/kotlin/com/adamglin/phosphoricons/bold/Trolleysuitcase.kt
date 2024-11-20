@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.BoldGroup
 
-public val BoldGroup.Trolleysuitcase: ImageVector
+public val BoldGroup.TrolleySuitcase: ImageVector
     get() {
-        if (_trolleysuitcase != null) {
-            return _trolleysuitcase!!
+        if (_trolleySuitcase != null) {
+            return _trolleySuitcase!!
         }
-        _trolleysuitcase = Builder(name = "Trolleysuitcase", defaultWidth = 256.0.dp, defaultHeight
-                = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _trolleySuitcase = Builder(name = "TrolleySuitcase", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -72,7 +72,7 @@ public val BoldGroup.Trolleysuitcase: ImageVector
             }
         }
         .build()
-        return _trolleysuitcase!!
+        return _trolleySuitcase!!
     }
 
-private var _trolleysuitcase: ImageVector? = null
+private var _trolleySuitcase: ImageVector? = null

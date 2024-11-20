@@ -14,13 +14,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Videoconference: ImageVector
+public val DuotoneGroup.VideoConference: ImageVector
     get() {
-        if (_videoconference != null) {
-            return _videoconference!!
+        if (_videoConference != null) {
+            return _videoConference!!
         }
-        _videoconference = Builder(name = "Videoconference", defaultWidth = 256.0.dp, defaultHeight
-                = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _videoConference = Builder(name = "VideoConference", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
@@ -89,7 +89,7 @@ public val DuotoneGroup.Videoconference: ImageVector
             }
         }
         .build()
-        return _videoconference!!
+        return _videoConference!!
     }
 
-private var _videoconference: ImageVector? = null
+private var _videoConference: ImageVector? = null

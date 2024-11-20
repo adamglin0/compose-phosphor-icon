@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Smileynervous: ImageVector
+public val FillGroup.SmileyNervous: ImageVector
     get() {
-        if (_smileynervous != null) {
-            return _smileynervous!!
+        if (_smileyNervous != null) {
+            return _smileyNervous!!
         }
-        _smileynervous = Builder(name = "Smileynervous", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _smileyNervous = Builder(name = "SmileyNervous", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -56,7 +56,7 @@ public val FillGroup.Smileynervous: ImageVector
             }
         }
         .build()
-        return _smileynervous!!
+        return _smileyNervous!!
     }
 
-private var _smileynervous: ImageVector? = null
+private var _smileyNervous: ImageVector? = null

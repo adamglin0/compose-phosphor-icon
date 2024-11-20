@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Discoball: ImageVector
+public val FillGroup.DiscoBall: ImageVector
     get() {
-        if (_discoball != null) {
-            return _discoball!!
+        if (_discoBall != null) {
+            return _discoBall!!
         }
-        _discoball = Builder(name = "Discoball", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _discoBall = Builder(name = "DiscoBall", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -79,7 +79,7 @@ public val FillGroup.Discoball: ImageVector
             }
         }
         .build()
-        return _discoball!!
+        return _discoBall!!
     }
 
-private var _discoball: ImageVector? = null
+private var _discoBall: ImageVector? = null

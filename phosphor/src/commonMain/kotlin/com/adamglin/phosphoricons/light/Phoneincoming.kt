@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.LightGroup
 
-public val LightGroup.Phoneincoming: ImageVector
+public val LightGroup.PhoneIncoming: ImageVector
     get() {
-        if (_phoneincoming != null) {
-            return _phoneincoming!!
+        if (_phoneIncoming != null) {
+            return _phoneIncoming!!
         }
-        _phoneincoming = Builder(name = "Phoneincoming", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _phoneIncoming = Builder(name = "PhoneIncoming", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -73,7 +73,7 @@ public val LightGroup.Phoneincoming: ImageVector
             }
         }
         .build()
-        return _phoneincoming!!
+        return _phoneIncoming!!
     }
 
-private var _phoneincoming: ImageVector? = null
+private var _phoneIncoming: ImageVector? = null

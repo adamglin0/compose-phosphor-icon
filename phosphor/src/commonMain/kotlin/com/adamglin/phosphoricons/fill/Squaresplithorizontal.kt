@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Squaresplithorizontal: ImageVector
+public val FillGroup.SquareSplitHorizontal: ImageVector
     get() {
-        if (_squaresplithorizontal != null) {
-            return _squaresplithorizontal!!
+        if (_squareSplitHorizontal != null) {
+            return _squareSplitHorizontal!!
         }
-        _squaresplithorizontal = Builder(name = "Squaresplithorizontal", defaultWidth = 256.0.dp,
-                defaultHeight = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _squareSplitHorizontal = Builder(name = "SquareSplitHorizontal", defaultWidth = 24.0.dp,
+                defaultHeight = 24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -44,7 +44,7 @@ public val FillGroup.Squaresplithorizontal: ImageVector
             }
         }
         .build()
-        return _squaresplithorizontal!!
+        return _squareSplitHorizontal!!
     }
 
-private var _squaresplithorizontal: ImageVector? = null
+private var _squareSplitHorizontal: ImageVector? = null

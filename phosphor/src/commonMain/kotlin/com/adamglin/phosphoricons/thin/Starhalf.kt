@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.ThinGroup
 
-public val ThinGroup.Starhalf: ImageVector
+public val ThinGroup.StarHalf: ImageVector
     get() {
-        if (_starhalf != null) {
-            return _starhalf!!
+        if (_starHalf != null) {
+            return _starHalf!!
         }
-        _starhalf = Builder(name = "Starhalf", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _starHalf = Builder(name = "StarHalf", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -91,7 +91,7 @@ public val ThinGroup.Starhalf: ImageVector
             }
         }
         .build()
-        return _starhalf!!
+        return _starHalf!!
     }
 
-private var _starhalf: ImageVector? = null
+private var _starHalf: ImageVector? = null

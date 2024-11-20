@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.RegularGroup
 
-public val RegularGroup.Dotsthreecircle: ImageVector
+public val RegularGroup.DotsThreeCircle: ImageVector
     get() {
-        if (_dotsthreecircle != null) {
-            return _dotsthreecircle!!
+        if (_dotsThreeCircle != null) {
+            return _dotsThreeCircle!!
         }
-        _dotsthreecircle = Builder(name = "Dotsthreecircle", defaultWidth = 256.0.dp, defaultHeight
-                = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _dotsThreeCircle = Builder(name = "DotsThreeCircle", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -44,7 +44,7 @@ public val RegularGroup.Dotsthreecircle: ImageVector
             }
         }
         .build()
-        return _dotsthreecircle!!
+        return _dotsThreeCircle!!
     }
 
-private var _dotsthreecircle: ImageVector? = null
+private var _dotsThreeCircle: ImageVector? = null

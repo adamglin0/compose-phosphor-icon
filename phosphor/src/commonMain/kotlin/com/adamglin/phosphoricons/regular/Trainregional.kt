@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.RegularGroup
 
-public val RegularGroup.Trainregional: ImageVector
+public val RegularGroup.TrainRegional: ImageVector
     get() {
-        if (_trainregional != null) {
-            return _trainregional!!
+        if (_trainRegional != null) {
+            return _trainRegional!!
         }
-        _trainregional = Builder(name = "Trainregional", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _trainRegional = Builder(name = "TrainRegional", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -69,7 +69,7 @@ public val RegularGroup.Trainregional: ImageVector
             }
         }
         .build()
-        return _trainregional!!
+        return _trainRegional!!
     }
 
-private var _trainregional: ImageVector? = null
+private var _trainRegional: ImageVector? = null

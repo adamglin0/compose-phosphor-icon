@@ -14,12 +14,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Beachball: ImageVector
+public val DuotoneGroup.BeachBall: ImageVector
     get() {
-        if (_beachball != null) {
-            return _beachball!!
+        if (_beachBall != null) {
+            return _beachBall!!
         }
-        _beachball = Builder(name = "Beachball", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _beachBall = Builder(name = "BeachBall", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
@@ -81,7 +81,7 @@ public val DuotoneGroup.Beachball: ImageVector
             }
         }
         .build()
-        return _beachball!!
+        return _beachBall!!
     }
 
-private var _beachball: ImageVector? = null
+private var _beachBall: ImageVector? = null

@@ -14,12 +14,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Fileplus: ImageVector
+public val DuotoneGroup.FilePlus: ImageVector
     get() {
-        if (_fileplus != null) {
-            return _fileplus!!
+        if (_filePlus != null) {
+            return _filePlus!!
         }
-        _fileplus = Builder(name = "Fileplus", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _filePlus = Builder(name = "FilePlus", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
@@ -75,7 +75,7 @@ public val DuotoneGroup.Fileplus: ImageVector
             }
         }
         .build()
-        return _fileplus!!
+        return _filePlus!!
     }
 
-private var _fileplus: ImageVector? = null
+private var _filePlus: ImageVector? = null

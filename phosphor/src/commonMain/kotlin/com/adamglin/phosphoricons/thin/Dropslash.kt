@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.ThinGroup
 
-public val ThinGroup.Dropslash: ImageVector
+public val ThinGroup.DropSlash: ImageVector
     get() {
-        if (_dropslash != null) {
-            return _dropslash!!
+        if (_dropSlash != null) {
+            return _dropSlash!!
         }
-        _dropslash = Builder(name = "Dropslash", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _dropSlash = Builder(name = "DropSlash", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -53,7 +53,7 @@ public val ThinGroup.Dropslash: ImageVector
             }
         }
         .build()
-        return _dropslash!!
+        return _dropSlash!!
     }
 
-private var _dropslash: ImageVector? = null
+private var _dropSlash: ImageVector? = null

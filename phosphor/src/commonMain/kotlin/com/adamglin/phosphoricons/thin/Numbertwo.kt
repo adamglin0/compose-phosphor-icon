@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.ThinGroup
 
-public val ThinGroup.Numbertwo: ImageVector
+public val ThinGroup.NumberTwo: ImageVector
     get() {
-        if (_numbertwo != null) {
-            return _numbertwo!!
+        if (_numberTwo != null) {
+            return _numberTwo!!
         }
-        _numbertwo = Builder(name = "Numbertwo", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _numberTwo = Builder(name = "NumberTwo", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -38,7 +38,7 @@ public val ThinGroup.Numbertwo: ImageVector
             }
         }
         .build()
-        return _numbertwo!!
+        return _numberTwo!!
     }
 
-private var _numbertwo: ImageVector? = null
+private var _numberTwo: ImageVector? = null

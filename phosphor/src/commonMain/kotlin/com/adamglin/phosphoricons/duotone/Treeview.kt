@@ -14,12 +14,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Treeview: ImageVector
+public val DuotoneGroup.TreeView: ImageVector
     get() {
-        if (_treeview != null) {
-            return _treeview!!
+        if (_treeView != null) {
+            return _treeView!!
         }
-        _treeview = Builder(name = "Treeview", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _treeView = Builder(name = "TreeView", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
@@ -114,7 +114,7 @@ public val DuotoneGroup.Treeview: ImageVector
             }
         }
         .build()
-        return _treeview!!
+        return _treeView!!
     }
 
-private var _treeview: ImageVector? = null
+private var _treeView: ImageVector? = null

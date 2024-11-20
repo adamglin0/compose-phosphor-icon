@@ -14,13 +14,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Bookbookmark: ImageVector
+public val DuotoneGroup.BookBookmark: ImageVector
     get() {
-        if (_bookbookmark != null) {
-            return _bookbookmark!!
+        if (_bookBookmark != null) {
+            return _bookBookmark!!
         }
-        _bookbookmark = Builder(name = "Bookbookmark", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _bookBookmark = Builder(name = "BookBookmark", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
@@ -80,7 +80,7 @@ public val DuotoneGroup.Bookbookmark: ImageVector
             }
         }
         .build()
-        return _bookbookmark!!
+        return _bookBookmark!!
     }
 
-private var _bookbookmark: ImageVector? = null
+private var _bookBookmark: ImageVector? = null

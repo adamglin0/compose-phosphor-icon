@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Teabag: ImageVector
+public val FillGroup.TeaBag: ImageVector
     get() {
-        if (_teabag != null) {
-            return _teabag!!
+        if (_teaBag != null) {
+            return _teaBag!!
         }
-        _teabag = Builder(name = "Teabag", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _teaBag = Builder(name = "TeaBag", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -54,7 +54,7 @@ public val FillGroup.Teabag: ImageVector
             }
         }
         .build()
-        return _teabag!!
+        return _teaBag!!
     }
 
-private var _teabag: ImageVector? = null
+private var _teaBag: ImageVector? = null

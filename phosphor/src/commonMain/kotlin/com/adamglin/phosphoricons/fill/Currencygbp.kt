@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Currencygbp: ImageVector
+public val FillGroup.CurrencyGbp: ImageVector
     get() {
-        if (_currencygbp != null) {
-            return _currencygbp!!
+        if (_currencyGbp != null) {
+            return _currencyGbp!!
         }
-        _currencygbp = Builder(name = "Currencygbp", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _currencyGbp = Builder(name = "CurrencyGbp", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -49,7 +49,7 @@ public val FillGroup.Currencygbp: ImageVector
             }
         }
         .build()
-        return _currencygbp!!
+        return _currencyGbp!!
     }
 
-private var _currencygbp: ImageVector? = null
+private var _currencyGbp: ImageVector? = null

@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.LightGroup
 
-public val LightGroup.Linksimplehorizontal: ImageVector
+public val LightGroup.LinkSimpleHorizontal: ImageVector
     get() {
-        if (_linksimplehorizontal != null) {
-            return _linksimplehorizontal!!
+        if (_linkSimpleHorizontal != null) {
+            return _linkSimpleHorizontal!!
         }
-        _linksimplehorizontal = Builder(name = "Linksimplehorizontal", defaultWidth = 256.0.dp,
-                defaultHeight = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _linkSimpleHorizontal = Builder(name = "LinkSimpleHorizontal", defaultWidth = 24.0.dp,
+                defaultHeight = 24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -50,7 +50,7 @@ public val LightGroup.Linksimplehorizontal: ImageVector
             }
         }
         .build()
-        return _linksimplehorizontal!!
+        return _linkSimpleHorizontal!!
     }
 
-private var _linksimplehorizontal: ImageVector? = null
+private var _linkSimpleHorizontal: ImageVector? = null

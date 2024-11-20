@@ -14,13 +14,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Notepencil: ImageVector
+public val DuotoneGroup.NotePencil: ImageVector
     get() {
-        if (_notepencil != null) {
-            return _notepencil!!
+        if (_notePencil != null) {
+            return _notePencil!!
         }
-        _notepencil = Builder(name = "Notepencil", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _notePencil = Builder(name = "NotePencil", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+                viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
@@ -75,7 +75,7 @@ public val DuotoneGroup.Notepencil: ImageVector
             }
         }
         .build()
-        return _notepencil!!
+        return _notePencil!!
     }
 
-private var _notepencil: ImageVector? = null
+private var _notePencil: ImageVector? = null

@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.ThinGroup
 
-public val ThinGroup.Phonelist: ImageVector
+public val ThinGroup.PhoneList: ImageVector
     get() {
-        if (_phonelist != null) {
-            return _phonelist!!
+        if (_phoneList != null) {
+            return _phoneList!!
         }
-        _phonelist = Builder(name = "Phonelist", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _phoneList = Builder(name = "PhoneList", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -75,7 +75,7 @@ public val ThinGroup.Phonelist: ImageVector
             }
         }
         .build()
-        return _phonelist!!
+        return _phoneList!!
     }
 
-private var _phonelist: ImageVector? = null
+private var _phoneList: ImageVector? = null

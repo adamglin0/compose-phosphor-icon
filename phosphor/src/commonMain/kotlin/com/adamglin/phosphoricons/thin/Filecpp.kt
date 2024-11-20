@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.ThinGroup
 
-public val ThinGroup.Filecpp: ImageVector
+public val ThinGroup.FileCpp: ImageVector
     get() {
-        if (_filecpp != null) {
-            return _filecpp!!
+        if (_fileCpp != null) {
+            return _fileCpp!!
         }
-        _filecpp = Builder(name = "Filecpp", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _fileCpp = Builder(name = "FileCpp", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -85,7 +85,7 @@ public val ThinGroup.Filecpp: ImageVector
             }
         }
         .build()
-        return _filecpp!!
+        return _fileCpp!!
     }
 
-private var _filecpp: ImageVector? = null
+private var _fileCpp: ImageVector? = null

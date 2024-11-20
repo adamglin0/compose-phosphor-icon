@@ -14,12 +14,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Piggybank: ImageVector
+public val DuotoneGroup.PiggyBank: ImageVector
     get() {
-        if (_piggybank != null) {
-            return _piggybank!!
+        if (_piggyBank != null) {
+            return _piggyBank!!
         }
-        _piggybank = Builder(name = "Piggybank", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _piggyBank = Builder(name = "PiggyBank", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
@@ -113,7 +113,7 @@ public val DuotoneGroup.Piggybank: ImageVector
             }
         }
         .build()
-        return _piggybank!!
+        return _piggyBank!!
     }
 
-private var _piggybank: ImageVector? = null
+private var _piggyBank: ImageVector? = null

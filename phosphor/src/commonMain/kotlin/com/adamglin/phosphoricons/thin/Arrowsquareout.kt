@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.ThinGroup
 
-public val ThinGroup.Arrowsquareout: ImageVector
+public val ThinGroup.ArrowSquareOut: ImageVector
     get() {
-        if (_arrowsquareout != null) {
-            return _arrowsquareout!!
+        if (_arrowSquareOut != null) {
+            return _arrowSquareOut!!
         }
-        _arrowsquareout = Builder(name = "Arrowsquareout", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _arrowSquareOut = Builder(name = "ArrowSquareOut", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -54,7 +54,7 @@ public val ThinGroup.Arrowsquareout: ImageVector
             }
         }
         .build()
-        return _arrowsquareout!!
+        return _arrowSquareOut!!
     }
 
-private var _arrowsquareout: ImageVector? = null
+private var _arrowSquareOut: ImageVector? = null

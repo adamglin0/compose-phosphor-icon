@@ -14,13 +14,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Cookingpot: ImageVector
+public val DuotoneGroup.CookingPot: ImageVector
     get() {
-        if (_cookingpot != null) {
-            return _cookingpot!!
+        if (_cookingPot != null) {
+            return _cookingPot!!
         }
-        _cookingpot = Builder(name = "Cookingpot", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _cookingPot = Builder(name = "CookingPot", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+                viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
@@ -83,7 +83,7 @@ public val DuotoneGroup.Cookingpot: ImageVector
             }
         }
         .build()
-        return _cookingpot!!
+        return _cookingPot!!
     }
 
-private var _cookingpot: ImageVector? = null
+private var _cookingPot: ImageVector? = null

@@ -14,13 +14,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Cloudwarning: ImageVector
+public val DuotoneGroup.CloudWarning: ImageVector
     get() {
-        if (_cloudwarning != null) {
-            return _cloudwarning!!
+        if (_cloudWarning != null) {
+            return _cloudWarning!!
         }
-        _cloudwarning = Builder(name = "Cloudwarning", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _cloudWarning = Builder(name = "CloudWarning", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
@@ -62,7 +62,7 @@ public val DuotoneGroup.Cloudwarning: ImageVector
             }
         }
         .build()
-        return _cloudwarning!!
+        return _cloudWarning!!
     }
 
-private var _cloudwarning: ImageVector? = null
+private var _cloudWarning: ImageVector? = null

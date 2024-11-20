@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.BoldGroup
 
-public val BoldGroup.Trafficsignal: ImageVector
+public val BoldGroup.TrafficSignal: ImageVector
     get() {
-        if (_trafficsignal != null) {
-            return _trafficsignal!!
+        if (_trafficSignal != null) {
+            return _trafficSignal!!
         }
-        _trafficsignal = Builder(name = "Trafficsignal", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _trafficSignal = Builder(name = "TrafficSignal", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -71,7 +71,7 @@ public val BoldGroup.Trafficsignal: ImageVector
             }
         }
         .build()
-        return _trafficsignal!!
+        return _trafficSignal!!
     }
 
-private var _trafficsignal: ImageVector? = null
+private var _trafficSignal: ImageVector? = null

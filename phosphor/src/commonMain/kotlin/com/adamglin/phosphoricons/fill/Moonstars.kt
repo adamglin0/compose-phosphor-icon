@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Moonstars: ImageVector
+public val FillGroup.MoonStars: ImageVector
     get() {
-        if (_moonstars != null) {
-            return _moonstars!!
+        if (_moonStars != null) {
+            return _moonStars!!
         }
-        _moonstars = Builder(name = "Moonstars", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _moonStars = Builder(name = "MoonStars", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -59,7 +59,7 @@ public val FillGroup.Moonstars: ImageVector
             }
         }
         .build()
-        return _moonstars!!
+        return _moonStars!!
     }
 
-private var _moonstars: ImageVector? = null
+private var _moonStars: ImageVector? = null

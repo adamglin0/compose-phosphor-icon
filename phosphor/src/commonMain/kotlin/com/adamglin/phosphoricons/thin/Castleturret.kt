@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.ThinGroup
 
-public val ThinGroup.Castleturret: ImageVector
+public val ThinGroup.CastleTurret: ImageVector
     get() {
-        if (_castleturret != null) {
-            return _castleturret!!
+        if (_castleTurret != null) {
+            return _castleTurret!!
         }
-        _castleturret = Builder(name = "Castleturret", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _castleTurret = Builder(name = "CastleTurret", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -91,7 +91,7 @@ public val ThinGroup.Castleturret: ImageVector
             }
         }
         .build()
-        return _castleturret!!
+        return _castleTurret!!
     }
 
-private var _castleturret: ImageVector? = null
+private var _castleTurret: ImageVector? = null

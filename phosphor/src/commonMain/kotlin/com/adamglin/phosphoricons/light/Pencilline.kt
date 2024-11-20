@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.LightGroup
 
-public val LightGroup.Pencilline: ImageVector
+public val LightGroup.PencilLine: ImageVector
     get() {
-        if (_pencilline != null) {
-            return _pencilline!!
+        if (_pencilLine != null) {
+            return _pencilLine!!
         }
-        _pencilline = Builder(name = "Pencilline", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _pencilLine = Builder(name = "PencilLine", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+                viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -61,7 +61,7 @@ public val LightGroup.Pencilline: ImageVector
             }
         }
         .build()
-        return _pencilline!!
+        return _pencilLine!!
     }
 
-private var _pencilline: ImageVector? = null
+private var _pencilLine: ImageVector? = null

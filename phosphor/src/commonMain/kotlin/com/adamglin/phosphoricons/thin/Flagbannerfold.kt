@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.ThinGroup
 
-public val ThinGroup.Flagbannerfold: ImageVector
+public val ThinGroup.FlagBannerFold: ImageVector
     get() {
-        if (_flagbannerfold != null) {
-            return _flagbannerfold!!
+        if (_flagBannerFold != null) {
+            return _flagBannerFold!!
         }
-        _flagbannerfold = Builder(name = "Flagbannerfold", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _flagBannerFold = Builder(name = "FlagBannerFold", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -57,7 +57,7 @@ public val ThinGroup.Flagbannerfold: ImageVector
             }
         }
         .build()
-        return _flagbannerfold!!
+        return _flagBannerFold!!
     }
 
-private var _flagbannerfold: ImageVector? = null
+private var _flagBannerFold: ImageVector? = null

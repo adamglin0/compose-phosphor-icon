@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.BoldGroup
 
-public val BoldGroup.Chefhat: ImageVector
+public val BoldGroup.ChefHat: ImageVector
     get() {
-        if (_chefhat != null) {
-            return _chefhat!!
+        if (_chefHat != null) {
+            return _chefHat!!
         }
-        _chefhat = Builder(name = "Chefhat", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _chefHat = Builder(name = "ChefHat", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -66,7 +66,7 @@ public val BoldGroup.Chefhat: ImageVector
             }
         }
         .build()
-        return _chefhat!!
+        return _chefHat!!
     }
 
-private var _chefhat: ImageVector? = null
+private var _chefHat: ImageVector? = null

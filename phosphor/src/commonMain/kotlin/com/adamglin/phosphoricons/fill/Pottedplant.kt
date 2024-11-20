@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Pottedplant: ImageVector
+public val FillGroup.PottedPlant: ImageVector
     get() {
-        if (_pottedplant != null) {
-            return _pottedplant!!
+        if (_pottedPlant != null) {
+            return _pottedPlant!!
         }
-        _pottedplant = Builder(name = "Pottedplant", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _pottedPlant = Builder(name = "PottedPlant", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -54,7 +54,7 @@ public val FillGroup.Pottedplant: ImageVector
             }
         }
         .build()
-        return _pottedplant!!
+        return _pottedPlant!!
     }
 
-private var _pottedplant: ImageVector? = null
+private var _pottedPlant: ImageVector? = null

@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.BoldGroup
 
-public val BoldGroup.Rsssimple: ImageVector
+public val BoldGroup.RssSimple: ImageVector
     get() {
-        if (_rsssimple != null) {
-            return _rsssimple!!
+        if (_rssSimple != null) {
+            return _rssSimple!!
         }
-        _rsssimple = Builder(name = "Rsssimple", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _rssSimple = Builder(name = "RssSimple", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -40,7 +40,7 @@ public val BoldGroup.Rsssimple: ImageVector
             }
         }
         .build()
-        return _rsssimple!!
+        return _rssSimple!!
     }
 
-private var _rsssimple: ImageVector? = null
+private var _rssSimple: ImageVector? = null

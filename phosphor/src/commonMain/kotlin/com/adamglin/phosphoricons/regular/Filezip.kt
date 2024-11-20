@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.RegularGroup
 
-public val RegularGroup.Filezip: ImageVector
+public val RegularGroup.FileZip: ImageVector
     get() {
-        if (_filezip != null) {
-            return _filezip!!
+        if (_fileZip != null) {
+            return _fileZip!!
         }
-        _filezip = Builder(name = "Filezip", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _fileZip = Builder(name = "FileZip", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -79,7 +79,7 @@ public val RegularGroup.Filezip: ImageVector
             }
         }
         .build()
-        return _filezip!!
+        return _fileZip!!
     }
 
-private var _filezip: ImageVector? = null
+private var _fileZip: ImageVector? = null

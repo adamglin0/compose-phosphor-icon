@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Securitycamera: ImageVector
+public val FillGroup.SecurityCamera: ImageVector
     get() {
-        if (_securitycamera != null) {
-            return _securitycamera!!
+        if (_securityCamera != null) {
+            return _securityCamera!!
         }
-        _securitycamera = Builder(name = "Securitycamera", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _securityCamera = Builder(name = "SecurityCamera", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -54,7 +54,7 @@ public val FillGroup.Securitycamera: ImageVector
             }
         }
         .build()
-        return _securitycamera!!
+        return _securityCamera!!
     }
 
-private var _securitycamera: ImageVector? = null
+private var _securityCamera: ImageVector? = null

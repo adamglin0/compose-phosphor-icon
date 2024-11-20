@@ -14,12 +14,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Signout: ImageVector
+public val DuotoneGroup.SignOut: ImageVector
     get() {
-        if (_signout != null) {
-            return _signout!!
+        if (_signOut != null) {
+            return _signOut!!
         }
-        _signout = Builder(name = "Signout", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _signOut = Builder(name = "SignOut", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
@@ -64,7 +64,7 @@ public val DuotoneGroup.Signout: ImageVector
             }
         }
         .build()
-        return _signout!!
+        return _signOut!!
     }
 
-private var _signout: ImageVector? = null
+private var _signOut: ImageVector? = null

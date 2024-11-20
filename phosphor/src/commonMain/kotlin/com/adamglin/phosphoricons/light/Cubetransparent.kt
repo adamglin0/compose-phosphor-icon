@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.LightGroup
 
-public val LightGroup.Cubetransparent: ImageVector
+public val LightGroup.CubeTransparent: ImageVector
     get() {
-        if (_cubetransparent != null) {
-            return _cubetransparent!!
+        if (_cubeTransparent != null) {
+            return _cubeTransparent!!
         }
-        _cubetransparent = Builder(name = "Cubetransparent", defaultWidth = 256.0.dp, defaultHeight
-                = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _cubeTransparent = Builder(name = "CubeTransparent", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -71,7 +71,7 @@ public val LightGroup.Cubetransparent: ImageVector
             }
         }
         .build()
-        return _cubetransparent!!
+        return _cubeTransparent!!
     }
 
-private var _cubetransparent: ImageVector? = null
+private var _cubeTransparent: ImageVector? = null

@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Terminalwindow: ImageVector
+public val FillGroup.TerminalWindow: ImageVector
     get() {
-        if (_terminalwindow != null) {
-            return _terminalwindow!!
+        if (_terminalWindow != null) {
+            return _terminalWindow!!
         }
-        _terminalwindow = Builder(name = "Terminalwindow", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _terminalWindow = Builder(name = "TerminalWindow", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -49,7 +49,7 @@ public val FillGroup.Terminalwindow: ImageVector
             }
         }
         .build()
-        return _terminalwindow!!
+        return _terminalWindow!!
     }
 
-private var _terminalwindow: ImageVector? = null
+private var _terminalWindow: ImageVector? = null

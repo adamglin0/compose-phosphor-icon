@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.BoldGroup
 
-public val BoldGroup.Gitlablogosimple: ImageVector
+public val BoldGroup.GitlabLogoSimple: ImageVector
     get() {
-        if (_gitlablogosimple != null) {
-            return _gitlablogosimple!!
+        if (_gitlabLogoSimple != null) {
+            return _gitlabLogoSimple!!
         }
-        _gitlablogosimple = Builder(name = "Gitlablogosimple", defaultWidth = 256.0.dp,
-                defaultHeight = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _gitlabLogoSimple = Builder(name = "GitlabLogoSimple", defaultWidth = 24.0.dp, defaultHeight
+                = 24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -51,7 +51,7 @@ public val BoldGroup.Gitlablogosimple: ImageVector
             }
         }
         .build()
-        return _gitlablogosimple!!
+        return _gitlabLogoSimple!!
     }
 
-private var _gitlablogosimple: ImageVector? = null
+private var _gitlabLogoSimple: ImageVector? = null

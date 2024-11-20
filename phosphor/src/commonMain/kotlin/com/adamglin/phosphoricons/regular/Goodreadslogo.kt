@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.RegularGroup
 
-public val RegularGroup.Goodreadslogo: ImageVector
+public val RegularGroup.GoodreadsLogo: ImageVector
     get() {
-        if (_goodreadslogo != null) {
-            return _goodreadslogo!!
+        if (_goodreadsLogo != null) {
+            return _goodreadsLogo!!
         }
-        _goodreadslogo = Builder(name = "Goodreadslogo", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _goodreadsLogo = Builder(name = "GoodreadsLogo", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -46,7 +46,7 @@ public val RegularGroup.Goodreadslogo: ImageVector
             }
         }
         .build()
-        return _goodreadslogo!!
+        return _goodreadsLogo!!
     }
 
-private var _goodreadslogo: ImageVector? = null
+private var _goodreadsLogo: ImageVector? = null

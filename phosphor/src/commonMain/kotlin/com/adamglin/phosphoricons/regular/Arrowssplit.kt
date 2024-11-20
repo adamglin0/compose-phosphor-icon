@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.RegularGroup
 
-public val RegularGroup.Arrowssplit: ImageVector
+public val RegularGroup.ArrowsSplit: ImageVector
     get() {
-        if (_arrowssplit != null) {
-            return _arrowssplit!!
+        if (_arrowsSplit != null) {
+            return _arrowsSplit!!
         }
-        _arrowssplit = Builder(name = "Arrowssplit", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _arrowsSplit = Builder(name = "ArrowsSplit", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -53,7 +53,7 @@ public val RegularGroup.Arrowssplit: ImageVector
             }
         }
         .build()
-        return _arrowssplit!!
+        return _arrowsSplit!!
     }
 
-private var _arrowssplit: ImageVector? = null
+private var _arrowsSplit: ImageVector? = null

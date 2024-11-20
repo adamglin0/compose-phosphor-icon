@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.LightGroup
 
-public val LightGroup.Crosshairsimple: ImageVector
+public val LightGroup.CrosshairSimple: ImageVector
     get() {
-        if (_crosshairsimple != null) {
-            return _crosshairsimple!!
+        if (_crosshairSimple != null) {
+            return _crosshairSimple!!
         }
-        _crosshairsimple = Builder(name = "Crosshairsimple", defaultWidth = 256.0.dp, defaultHeight
-                = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _crosshairSimple = Builder(name = "CrosshairSimple", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -46,7 +46,7 @@ public val LightGroup.Crosshairsimple: ImageVector
             }
         }
         .build()
-        return _crosshairsimple!!
+        return _crosshairSimple!!
     }
 
-private var _crosshairsimple: ImageVector? = null
+private var _crosshairSimple: ImageVector? = null

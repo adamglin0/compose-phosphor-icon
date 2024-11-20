@@ -14,13 +14,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Harddrives: ImageVector
+public val DuotoneGroup.HardDrives: ImageVector
     get() {
-        if (_harddrives != null) {
-            return _harddrives!!
+        if (_hardDrives != null) {
+            return _hardDrives!!
         }
-        _harddrives = Builder(name = "Harddrives", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _hardDrives = Builder(name = "HardDrives", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+                viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
@@ -91,7 +91,7 @@ public val DuotoneGroup.Harddrives: ImageVector
             }
         }
         .build()
-        return _harddrives!!
+        return _hardDrives!!
     }
 
-private var _harddrives: ImageVector? = null
+private var _hardDrives: ImageVector? = null

@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.BoldGroup
 
-public val BoldGroup.Cloudarrowdown: ImageVector
+public val BoldGroup.CloudArrowDown: ImageVector
     get() {
-        if (_cloudarrowdown != null) {
-            return _cloudarrowdown!!
+        if (_cloudArrowDown != null) {
+            return _cloudArrowDown!!
         }
-        _cloudarrowdown = Builder(name = "Cloudarrowdown", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _cloudArrowDown = Builder(name = "CloudArrowDown", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -52,7 +52,7 @@ public val BoldGroup.Cloudarrowdown: ImageVector
             }
         }
         .build()
-        return _cloudarrowdown!!
+        return _cloudArrowDown!!
     }
 
-private var _cloudarrowdown: ImageVector? = null
+private var _cloudArrowDown: ImageVector? = null

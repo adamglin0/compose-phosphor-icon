@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.BoldGroup
 
-public val BoldGroup.Beerbottle: ImageVector
+public val BoldGroup.BeerBottle: ImageVector
     get() {
-        if (_beerbottle != null) {
-            return _beerbottle!!
+        if (_beerBottle != null) {
+            return _beerBottle!!
         }
-        _beerbottle = Builder(name = "Beerbottle", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _beerBottle = Builder(name = "BeerBottle", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+                viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -65,7 +65,7 @@ public val BoldGroup.Beerbottle: ImageVector
             }
         }
         .build()
-        return _beerbottle!!
+        return _beerBottle!!
     }
 
-private var _beerbottle: ImageVector? = null
+private var _beerBottle: ImageVector? = null

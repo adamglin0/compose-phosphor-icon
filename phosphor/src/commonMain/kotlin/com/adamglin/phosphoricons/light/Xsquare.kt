@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.LightGroup
 
-public val LightGroup.Xsquare: ImageVector
+public val LightGroup.XSquare: ImageVector
     get() {
-        if (_xsquare != null) {
-            return _xsquare!!
+        if (_xSquare != null) {
+            return _xSquare!!
         }
-        _xsquare = Builder(name = "Xsquare", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _xSquare = Builder(name = "XSquare", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -57,7 +57,7 @@ public val LightGroup.Xsquare: ImageVector
             }
         }
         .build()
-        return _xsquare!!
+        return _xSquare!!
     }
 
-private var _xsquare: ImageVector? = null
+private var _xSquare: ImageVector? = null

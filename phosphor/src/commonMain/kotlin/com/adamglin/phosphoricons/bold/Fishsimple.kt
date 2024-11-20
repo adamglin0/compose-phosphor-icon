@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.BoldGroup
 
-public val BoldGroup.Fishsimple: ImageVector
+public val BoldGroup.FishSimple: ImageVector
     get() {
-        if (_fishsimple != null) {
-            return _fishsimple!!
+        if (_fishSimple != null) {
+            return _fishSimple!!
         }
-        _fishsimple = Builder(name = "Fishsimple", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _fishSimple = Builder(name = "FishSimple", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+                viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -57,7 +57,7 @@ public val BoldGroup.Fishsimple: ImageVector
             }
         }
         .build()
-        return _fishsimple!!
+        return _fishSimple!!
     }
 
-private var _fishsimple: ImageVector? = null
+private var _fishSimple: ImageVector? = null

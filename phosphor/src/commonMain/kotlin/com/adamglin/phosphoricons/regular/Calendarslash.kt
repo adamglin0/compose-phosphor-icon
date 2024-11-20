@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.RegularGroup
 
-public val RegularGroup.Calendarslash: ImageVector
+public val RegularGroup.CalendarSlash: ImageVector
     get() {
-        if (_calendarslash != null) {
-            return _calendarslash!!
+        if (_calendarSlash != null) {
+            return _calendarSlash!!
         }
-        _calendarslash = Builder(name = "Calendarslash", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _calendarSlash = Builder(name = "CalendarSlash", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -62,7 +62,7 @@ public val RegularGroup.Calendarslash: ImageVector
             }
         }
         .build()
-        return _calendarslash!!
+        return _calendarSlash!!
     }
 
-private var _calendarslash: ImageVector? = null
+private var _calendarSlash: ImageVector? = null

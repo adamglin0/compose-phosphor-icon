@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.LightGroup
 
-public val LightGroup.Shippingcontainer: ImageVector
+public val LightGroup.ShippingContainer: ImageVector
     get() {
-        if (_shippingcontainer != null) {
-            return _shippingcontainer!!
+        if (_shippingContainer != null) {
+            return _shippingContainer!!
         }
-        _shippingcontainer = Builder(name = "Shippingcontainer", defaultWidth = 256.0.dp,
-                defaultHeight = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _shippingContainer = Builder(name = "ShippingContainer", defaultWidth = 24.0.dp,
+                defaultHeight = 24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -68,7 +68,7 @@ public val LightGroup.Shippingcontainer: ImageVector
             }
         }
         .build()
-        return _shippingcontainer!!
+        return _shippingContainer!!
     }
 
-private var _shippingcontainer: ImageVector? = null
+private var _shippingContainer: ImageVector? = null

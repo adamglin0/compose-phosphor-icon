@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.BoldGroup
 
-public val BoldGroup.Usersound: ImageVector
+public val BoldGroup.UserSound: ImageVector
     get() {
-        if (_usersound != null) {
-            return _usersound!!
+        if (_userSound != null) {
+            return _userSound!!
         }
-        _usersound = Builder(name = "Usersound", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _userSound = Builder(name = "UserSound", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -50,7 +50,7 @@ public val BoldGroup.Usersound: ImageVector
             }
         }
         .build()
-        return _usersound!!
+        return _userSound!!
     }
 
-private var _usersound: ImageVector? = null
+private var _userSound: ImageVector? = null

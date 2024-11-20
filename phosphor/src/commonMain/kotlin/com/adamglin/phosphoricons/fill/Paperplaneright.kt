@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Paperplaneright: ImageVector
+public val FillGroup.PaperPlaneRight: ImageVector
     get() {
-        if (_paperplaneright != null) {
-            return _paperplaneright!!
+        if (_paperPlaneRight != null) {
+            return _paperPlaneRight!!
         }
-        _paperplaneright = Builder(name = "Paperplaneright", defaultWidth = 256.0.dp, defaultHeight
-                = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _paperPlaneRight = Builder(name = "PaperPlaneRight", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -41,7 +41,7 @@ public val FillGroup.Paperplaneright: ImageVector
             }
         }
         .build()
-        return _paperplaneright!!
+        return _paperPlaneRight!!
     }
 
-private var _paperplaneright: ImageVector? = null
+private var _paperPlaneRight: ImageVector? = null

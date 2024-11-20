@@ -14,13 +14,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Circlenotch: ImageVector
+public val DuotoneGroup.CircleNotch: ImageVector
     get() {
-        if (_circlenotch != null) {
-            return _circlenotch!!
+        if (_circleNotch != null) {
+            return _circleNotch!!
         }
-        _circlenotch = Builder(name = "Circlenotch", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _circleNotch = Builder(name = "CircleNotch", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
@@ -45,7 +45,7 @@ public val DuotoneGroup.Circlenotch: ImageVector
             }
         }
         .build()
-        return _circlenotch!!
+        return _circleNotch!!
     }
 
-private var _circlenotch: ImageVector? = null
+private var _circleNotch: ImageVector? = null

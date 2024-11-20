@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Figmalogo: ImageVector
+public val FillGroup.FigmaLogo: ImageVector
     get() {
-        if (_figmalogo != null) {
-            return _figmalogo!!
+        if (_figmaLogo != null) {
+            return _figmaLogo!!
         }
-        _figmalogo = Builder(name = "Figmalogo", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _figmaLogo = Builder(name = "FigmaLogo", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -44,7 +44,7 @@ public val FillGroup.Figmalogo: ImageVector
             }
         }
         .build()
-        return _figmalogo!!
+        return _figmaLogo!!
     }
 
-private var _figmalogo: ImageVector? = null
+private var _figmaLogo: ImageVector? = null

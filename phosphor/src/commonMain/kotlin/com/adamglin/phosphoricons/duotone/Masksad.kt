@@ -14,12 +14,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Masksad: ImageVector
+public val DuotoneGroup.MaskSad: ImageVector
     get() {
-        if (_masksad != null) {
-            return _masksad!!
+        if (_maskSad != null) {
+            return _maskSad!!
         }
-        _masksad = Builder(name = "Masksad", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _maskSad = Builder(name = "MaskSad", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
@@ -89,7 +89,7 @@ public val DuotoneGroup.Masksad: ImageVector
             }
         }
         .build()
-        return _masksad!!
+        return _maskSad!!
     }
 
-private var _masksad: ImageVector? = null
+private var _maskSad: ImageVector? = null

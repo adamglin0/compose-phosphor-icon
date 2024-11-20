@@ -14,12 +14,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Xlogo: ImageVector
+public val DuotoneGroup.XLogo: ImageVector
     get() {
-        if (_xlogo != null) {
-            return _xlogo!!
+        if (_xLogo != null) {
+            return _xLogo!!
         }
-        _xlogo = Builder(name = "Xlogo", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _xLogo = Builder(name = "XLogo", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
@@ -59,7 +59,7 @@ public val DuotoneGroup.Xlogo: ImageVector
             }
         }
         .build()
-        return _xlogo!!
+        return _xLogo!!
     }
 
-private var _xlogo: ImageVector? = null
+private var _xLogo: ImageVector? = null

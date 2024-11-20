@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.BoldGroup
 
-public val BoldGroup.Alignleftsimple: ImageVector
+public val BoldGroup.AlignLeftSimple: ImageVector
     get() {
-        if (_alignleftsimple != null) {
-            return _alignleftsimple!!
+        if (_alignLeftSimple != null) {
+            return _alignLeftSimple!!
         }
-        _alignleftsimple = Builder(name = "Alignleftsimple", defaultWidth = 256.0.dp, defaultHeight
-                = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _alignLeftSimple = Builder(name = "AlignLeftSimple", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -45,7 +45,7 @@ public val BoldGroup.Alignleftsimple: ImageVector
             }
         }
         .build()
-        return _alignleftsimple!!
+        return _alignLeftSimple!!
     }
 
-private var _alignleftsimple: ImageVector? = null
+private var _alignLeftSimple: ImageVector? = null

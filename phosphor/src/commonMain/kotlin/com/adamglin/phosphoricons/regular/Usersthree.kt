@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.RegularGroup
 
-public val RegularGroup.Usersthree: ImageVector
+public val RegularGroup.UsersThree: ImageVector
     get() {
-        if (_usersthree != null) {
-            return _usersthree!!
+        if (_usersThree != null) {
+            return _usersThree!!
         }
-        _usersthree = Builder(name = "Usersthree", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _usersThree = Builder(name = "UsersThree", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+                viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -58,7 +58,7 @@ public val RegularGroup.Usersthree: ImageVector
             }
         }
         .build()
-        return _usersthree!!
+        return _usersThree!!
     }
 
-private var _usersthree: ImageVector? = null
+private var _usersThree: ImageVector? = null

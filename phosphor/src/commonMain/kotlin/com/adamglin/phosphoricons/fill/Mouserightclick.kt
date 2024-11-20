@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Mouserightclick: ImageVector
+public val FillGroup.MouseRightClick: ImageVector
     get() {
-        if (_mouserightclick != null) {
-            return _mouserightclick!!
+        if (_mouseRightClick != null) {
+            return _mouseRightClick!!
         }
-        _mouserightclick = Builder(name = "Mouserightclick", defaultWidth = 256.0.dp, defaultHeight
-                = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _mouseRightClick = Builder(name = "MouseRightClick", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -49,7 +49,7 @@ public val FillGroup.Mouserightclick: ImageVector
             }
         }
         .build()
-        return _mouserightclick!!
+        return _mouseRightClick!!
     }
 
-private var _mouserightclick: ImageVector? = null
+private var _mouseRightClick: ImageVector? = null

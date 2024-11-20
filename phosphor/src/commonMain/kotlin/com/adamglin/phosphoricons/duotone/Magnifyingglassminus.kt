@@ -14,13 +14,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Magnifyingglassminus: ImageVector
+public val DuotoneGroup.MagnifyingGlassMinus: ImageVector
     get() {
-        if (_magnifyingglassminus != null) {
-            return _magnifyingglassminus!!
+        if (_magnifyingGlassMinus != null) {
+            return _magnifyingGlassMinus!!
         }
-        _magnifyingglassminus = Builder(name = "Magnifyingglassminus", defaultWidth = 256.0.dp,
-                defaultHeight = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _magnifyingGlassMinus = Builder(name = "MagnifyingGlassMinus", defaultWidth = 24.0.dp,
+                defaultHeight = 24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
@@ -52,7 +52,7 @@ public val DuotoneGroup.Magnifyingglassminus: ImageVector
             }
         }
         .build()
-        return _magnifyingglassminus!!
+        return _magnifyingGlassMinus!!
     }
 
-private var _magnifyingglassminus: ImageVector? = null
+private var _magnifyingGlassMinus: ImageVector? = null

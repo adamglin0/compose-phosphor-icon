@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Treepalm: ImageVector
+public val FillGroup.TreePalm: ImageVector
     get() {
-        if (_treepalm != null) {
-            return _treepalm!!
+        if (_treePalm != null) {
+            return _treePalm!!
         }
-        _treepalm = Builder(name = "Treepalm", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _treePalm = Builder(name = "TreePalm", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -46,7 +46,7 @@ public val FillGroup.Treepalm: ImageVector
             }
         }
         .build()
-        return _treepalm!!
+        return _treePalm!!
     }
 
-private var _treepalm: ImageVector? = null
+private var _treePalm: ImageVector? = null

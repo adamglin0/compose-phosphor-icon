@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.BoldGroup
 
-public val BoldGroup.Mathoperations: ImageVector
+public val BoldGroup.MathOperations: ImageVector
     get() {
-        if (_mathoperations != null) {
-            return _mathoperations!!
+        if (_mathOperations != null) {
+            return _mathOperations!!
         }
-        _mathoperations = Builder(name = "Mathoperations", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _mathOperations = Builder(name = "MathOperations", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -72,7 +72,7 @@ public val BoldGroup.Mathoperations: ImageVector
             }
         }
         .build()
-        return _mathoperations!!
+        return _mathOperations!!
     }
 
-private var _mathoperations: ImageVector? = null
+private var _mathOperations: ImageVector? = null

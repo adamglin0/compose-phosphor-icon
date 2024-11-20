@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.BoldGroup
 
-public val BoldGroup.Callbell: ImageVector
+public val BoldGroup.CallBell: ImageVector
     get() {
-        if (_callbell != null) {
-            return _callbell!!
+        if (_callBell != null) {
+            return _callBell!!
         }
-        _callbell = Builder(name = "Callbell", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _callBell = Builder(name = "CallBell", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -52,7 +52,7 @@ public val BoldGroup.Callbell: ImageVector
             }
         }
         .build()
-        return _callbell!!
+        return _callBell!!
     }
 
-private var _callbell: ImageVector? = null
+private var _callBell: ImageVector? = null

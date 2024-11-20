@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.ThinGroup
 
-public val ThinGroup.Bookmarksimple: ImageVector
+public val ThinGroup.BookmarkSimple: ImageVector
     get() {
-        if (_bookmarksimple != null) {
-            return _bookmarksimple!!
+        if (_bookmarkSimple != null) {
+            return _bookmarkSimple!!
         }
-        _bookmarksimple = Builder(name = "Bookmarksimple", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _bookmarkSimple = Builder(name = "BookmarkSimple", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -46,7 +46,7 @@ public val ThinGroup.Bookmarksimple: ImageVector
             }
         }
         .build()
-        return _bookmarksimple!!
+        return _bookmarkSimple!!
     }
 
-private var _bookmarksimple: ImageVector? = null
+private var _bookmarkSimple: ImageVector? = null

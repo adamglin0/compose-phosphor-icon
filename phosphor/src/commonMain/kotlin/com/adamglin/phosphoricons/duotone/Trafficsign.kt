@@ -14,13 +14,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Trafficsign: ImageVector
+public val DuotoneGroup.TrafficSign: ImageVector
     get() {
-        if (_trafficsign != null) {
-            return _trafficsign!!
+        if (_trafficSign != null) {
+            return _trafficSign!!
         }
-        _trafficsign = Builder(name = "Trafficsign", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _trafficSign = Builder(name = "TrafficSign", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
@@ -79,7 +79,7 @@ public val DuotoneGroup.Trafficsign: ImageVector
             }
         }
         .build()
-        return _trafficsign!!
+        return _trafficSign!!
     }
 
-private var _trafficsign: ImageVector? = null
+private var _trafficSign: ImageVector? = null

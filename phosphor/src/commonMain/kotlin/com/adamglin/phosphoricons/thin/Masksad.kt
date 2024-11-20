@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.ThinGroup
 
-public val ThinGroup.Masksad: ImageVector
+public val ThinGroup.MaskSad: ImageVector
     get() {
-        if (_masksad != null) {
-            return _masksad!!
+        if (_maskSad != null) {
+            return _maskSad!!
         }
-        _masksad = Builder(name = "Masksad", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _maskSad = Builder(name = "MaskSad", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -72,7 +72,7 @@ public val ThinGroup.Masksad: ImageVector
             }
         }
         .build()
-        return _masksad!!
+        return _maskSad!!
     }
 
-private var _masksad: ImageVector? = null
+private var _maskSad: ImageVector? = null

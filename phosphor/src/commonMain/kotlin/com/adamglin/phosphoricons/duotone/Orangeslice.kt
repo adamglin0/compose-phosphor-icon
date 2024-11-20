@@ -14,13 +14,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Orangeslice: ImageVector
+public val DuotoneGroup.OrangeSlice: ImageVector
     get() {
-        if (_orangeslice != null) {
-            return _orangeslice!!
+        if (_orangeSlice != null) {
+            return _orangeSlice!!
         }
-        _orangeslice = Builder(name = "Orangeslice", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _orangeSlice = Builder(name = "OrangeSlice", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
@@ -65,7 +65,7 @@ public val DuotoneGroup.Orangeslice: ImageVector
             }
         }
         .build()
-        return _orangeslice!!
+        return _orangeSlice!!
     }
 
-private var _orangeslice: ImageVector? = null
+private var _orangeSlice: ImageVector? = null

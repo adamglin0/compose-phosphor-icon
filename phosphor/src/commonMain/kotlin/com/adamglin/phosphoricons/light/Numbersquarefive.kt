@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.LightGroup
 
-public val LightGroup.Numbersquarefive: ImageVector
+public val LightGroup.NumberSquareFive: ImageVector
     get() {
-        if (_numbersquarefive != null) {
-            return _numbersquarefive!!
+        if (_numberSquareFive != null) {
+            return _numberSquareFive!!
         }
-        _numbersquarefive = Builder(name = "Numbersquarefive", defaultWidth = 256.0.dp,
-                defaultHeight = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _numberSquareFive = Builder(name = "NumberSquareFive", defaultWidth = 24.0.dp, defaultHeight
+                = 24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -58,7 +58,7 @@ public val LightGroup.Numbersquarefive: ImageVector
             }
         }
         .build()
-        return _numbersquarefive!!
+        return _numberSquareFive!!
     }
 
-private var _numbersquarefive: ImageVector? = null
+private var _numberSquareFive: ImageVector? = null

@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.BoldGroup
 
-public val BoldGroup.Userfocus: ImageVector
+public val BoldGroup.UserFocus: ImageVector
     get() {
-        if (_userfocus != null) {
-            return _userfocus!!
+        if (_userFocus != null) {
+            return _userFocus!!
         }
-        _userfocus = Builder(name = "Userfocus", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _userFocus = Builder(name = "UserFocus", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -75,7 +75,7 @@ public val BoldGroup.Userfocus: ImageVector
             }
         }
         .build()
-        return _userfocus!!
+        return _userFocus!!
     }
 
-private var _userfocus: ImageVector? = null
+private var _userFocus: ImageVector? = null

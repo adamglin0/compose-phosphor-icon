@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.ThinGroup
 
-public val ThinGroup.Lettercircleh: ImageVector
+public val ThinGroup.LetterCircleH: ImageVector
     get() {
-        if (_lettercircleh != null) {
-            return _lettercircleh!!
+        if (_letterCircleH != null) {
+            return _letterCircleH!!
         }
-        _lettercircleh = Builder(name = "Lettercircleh", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _letterCircleH = Builder(name = "LetterCircleH", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -46,7 +46,7 @@ public val ThinGroup.Lettercircleh: ImageVector
             }
         }
         .build()
-        return _lettercircleh!!
+        return _letterCircleH!!
     }
 
-private var _lettercircleh: ImageVector? = null
+private var _letterCircleH: ImageVector? = null

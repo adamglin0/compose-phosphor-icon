@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.ThinGroup
 
-public val ThinGroup.Uploadsimple: ImageVector
+public val ThinGroup.UploadSimple: ImageVector
     get() {
-        if (_uploadsimple != null) {
-            return _uploadsimple!!
+        if (_uploadSimple != null) {
+            return _uploadSimple!!
         }
-        _uploadsimple = Builder(name = "Uploadsimple", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _uploadSimple = Builder(name = "UploadSimple", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -48,7 +48,7 @@ public val ThinGroup.Uploadsimple: ImageVector
             }
         }
         .build()
-        return _uploadsimple!!
+        return _uploadSimple!!
     }
 
-private var _uploadsimple: ImageVector? = null
+private var _uploadSimple: ImageVector? = null

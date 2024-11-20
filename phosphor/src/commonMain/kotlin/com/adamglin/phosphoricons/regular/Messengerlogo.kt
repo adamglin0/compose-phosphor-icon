@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.RegularGroup
 
-public val RegularGroup.Messengerlogo: ImageVector
+public val RegularGroup.MessengerLogo: ImageVector
     get() {
-        if (_messengerlogo != null) {
-            return _messengerlogo!!
+        if (_messengerLogo != null) {
+            return _messengerLogo!!
         }
-        _messengerlogo = Builder(name = "Messengerlogo", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _messengerLogo = Builder(name = "MessengerLogo", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -52,7 +52,7 @@ public val RegularGroup.Messengerlogo: ImageVector
             }
         }
         .build()
-        return _messengerlogo!!
+        return _messengerLogo!!
     }
 
-private var _messengerlogo: ImageVector? = null
+private var _messengerLogo: ImageVector? = null

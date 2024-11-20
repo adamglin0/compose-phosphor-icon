@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.ThinGroup
 
-public val ThinGroup.Bookopentext: ImageVector
+public val ThinGroup.BookOpenText: ImageVector
     get() {
-        if (_bookopentext != null) {
-            return _bookopentext!!
+        if (_bookOpenText != null) {
+            return _bookOpenText!!
         }
-        _bookopentext = Builder(name = "Bookopentext", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _bookOpenText = Builder(name = "BookOpenText", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -76,7 +76,7 @@ public val ThinGroup.Bookopentext: ImageVector
             }
         }
         .build()
-        return _bookopentext!!
+        return _bookOpenText!!
     }
 
-private var _bookopentext: ImageVector? = null
+private var _bookOpenText: ImageVector? = null

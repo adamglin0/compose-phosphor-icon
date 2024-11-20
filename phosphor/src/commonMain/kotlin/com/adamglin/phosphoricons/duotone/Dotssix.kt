@@ -14,12 +14,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Dotssix: ImageVector
+public val DuotoneGroup.DotsSix: ImageVector
     get() {
-        if (_dotssix != null) {
-            return _dotssix!!
+        if (_dotsSix != null) {
+            return _dotsSix!!
         }
-        _dotssix = Builder(name = "Dotssix", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _dotsSix = Builder(name = "DotsSix", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
@@ -65,7 +65,7 @@ public val DuotoneGroup.Dotssix: ImageVector
             }
         }
         .build()
-        return _dotssix!!
+        return _dotsSix!!
     }
 
-private var _dotssix: ImageVector? = null
+private var _dotsSix: ImageVector? = null

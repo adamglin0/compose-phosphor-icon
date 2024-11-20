@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.RegularGroup
 
-public val RegularGroup.Bluetoothconnected: ImageVector
+public val RegularGroup.BluetoothConnected: ImageVector
     get() {
-        if (_bluetoothconnected != null) {
-            return _bluetoothconnected!!
+        if (_bluetoothConnected != null) {
+            return _bluetoothConnected!!
         }
-        _bluetoothconnected = Builder(name = "Bluetoothconnected", defaultWidth = 256.0.dp,
-                defaultHeight = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _bluetoothConnected = Builder(name = "BluetoothConnected", defaultWidth = 24.0.dp,
+                defaultHeight = 24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -58,7 +58,7 @@ public val RegularGroup.Bluetoothconnected: ImageVector
             }
         }
         .build()
-        return _bluetoothconnected!!
+        return _bluetoothConnected!!
     }
 
-private var _bluetoothconnected: ImageVector? = null
+private var _bluetoothConnected: ImageVector? = null

@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Closedcaptioning: ImageVector
+public val FillGroup.ClosedCaptioning: ImageVector
     get() {
-        if (_closedcaptioning != null) {
-            return _closedcaptioning!!
+        if (_closedCaptioning != null) {
+            return _closedCaptioning!!
         }
-        _closedcaptioning = Builder(name = "Closedcaptioning", defaultWidth = 256.0.dp,
-                defaultHeight = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _closedCaptioning = Builder(name = "ClosedCaptioning", defaultWidth = 24.0.dp, defaultHeight
+                = 24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -46,7 +46,7 @@ public val FillGroup.Closedcaptioning: ImageVector
             }
         }
         .build()
-        return _closedcaptioning!!
+        return _closedCaptioning!!
     }
 
-private var _closedcaptioning: ImageVector? = null
+private var _closedCaptioning: ImageVector? = null

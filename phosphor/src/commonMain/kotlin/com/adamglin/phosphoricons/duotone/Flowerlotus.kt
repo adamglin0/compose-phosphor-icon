@@ -14,13 +14,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Flowerlotus: ImageVector
+public val DuotoneGroup.FlowerLotus: ImageVector
     get() {
-        if (_flowerlotus != null) {
-            return _flowerlotus!!
+        if (_flowerLotus != null) {
+            return _flowerLotus!!
         }
-        _flowerlotus = Builder(name = "Flowerlotus", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _flowerLotus = Builder(name = "FlowerLotus", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
@@ -114,7 +114,7 @@ public val DuotoneGroup.Flowerlotus: ImageVector
             }
         }
         .build()
-        return _flowerlotus!!
+        return _flowerLotus!!
     }
 
-private var _flowerlotus: ImageVector? = null
+private var _flowerLotus: ImageVector? = null

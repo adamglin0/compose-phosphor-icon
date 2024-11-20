@@ -14,13 +14,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Currencycircledollar: ImageVector
+public val DuotoneGroup.CurrencyCircleDollar: ImageVector
     get() {
-        if (_currencycircledollar != null) {
-            return _currencycircledollar!!
+        if (_currencyCircleDollar != null) {
+            return _currencyCircleDollar!!
         }
-        _currencycircledollar = Builder(name = "Currencycircledollar", defaultWidth = 256.0.dp,
-                defaultHeight = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _currencyCircleDollar = Builder(name = "CurrencyCircleDollar", defaultWidth = 24.0.dp,
+                defaultHeight = 24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
@@ -66,7 +66,7 @@ public val DuotoneGroup.Currencycircledollar: ImageVector
             }
         }
         .build()
-        return _currencycircledollar!!
+        return _currencyCircleDollar!!
     }
 
-private var _currencycircledollar: ImageVector? = null
+private var _currencyCircleDollar: ImageVector? = null

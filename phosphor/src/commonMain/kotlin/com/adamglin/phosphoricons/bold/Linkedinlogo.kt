@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.BoldGroup
 
-public val BoldGroup.Linkedinlogo: ImageVector
+public val BoldGroup.LinkedinLogo: ImageVector
     get() {
-        if (_linkedinlogo != null) {
-            return _linkedinlogo!!
+        if (_linkedinLogo != null) {
+            return _linkedinLogo!!
         }
-        _linkedinlogo = Builder(name = "Linkedinlogo", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _linkedinLogo = Builder(name = "LinkedinLogo", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -60,7 +60,7 @@ public val BoldGroup.Linkedinlogo: ImageVector
             }
         }
         .build()
-        return _linkedinlogo!!
+        return _linkedinLogo!!
     }
 
-private var _linkedinlogo: ImageVector? = null
+private var _linkedinLogo: ImageVector? = null

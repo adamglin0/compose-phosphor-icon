@@ -14,13 +14,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Highlightercircle: ImageVector
+public val DuotoneGroup.HighlighterCircle: ImageVector
     get() {
-        if (_highlightercircle != null) {
-            return _highlightercircle!!
+        if (_highlighterCircle != null) {
+            return _highlighterCircle!!
         }
-        _highlightercircle = Builder(name = "Highlightercircle", defaultWidth = 256.0.dp,
-                defaultHeight = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _highlighterCircle = Builder(name = "HighlighterCircle", defaultWidth = 24.0.dp,
+                defaultHeight = 24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
@@ -72,7 +72,7 @@ public val DuotoneGroup.Highlightercircle: ImageVector
             }
         }
         .build()
-        return _highlightercircle!!
+        return _highlighterCircle!!
     }
 
-private var _highlightercircle: ImageVector? = null
+private var _highlighterCircle: ImageVector? = null

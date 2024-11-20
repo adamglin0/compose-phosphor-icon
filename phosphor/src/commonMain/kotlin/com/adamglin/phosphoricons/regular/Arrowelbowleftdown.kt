@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.RegularGroup
 
-public val RegularGroup.Arrowelbowleftdown: ImageVector
+public val RegularGroup.ArrowElbowLeftDown: ImageVector
     get() {
-        if (_arrowelbowleftdown != null) {
-            return _arrowelbowleftdown!!
+        if (_arrowElbowLeftDown != null) {
+            return _arrowElbowLeftDown!!
         }
-        _arrowelbowleftdown = Builder(name = "Arrowelbowleftdown", defaultWidth = 256.0.dp,
-                defaultHeight = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _arrowElbowLeftDown = Builder(name = "ArrowElbowLeftDown", defaultWidth = 24.0.dp,
+                defaultHeight = 24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -40,7 +40,7 @@ public val RegularGroup.Arrowelbowleftdown: ImageVector
             }
         }
         .build()
-        return _arrowelbowleftdown!!
+        return _arrowElbowLeftDown!!
     }
 
-private var _arrowelbowleftdown: ImageVector? = null
+private var _arrowElbowLeftDown: ImageVector? = null

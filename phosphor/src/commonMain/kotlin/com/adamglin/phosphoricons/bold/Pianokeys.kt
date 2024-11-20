@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.BoldGroup
 
-public val BoldGroup.Pianokeys: ImageVector
+public val BoldGroup.PianoKeys: ImageVector
     get() {
-        if (_pianokeys != null) {
-            return _pianokeys!!
+        if (_pianoKeys != null) {
+            return _pianoKeys!!
         }
-        _pianokeys = Builder(name = "Pianokeys", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _pianoKeys = Builder(name = "PianoKeys", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -65,7 +65,7 @@ public val BoldGroup.Pianokeys: ImageVector
             }
         }
         .build()
-        return _pianokeys!!
+        return _pianoKeys!!
     }
 
-private var _pianokeys: ImageVector? = null
+private var _pianoKeys: ImageVector? = null

@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.LightGroup
 
-public val LightGroup.Wifix: ImageVector
+public val LightGroup.WifiX: ImageVector
     get() {
-        if (_wifix != null) {
-            return _wifix!!
+        if (_wifiX != null) {
+            return _wifiX!!
         }
-        _wifix = Builder(name = "Wifix", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _wifiX = Builder(name = "WifiX", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -64,7 +64,7 @@ public val LightGroup.Wifix: ImageVector
             }
         }
         .build()
-        return _wifix!!
+        return _wifiX!!
     }
 
-private var _wifix: ImageVector? = null
+private var _wifiX: ImageVector? = null

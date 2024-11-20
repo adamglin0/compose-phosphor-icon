@@ -14,13 +14,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Fadershorizontal: ImageVector
+public val DuotoneGroup.FadersHorizontal: ImageVector
     get() {
-        if (_fadershorizontal != null) {
-            return _fadershorizontal!!
+        if (_fadersHorizontal != null) {
+            return _fadersHorizontal!!
         }
-        _fadershorizontal = Builder(name = "Fadershorizontal", defaultWidth = 256.0.dp,
-                defaultHeight = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _fadersHorizontal = Builder(name = "FadersHorizontal", defaultWidth = 24.0.dp, defaultHeight
+                = 24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
@@ -70,7 +70,7 @@ public val DuotoneGroup.Fadershorizontal: ImageVector
             }
         }
         .build()
-        return _fadershorizontal!!
+        return _fadersHorizontal!!
     }
 
-private var _fadershorizontal: ImageVector? = null
+private var _fadersHorizontal: ImageVector? = null

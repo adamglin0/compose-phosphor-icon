@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Circlehalftilt: ImageVector
+public val FillGroup.CircleHalfTilt: ImageVector
     get() {
-        if (_circlehalftilt != null) {
-            return _circlehalftilt!!
+        if (_circleHalfTilt != null) {
+            return _circleHalfTilt!!
         }
-        _circlehalftilt = Builder(name = "Circlehalftilt", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _circleHalfTilt = Builder(name = "CircleHalfTilt", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -33,7 +33,7 @@ public val FillGroup.Circlehalftilt: ImageVector
             }
         }
         .build()
-        return _circlehalftilt!!
+        return _circleHalfTilt!!
     }
 
-private var _circlehalftilt: ImageVector? = null
+private var _circleHalfTilt: ImageVector? = null

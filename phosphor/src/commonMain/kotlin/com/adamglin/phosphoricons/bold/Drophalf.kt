@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.BoldGroup
 
-public val BoldGroup.Drophalf: ImageVector
+public val BoldGroup.DropHalf: ImageVector
     get() {
-        if (_drophalf != null) {
-            return _drophalf!!
+        if (_dropHalf != null) {
+            return _dropHalf!!
         }
-        _drophalf = Builder(name = "Drophalf", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _dropHalf = Builder(name = "DropHalf", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -59,7 +59,7 @@ public val BoldGroup.Drophalf: ImageVector
             }
         }
         .build()
-        return _drophalf!!
+        return _dropHalf!!
     }
 
-private var _drophalf: ImageVector? = null
+private var _dropHalf: ImageVector? = null

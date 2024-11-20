@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.BoldGroup
 
-public val BoldGroup.Diamondsfour: ImageVector
+public val BoldGroup.DiamondsFour: ImageVector
     get() {
-        if (_diamondsfour != null) {
-            return _diamondsfour!!
+        if (_diamondsFour != null) {
+            return _diamondsFour!!
         }
-        _diamondsfour = Builder(name = "Diamondsfour", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _diamondsFour = Builder(name = "DiamondsFour", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -82,7 +82,7 @@ public val BoldGroup.Diamondsfour: ImageVector
             }
         }
         .build()
-        return _diamondsfour!!
+        return _diamondsFour!!
     }
 
-private var _diamondsfour: ImageVector? = null
+private var _diamondsFour: ImageVector? = null

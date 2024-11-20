@@ -14,12 +14,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Flowarrow: ImageVector
+public val DuotoneGroup.FlowArrow: ImageVector
     get() {
-        if (_flowarrow != null) {
-            return _flowarrow!!
+        if (_flowArrow != null) {
+            return _flowArrow!!
         }
-        _flowarrow = Builder(name = "Flowarrow", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _flowArrow = Builder(name = "FlowArrow", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
@@ -55,7 +55,7 @@ public val DuotoneGroup.Flowarrow: ImageVector
             }
         }
         .build()
-        return _flowarrow!!
+        return _flowArrow!!
     }
 
-private var _flowarrow: ImageVector? = null
+private var _flowArrow: ImageVector? = null

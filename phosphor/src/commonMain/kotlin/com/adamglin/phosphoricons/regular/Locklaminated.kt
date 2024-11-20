@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.RegularGroup
 
-public val RegularGroup.Locklaminated: ImageVector
+public val RegularGroup.LockLaminated: ImageVector
     get() {
-        if (_locklaminated != null) {
-            return _locklaminated!!
+        if (_lockLaminated != null) {
+            return _lockLaminated!!
         }
-        _locklaminated = Builder(name = "Locklaminated", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _lockLaminated = Builder(name = "LockLaminated", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -64,7 +64,7 @@ public val RegularGroup.Locklaminated: ImageVector
             }
         }
         .build()
-        return _locklaminated!!
+        return _lockLaminated!!
     }
 
-private var _locklaminated: ImageVector? = null
+private var _lockLaminated: ImageVector? = null

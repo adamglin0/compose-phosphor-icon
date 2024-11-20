@@ -14,13 +14,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Cursortext: ImageVector
+public val DuotoneGroup.CursorText: ImageVector
     get() {
-        if (_cursortext != null) {
-            return _cursortext!!
+        if (_cursorText != null) {
+            return _cursorText!!
         }
-        _cursortext = Builder(name = "Cursortext", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _cursorText = Builder(name = "CursorText", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+                viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
@@ -75,7 +75,7 @@ public val DuotoneGroup.Cursortext: ImageVector
             }
         }
         .build()
-        return _cursortext!!
+        return _cursorText!!
     }
 
-private var _cursortext: ImageVector? = null
+private var _cursorText: ImageVector? = null

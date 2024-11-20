@@ -14,12 +14,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Plusminus: ImageVector
+public val DuotoneGroup.PlusMinus: ImageVector
     get() {
-        if (_plusminus != null) {
-            return _plusminus!!
+        if (_plusMinus != null) {
+            return _plusMinus!!
         }
-        _plusminus = Builder(name = "Plusminus", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _plusMinus = Builder(name = "PlusMinus", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
@@ -66,7 +66,7 @@ public val DuotoneGroup.Plusminus: ImageVector
             }
         }
         .build()
-        return _plusminus!!
+        return _plusMinus!!
     }
 
-private var _plusminus: ImageVector? = null
+private var _plusMinus: ImageVector? = null

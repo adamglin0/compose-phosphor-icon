@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.LightGroup
 
-public val LightGroup.Waveformslash: ImageVector
+public val LightGroup.WaveformSlash: ImageVector
     get() {
-        if (_waveformslash != null) {
-            return _waveformslash!!
+        if (_waveformSlash != null) {
+            return _waveformSlash!!
         }
-        _waveformslash = Builder(name = "Waveformslash", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _waveformSlash = Builder(name = "WaveformSlash", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -71,7 +71,7 @@ public val LightGroup.Waveformslash: ImageVector
             }
         }
         .build()
-        return _waveformslash!!
+        return _waveformSlash!!
     }
 
-private var _waveformslash: ImageVector? = null
+private var _waveformSlash: ImageVector? = null

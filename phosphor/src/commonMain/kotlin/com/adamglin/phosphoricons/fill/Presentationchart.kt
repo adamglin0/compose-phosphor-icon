@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Presentationchart: ImageVector
+public val FillGroup.PresentationChart: ImageVector
     get() {
-        if (_presentationchart != null) {
-            return _presentationchart!!
+        if (_presentationChart != null) {
+            return _presentationChart!!
         }
-        _presentationchart = Builder(name = "Presentationchart", defaultWidth = 256.0.dp,
-                defaultHeight = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _presentationChart = Builder(name = "PresentationChart", defaultWidth = 24.0.dp,
+                defaultHeight = 24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -61,7 +61,7 @@ public val FillGroup.Presentationchart: ImageVector
             }
         }
         .build()
-        return _presentationchart!!
+        return _presentationChart!!
     }
 
-private var _presentationchart: ImageVector? = null
+private var _presentationChart: ImageVector? = null

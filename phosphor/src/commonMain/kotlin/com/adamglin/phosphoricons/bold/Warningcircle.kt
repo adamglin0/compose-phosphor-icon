@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.BoldGroup
 
-public val BoldGroup.Warningcircle: ImageVector
+public val BoldGroup.WarningCircle: ImageVector
     get() {
-        if (_warningcircle != null) {
-            return _warningcircle!!
+        if (_warningCircle != null) {
+            return _warningCircle!!
         }
-        _warningcircle = Builder(name = "Warningcircle", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _warningCircle = Builder(name = "WarningCircle", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -42,7 +42,7 @@ public val BoldGroup.Warningcircle: ImageVector
             }
         }
         .build()
-        return _warningcircle!!
+        return _warningCircle!!
     }
 
-private var _warningcircle: ImageVector? = null
+private var _warningCircle: ImageVector? = null

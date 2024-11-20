@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Userplus: ImageVector
+public val FillGroup.UserPlus: ImageVector
     get() {
-        if (_userplus != null) {
-            return _userplus!!
+        if (_userPlus != null) {
+            return _userPlus!!
         }
-        _userplus = Builder(name = "Userplus", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _userPlus = Builder(name = "UserPlus", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -47,7 +47,7 @@ public val FillGroup.Userplus: ImageVector
             }
         }
         .build()
-        return _userplus!!
+        return _userPlus!!
     }
 
-private var _userplus: ImageVector? = null
+private var _userPlus: ImageVector? = null

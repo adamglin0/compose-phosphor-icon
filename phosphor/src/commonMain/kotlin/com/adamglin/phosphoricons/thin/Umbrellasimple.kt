@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.ThinGroup
 
-public val ThinGroup.Umbrellasimple: ImageVector
+public val ThinGroup.UmbrellaSimple: ImageVector
     get() {
-        if (_umbrellasimple != null) {
-            return _umbrellasimple!!
+        if (_umbrellaSimple != null) {
+            return _umbrellaSimple!!
         }
-        _umbrellasimple = Builder(name = "Umbrellasimple", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _umbrellaSimple = Builder(name = "UmbrellaSimple", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -45,7 +45,7 @@ public val ThinGroup.Umbrellasimple: ImageVector
             }
         }
         .build()
-        return _umbrellasimple!!
+        return _umbrellaSimple!!
     }
 
-private var _umbrellasimple: ImageVector? = null
+private var _umbrellaSimple: ImageVector? = null

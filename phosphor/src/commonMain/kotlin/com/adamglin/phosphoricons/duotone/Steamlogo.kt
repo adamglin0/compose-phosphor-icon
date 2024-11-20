@@ -14,12 +14,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Steamlogo: ImageVector
+public val DuotoneGroup.SteamLogo: ImageVector
     get() {
-        if (_steamlogo != null) {
-            return _steamlogo!!
+        if (_steamLogo != null) {
+            return _steamLogo!!
         }
-        _steamlogo = Builder(name = "Steamlogo", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _steamLogo = Builder(name = "SteamLogo", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
@@ -68,7 +68,7 @@ public val DuotoneGroup.Steamlogo: ImageVector
             }
         }
         .build()
-        return _steamlogo!!
+        return _steamLogo!!
     }
 
-private var _steamlogo: ImageVector? = null
+private var _steamLogo: ImageVector? = null

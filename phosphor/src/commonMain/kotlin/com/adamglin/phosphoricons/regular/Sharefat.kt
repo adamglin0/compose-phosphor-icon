@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.RegularGroup
 
-public val RegularGroup.Sharefat: ImageVector
+public val RegularGroup.ShareFat: ImageVector
     get() {
-        if (_sharefat != null) {
-            return _sharefat!!
+        if (_shareFat != null) {
+            return _shareFat!!
         }
-        _sharefat = Builder(name = "Sharefat", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _shareFat = Builder(name = "ShareFat", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -49,7 +49,7 @@ public val RegularGroup.Sharefat: ImageVector
             }
         }
         .build()
-        return _sharefat!!
+        return _shareFat!!
     }
 
-private var _sharefat: ImageVector? = null
+private var _shareFat: ImageVector? = null

@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.BoldGroup
 
-public val BoldGroup.Textalignjustify: ImageVector
+public val BoldGroup.TextAlignJustify: ImageVector
     get() {
-        if (_textalignjustify != null) {
-            return _textalignjustify!!
+        if (_textAlignJustify != null) {
+            return _textAlignJustify!!
         }
-        _textalignjustify = Builder(name = "Textalignjustify", defaultWidth = 256.0.dp,
-                defaultHeight = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _textAlignJustify = Builder(name = "TextAlignJustify", defaultWidth = 24.0.dp, defaultHeight
+                = 24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -49,7 +49,7 @@ public val BoldGroup.Textalignjustify: ImageVector
             }
         }
         .build()
-        return _textalignjustify!!
+        return _textAlignJustify!!
     }
 
-private var _textalignjustify: ImageVector? = null
+private var _textAlignJustify: ImageVector? = null

@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.LightGroup
 
-public val LightGroup.Cigaretteslash: ImageVector
+public val LightGroup.CigaretteSlash: ImageVector
     get() {
-        if (_cigaretteslash != null) {
-            return _cigaretteslash!!
+        if (_cigaretteSlash != null) {
+            return _cigaretteSlash!!
         }
-        _cigaretteslash = Builder(name = "Cigaretteslash", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _cigaretteSlash = Builder(name = "CigaretteSlash", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -90,7 +90,7 @@ public val LightGroup.Cigaretteslash: ImageVector
             }
         }
         .build()
-        return _cigaretteslash!!
+        return _cigaretteSlash!!
     }
 
-private var _cigaretteslash: ImageVector? = null
+private var _cigaretteSlash: ImageVector? = null

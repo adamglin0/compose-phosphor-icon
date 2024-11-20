@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.LightGroup
 
-public val LightGroup.Starandcrescent: ImageVector
+public val LightGroup.StarAndCrescent: ImageVector
     get() {
-        if (_starandcrescent != null) {
-            return _starandcrescent!!
+        if (_starAndCrescent != null) {
+            return _starAndCrescent!!
         }
-        _starandcrescent = Builder(name = "Starandcrescent", defaultWidth = 256.0.dp, defaultHeight
-                = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _starAndCrescent = Builder(name = "StarAndCrescent", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -71,7 +71,7 @@ public val LightGroup.Starandcrescent: ImageVector
             }
         }
         .build()
-        return _starandcrescent!!
+        return _starAndCrescent!!
     }
 
-private var _starandcrescent: ImageVector? = null
+private var _starAndCrescent: ImageVector? = null

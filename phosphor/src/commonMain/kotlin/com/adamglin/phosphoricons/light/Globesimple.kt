@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.LightGroup
 
-public val LightGroup.Globesimple: ImageVector
+public val LightGroup.GlobeSimple: ImageVector
     get() {
-        if (_globesimple != null) {
-            return _globesimple!!
+        if (_globeSimple != null) {
+            return _globeSimple!!
         }
-        _globesimple = Builder(name = "Globesimple", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _globeSimple = Builder(name = "GlobeSimple", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -61,7 +61,7 @@ public val LightGroup.Globesimple: ImageVector
             }
         }
         .build()
-        return _globesimple!!
+        return _globeSimple!!
     }
 
-private var _globesimple: ImageVector? = null
+private var _globeSimple: ImageVector? = null

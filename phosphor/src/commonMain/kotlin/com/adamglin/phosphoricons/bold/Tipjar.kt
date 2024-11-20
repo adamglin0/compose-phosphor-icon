@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.BoldGroup
 
-public val BoldGroup.Tipjar: ImageVector
+public val BoldGroup.TipJar: ImageVector
     get() {
-        if (_tipjar != null) {
-            return _tipjar!!
+        if (_tipJar != null) {
+            return _tipJar!!
         }
-        _tipjar = Builder(name = "Tipjar", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _tipJar = Builder(name = "TipJar", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -77,7 +77,7 @@ public val BoldGroup.Tipjar: ImageVector
             }
         }
         .build()
-        return _tipjar!!
+        return _tipJar!!
     }
 
-private var _tipjar: ImageVector? = null
+private var _tipJar: ImageVector? = null

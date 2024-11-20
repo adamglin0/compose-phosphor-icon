@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.ThinGroup
 
-public val ThinGroup.Mappinarea: ImageVector
+public val ThinGroup.MapPinArea: ImageVector
     get() {
-        if (_mappinarea != null) {
-            return _mappinarea!!
+        if (_mapPinArea != null) {
+            return _mapPinArea!!
         }
-        _mappinarea = Builder(name = "Mappinarea", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _mapPinArea = Builder(name = "MapPinArea", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+                viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -55,7 +55,7 @@ public val ThinGroup.Mappinarea: ImageVector
             }
         }
         .build()
-        return _mappinarea!!
+        return _mapPinArea!!
     }
 
-private var _mappinarea: ImageVector? = null
+private var _mapPinArea: ImageVector? = null

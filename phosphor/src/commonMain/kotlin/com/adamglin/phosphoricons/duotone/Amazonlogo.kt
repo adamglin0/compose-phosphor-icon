@@ -14,13 +14,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Amazonlogo: ImageVector
+public val DuotoneGroup.AmazonLogo: ImageVector
     get() {
-        if (_amazonlogo != null) {
-            return _amazonlogo!!
+        if (_amazonLogo != null) {
+            return _amazonLogo!!
         }
-        _amazonlogo = Builder(name = "Amazonlogo", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _amazonLogo = Builder(name = "AmazonLogo", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+                viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
@@ -66,7 +66,7 @@ public val DuotoneGroup.Amazonlogo: ImageVector
             }
         }
         .build()
-        return _amazonlogo!!
+        return _amazonLogo!!
     }
 
-private var _amazonlogo: ImageVector? = null
+private var _amazonLogo: ImageVector? = null

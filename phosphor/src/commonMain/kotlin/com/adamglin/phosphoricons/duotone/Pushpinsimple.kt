@@ -14,13 +14,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Pushpinsimple: ImageVector
+public val DuotoneGroup.PushPinSimple: ImageVector
     get() {
-        if (_pushpinsimple != null) {
-            return _pushpinsimple!!
+        if (_pushPinSimple != null) {
+            return _pushPinSimple!!
         }
-        _pushpinsimple = Builder(name = "Pushpinsimple", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _pushPinSimple = Builder(name = "PushPinSimple", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
@@ -59,7 +59,7 @@ public val DuotoneGroup.Pushpinsimple: ImageVector
             }
         }
         .build()
-        return _pushpinsimple!!
+        return _pushPinSimple!!
     }
 
-private var _pushpinsimple: ImageVector? = null
+private var _pushPinSimple: ImageVector? = null

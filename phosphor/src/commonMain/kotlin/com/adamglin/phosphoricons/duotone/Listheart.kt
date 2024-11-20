@@ -14,12 +14,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Listheart: ImageVector
+public val DuotoneGroup.ListHeart: ImageVector
     get() {
-        if (_listheart != null) {
-            return _listheart!!
+        if (_listHeart != null) {
+            return _listHeart!!
         }
-        _listheart = Builder(name = "Listheart", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _listHeart = Builder(name = "ListHeart", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
@@ -70,7 +70,7 @@ public val DuotoneGroup.Listheart: ImageVector
             }
         }
         .build()
-        return _listheart!!
+        return _listHeart!!
     }
 
-private var _listheart: ImageVector? = null
+private var _listHeart: ImageVector? = null

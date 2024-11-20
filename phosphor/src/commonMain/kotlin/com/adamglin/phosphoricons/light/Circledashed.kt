@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.LightGroup
 
-public val LightGroup.Circledashed: ImageVector
+public val LightGroup.CircleDashed: ImageVector
     get() {
-        if (_circledashed != null) {
-            return _circledashed!!
+        if (_circleDashed != null) {
+            return _circleDashed!!
         }
-        _circledashed = Builder(name = "Circledashed", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _circleDashed = Builder(name = "CircleDashed", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -66,7 +66,7 @@ public val LightGroup.Circledashed: ImageVector
             }
         }
         .build()
-        return _circledashed!!
+        return _circleDashed!!
     }
 
-private var _circledashed: ImageVector? = null
+private var _circleDashed: ImageVector? = null

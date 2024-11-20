@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.LightGroup
 
-public val LightGroup.Tshirt: ImageVector
+public val LightGroup.TShirt: ImageVector
     get() {
-        if (_tshirt != null) {
-            return _tshirt!!
+        if (_tShirt != null) {
+            return _tShirt!!
         }
-        _tshirt = Builder(name = "Tshirt", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _tShirt = Builder(name = "TShirt", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -72,7 +72,7 @@ public val LightGroup.Tshirt: ImageVector
             }
         }
         .build()
-        return _tshirt!!
+        return _tShirt!!
     }
 
-private var _tshirt: ImageVector? = null
+private var _tShirt: ImageVector? = null

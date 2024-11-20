@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.RegularGroup
 
-public val RegularGroup.Filejpg: ImageVector
+public val RegularGroup.FileJpg: ImageVector
     get() {
-        if (_filejpg != null) {
-            return _filejpg!!
+        if (_fileJpg != null) {
+            return _fileJpg!!
         }
-        _filejpg = Builder(name = "Filejpg", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _fileJpg = Builder(name = "FileJpg", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -85,7 +85,7 @@ public val RegularGroup.Filejpg: ImageVector
             }
         }
         .build()
-        return _filejpg!!
+        return _fileJpg!!
     }
 
-private var _filejpg: ImageVector? = null
+private var _fileJpg: ImageVector? = null

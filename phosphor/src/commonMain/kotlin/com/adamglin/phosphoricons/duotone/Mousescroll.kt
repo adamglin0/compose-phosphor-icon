@@ -14,13 +14,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Mousescroll: ImageVector
+public val DuotoneGroup.MouseScroll: ImageVector
     get() {
-        if (_mousescroll != null) {
-            return _mousescroll!!
+        if (_mouseScroll != null) {
+            return _mouseScroll!!
         }
-        _mousescroll = Builder(name = "Mousescroll", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _mouseScroll = Builder(name = "MouseScroll", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
@@ -77,7 +77,7 @@ public val DuotoneGroup.Mousescroll: ImageVector
             }
         }
         .build()
-        return _mousescroll!!
+        return _mouseScroll!!
     }
 
-private var _mousescroll: ImageVector? = null
+private var _mouseScroll: ImageVector? = null

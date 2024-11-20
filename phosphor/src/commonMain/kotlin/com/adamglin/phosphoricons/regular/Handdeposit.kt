@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.RegularGroup
 
-public val RegularGroup.Handdeposit: ImageVector
+public val RegularGroup.HandDeposit: ImageVector
     get() {
-        if (_handdeposit != null) {
-            return _handdeposit!!
+        if (_handDeposit != null) {
+            return _handDeposit!!
         }
-        _handdeposit = Builder(name = "Handdeposit", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _handDeposit = Builder(name = "HandDeposit", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -67,7 +67,7 @@ public val RegularGroup.Handdeposit: ImageVector
             }
         }
         .build()
-        return _handdeposit!!
+        return _handDeposit!!
     }
 
-private var _handdeposit: ImageVector? = null
+private var _handDeposit: ImageVector? = null

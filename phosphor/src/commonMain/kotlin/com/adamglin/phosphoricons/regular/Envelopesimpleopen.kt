@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.RegularGroup
 
-public val RegularGroup.Envelopesimpleopen: ImageVector
+public val RegularGroup.EnvelopeSimpleOpen: ImageVector
     get() {
-        if (_envelopesimpleopen != null) {
-            return _envelopesimpleopen!!
+        if (_envelopeSimpleOpen != null) {
+            return _envelopeSimpleOpen!!
         }
-        _envelopesimpleopen = Builder(name = "Envelopesimpleopen", defaultWidth = 256.0.dp,
-                defaultHeight = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _envelopeSimpleOpen = Builder(name = "EnvelopeSimpleOpen", defaultWidth = 24.0.dp,
+                defaultHeight = 24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -51,7 +51,7 @@ public val RegularGroup.Envelopesimpleopen: ImageVector
             }
         }
         .build()
-        return _envelopesimpleopen!!
+        return _envelopeSimpleOpen!!
     }
 
-private var _envelopesimpleopen: ImageVector? = null
+private var _envelopeSimpleOpen: ImageVector? = null

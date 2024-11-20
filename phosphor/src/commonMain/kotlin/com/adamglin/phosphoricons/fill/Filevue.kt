@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Filevue: ImageVector
+public val FillGroup.FileVue: ImageVector
     get() {
-        if (_filevue != null) {
-            return _filevue!!
+        if (_fileVue != null) {
+            return _fileVue!!
         }
-        _filevue = Builder(name = "Filevue", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _fileVue = Builder(name = "FileVue", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -83,7 +83,7 @@ public val FillGroup.Filevue: ImageVector
             }
         }
         .build()
-        return _filevue!!
+        return _fileVue!!
     }
 
-private var _filevue: ImageVector? = null
+private var _fileVue: ImageVector? = null

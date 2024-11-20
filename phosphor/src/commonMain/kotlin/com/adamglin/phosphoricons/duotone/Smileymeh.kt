@@ -14,12 +14,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Smileymeh: ImageVector
+public val DuotoneGroup.SmileyMeh: ImageVector
     get() {
-        if (_smileymeh != null) {
-            return _smileymeh!!
+        if (_smileyMeh != null) {
+            return _smileyMeh!!
         }
-        _smileymeh = Builder(name = "Smileymeh", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _smileyMeh = Builder(name = "SmileyMeh", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
@@ -58,7 +58,7 @@ public val DuotoneGroup.Smileymeh: ImageVector
             }
         }
         .build()
-        return _smileymeh!!
+        return _smileyMeh!!
     }
 
-private var _smileymeh: ImageVector? = null
+private var _smileyMeh: ImageVector? = null

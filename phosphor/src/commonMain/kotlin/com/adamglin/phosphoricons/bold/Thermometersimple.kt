@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.BoldGroup
 
-public val BoldGroup.Thermometersimple: ImageVector
+public val BoldGroup.ThermometerSimple: ImageVector
     get() {
-        if (_thermometersimple != null) {
-            return _thermometersimple!!
+        if (_thermometerSimple != null) {
+            return _thermometerSimple!!
         }
-        _thermometersimple = Builder(name = "Thermometersimple", defaultWidth = 256.0.dp,
-                defaultHeight = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _thermometerSimple = Builder(name = "ThermometerSimple", defaultWidth = 24.0.dp,
+                defaultHeight = 24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -46,7 +46,7 @@ public val BoldGroup.Thermometersimple: ImageVector
             }
         }
         .build()
-        return _thermometersimple!!
+        return _thermometerSimple!!
     }
 
-private var _thermometersimple: ImageVector? = null
+private var _thermometerSimple: ImageVector? = null

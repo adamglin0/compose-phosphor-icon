@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.FillGroup
 
-public val FillGroup.Moneywavy: ImageVector
+public val FillGroup.MoneyWavy: ImageVector
     get() {
-        if (_moneywavy != null) {
-            return _moneywavy!!
+        if (_moneyWavy != null) {
+            return _moneyWavy!!
         }
-        _moneywavy = Builder(name = "Moneywavy", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _moneyWavy = Builder(name = "MoneyWavy", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -52,7 +52,7 @@ public val FillGroup.Moneywavy: ImageVector
             }
         }
         .build()
-        return _moneywavy!!
+        return _moneyWavy!!
     }
 
-private var _moneywavy: ImageVector? = null
+private var _moneyWavy: ImageVector? = null

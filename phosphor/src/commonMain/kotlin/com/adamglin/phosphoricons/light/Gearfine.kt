@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.LightGroup
 
-public val LightGroup.Gearfine: ImageVector
+public val LightGroup.GearFine: ImageVector
     get() {
-        if (_gearfine != null) {
-            return _gearfine!!
+        if (_gearFine != null) {
+            return _gearFine!!
         }
-        _gearfine = Builder(name = "Gearfine", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _gearFine = Builder(name = "GearFine", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -90,7 +90,7 @@ public val LightGroup.Gearfine: ImageVector
             }
         }
         .build()
-        return _gearfine!!
+        return _gearFine!!
     }
 
-private var _gearfine: ImageVector? = null
+private var _gearFine: ImageVector? = null

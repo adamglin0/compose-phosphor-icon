@@ -14,13 +14,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Phoneslash: ImageVector
+public val DuotoneGroup.PhoneSlash: ImageVector
     get() {
-        if (_phoneslash != null) {
-            return _phoneslash!!
+        if (_phoneSlash != null) {
+            return _phoneSlash!!
         }
-        _phoneslash = Builder(name = "Phoneslash", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _phoneSlash = Builder(name = "PhoneSlash", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+                viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
@@ -83,7 +83,7 @@ public val DuotoneGroup.Phoneslash: ImageVector
             }
         }
         .build()
-        return _phoneslash!!
+        return _phoneSlash!!
     }
 
-private var _phoneslash: ImageVector? = null
+private var _phoneSlash: ImageVector? = null

@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.RegularGroup
 
-public val RegularGroup.Gridnine: ImageVector
+public val RegularGroup.GridNine: ImageVector
     get() {
-        if (_gridnine != null) {
-            return _gridnine!!
+        if (_gridNine != null) {
+            return _gridNine!!
         }
-        _gridnine = Builder(name = "Gridnine", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _gridNine = Builder(name = "GridNine", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -80,7 +80,7 @@ public val RegularGroup.Gridnine: ImageVector
             }
         }
         .build()
-        return _gridnine!!
+        return _gridNine!!
     }
 
-private var _gridnine: ImageVector? = null
+private var _gridNine: ImageVector? = null

@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.BoldGroup
 
-public val BoldGroup.Textaunderline: ImageVector
+public val BoldGroup.TextAUnderline: ImageVector
     get() {
-        if (_textaunderline != null) {
-            return _textaunderline!!
+        if (_textAUnderline != null) {
+            return _textAUnderline!!
         }
-        _textaunderline = Builder(name = "Textaunderline", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _textAUnderline = Builder(name = "TextAUnderline", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -46,7 +46,7 @@ public val BoldGroup.Textaunderline: ImageVector
             }
         }
         .build()
-        return _textaunderline!!
+        return _textAUnderline!!
     }
 
-private var _textaunderline: ImageVector? = null
+private var _textAUnderline: ImageVector? = null

@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.LightGroup
 
-public val LightGroup.Notepencil: ImageVector
+public val LightGroup.NotePencil: ImageVector
     get() {
-        if (_notepencil != null) {
-            return _notepencil!!
+        if (_notePencil != null) {
+            return _notePencil!!
         }
-        _notepencil = Builder(name = "Notepencil", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _notePencil = Builder(name = "NotePencil", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+                viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -65,7 +65,7 @@ public val LightGroup.Notepencil: ImageVector
             }
         }
         .build()
-        return _notepencil!!
+        return _notePencil!!
     }
 
-private var _notepencil: ImageVector? = null
+private var _notePencil: ImageVector? = null

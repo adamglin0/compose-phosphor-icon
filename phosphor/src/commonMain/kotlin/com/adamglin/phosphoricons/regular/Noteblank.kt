@@ -11,12 +11,12 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.RegularGroup
 
-public val RegularGroup.Noteblank: ImageVector
+public val RegularGroup.NoteBlank: ImageVector
     get() {
-        if (_noteblank != null) {
-            return _noteblank!!
+        if (_noteBlank != null) {
+            return _noteBlank!!
         }
-        _noteblank = Builder(name = "Noteblank", defaultWidth = 256.0.dp, defaultHeight = 256.0.dp,
+        _noteBlank = Builder(name = "NoteBlank", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
                 viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
@@ -48,7 +48,7 @@ public val RegularGroup.Noteblank: ImageVector
             }
         }
         .build()
-        return _noteblank!!
+        return _noteBlank!!
     }
 
-private var _noteblank: ImageVector? = null
+private var _noteBlank: ImageVector? = null

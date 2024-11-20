@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.BoldGroup
 
-public val BoldGroup.Filmscript: ImageVector
+public val BoldGroup.FilmScript: ImageVector
     get() {
-        if (_filmscript != null) {
-            return _filmscript!!
+        if (_filmScript != null) {
+            return _filmScript!!
         }
-        _filmscript = Builder(name = "Filmscript", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _filmScript = Builder(name = "FilmScript", defaultWidth = 24.0.dp, defaultHeight = 24.0.dp,
+                viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -51,7 +51,7 @@ public val BoldGroup.Filmscript: ImageVector
             }
         }
         .build()
-        return _filmscript!!
+        return _filmScript!!
     }
 
-private var _filmscript: ImageVector? = null
+private var _filmScript: ImageVector? = null

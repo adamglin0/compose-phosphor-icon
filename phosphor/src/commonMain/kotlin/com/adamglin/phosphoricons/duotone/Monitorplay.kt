@@ -14,13 +14,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.DuotoneGroup
 
-public val DuotoneGroup.Monitorplay: ImageVector
+public val DuotoneGroup.MonitorPlay: ImageVector
     get() {
-        if (_monitorplay != null) {
-            return _monitorplay!!
+        if (_monitorPlay != null) {
+            return _monitorPlay!!
         }
-        _monitorplay = Builder(name = "Monitorplay", defaultWidth = 256.0.dp, defaultHeight =
-                256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _monitorPlay = Builder(name = "MonitorPlay", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, fillAlpha = 0.2f, strokeAlpha
                     = 0.2f, strokeLineWidth = 0.0f, strokeLineCap = Butt, strokeLineJoin = Miter,
                     strokeLineMiter = 4.0f, pathFillType = NonZero) {
@@ -83,7 +83,7 @@ public val DuotoneGroup.Monitorplay: ImageVector
             }
         }
         .build()
-        return _monitorplay!!
+        return _monitorPlay!!
     }
 
-private var _monitorplay: ImageVector? = null
+private var _monitorPlay: ImageVector? = null

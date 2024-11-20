@@ -11,13 +11,13 @@ import androidx.compose.ui.graphics.vector.path
 import androidx.compose.ui.unit.dp
 import com.adamglin.phosphoricons.LightGroup
 
-public val LightGroup.Caretcircleleft: ImageVector
+public val LightGroup.CaretCircleLeft: ImageVector
     get() {
-        if (_caretcircleleft != null) {
-            return _caretcircleleft!!
+        if (_caretCircleLeft != null) {
+            return _caretCircleLeft!!
         }
-        _caretcircleleft = Builder(name = "Caretcircleleft", defaultWidth = 256.0.dp, defaultHeight
-                = 256.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
+        _caretCircleLeft = Builder(name = "CaretCircleLeft", defaultWidth = 24.0.dp, defaultHeight =
+                24.0.dp, viewportWidth = 256.0f, viewportHeight = 256.0f).apply {
             path(fill = SolidColor(Color(0xFF000000)), stroke = null, strokeLineWidth = 0.0f,
                     strokeLineCap = Butt, strokeLineJoin = Miter, strokeLineMiter = 4.0f,
                     pathFillType = NonZero) {
@@ -41,7 +41,7 @@ public val LightGroup.Caretcircleleft: ImageVector
             }
         }
         .build()
-        return _caretcircleleft!!
+        return _caretCircleLeft!!
     }
 
-private var _caretcircleleft: ImageVector? = null
+private var _caretCircleLeft: ImageVector? = null
