@@ -27,9 +27,21 @@ import java.util.zip.ZipFile
 import kotlin.time.Duration.Companion.minutes
 
 
-
-downloadFile("./temp/icons.zip", "https://github.com/phosphor-icons/homepage/releases/download/v2.1.0/phosphor-icons.zip")
+downloadFile(
+    "./temp/icons.zip",
+    "https://github.com/phosphor-icons/homepage/releases/download/v2.1.0/phosphor-icons.zip"
+)
 unzip("./temp/icons.zip", "./temp/icons")
+File("./temp/icons").walkTopDown()
+    .filter { file -> file.isFile && file.extension == "svg" }
+    .forEach { file ->
+        val content = file.readText()
+        val updatedContent = content.replace(
+            Regex("<svg([^>]*?)>"),
+            "<svg\$1 width=\"24\" height=\"24\">"
+        )
+        file.writeText(updatedContent)
+    }
 Svg2Compose.parse(
     applicationIconPackage = "com.adamglin",
     accessorName = "PhosphorIcons",
