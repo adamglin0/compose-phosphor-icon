@@ -15,15 +15,21 @@
 import br.com.devsrsouza.svg2compose.Svg2Compose
 import br.com.devsrsouza.svg2compose.VectorType
 import io.ktor.client.*
+import io.ktor.client.call.body
 import io.ktor.client.engine.okhttp.*
 import io.ktor.client.plugins.*
 import io.ktor.client.request.*
 import io.ktor.client.statement.*
+import io.ktor.http.contentLength
 import io.ktor.util.cio.*
 import io.ktor.utils.io.*
+import io.ktor.utils.io.core.isEmpty
+import io.ktor.utils.io.core.remaining
 import kotlinx.coroutines.runBlocking
+import kotlinx.io.readByteArray
 import java.io.File
 import java.util.zip.ZipFile
+import kotlin.system.exitProcess
 import kotlin.time.Duration.Companion.minutes
 
 
@@ -42,6 +48,8 @@ File("./temp/icons").walkTopDown()
         )
         file.writeText(updatedContent)
     }
+println("\nConverting SVGs to Kotlin Compose...")
+var count = 0
 Svg2Compose.parse(
     applicationIconPackage = "com.adamglin",
     accessorName = "PhosphorIcons",
@@ -51,25 +59,36 @@ Svg2Compose.parse(
     allAssetsPropertyName = "AllIcons",
     generatePreview = false,
     iconNameTransformer = { s1, s2 ->
+        print("\rConvert ${++count} SVGs to Compose ")
         return@parse convertSnakeToCamel(s1, removeLastSplit = s2 != "Regular")
     }
 )
+println("\nConvert SVGs to Kotlin Compose Done")
+exitProcess(0)
 
 fun downloadFile(outputFile: String, url: String) {
     val file = File(outputFile)
-    file.mkdirIfNotExist()
+    file.deleteOnExit()
+    file.parentFile.mkdir()
     runBlocking {
         HttpClient(OkHttp) {
             install(HttpTimeout) {
                 requestTimeoutMillis = 30.minutes.inWholeMilliseconds
             }
-        }.get(url) {
-            onDownload { bytesSentTotal, contentLength ->
-                if (contentLength != null) {
-                    print("\rDownloading ${bytesSentTotal * 100 / contentLength}% from $url")
+        }.prepareGet(url).execute { httpResponse ->
+            val channel: ByteReadChannel = httpResponse.body()
+            while (!channel.isClosedForRead) {
+                val packet = channel.readRemaining(DEFAULT_BUFFER_SIZE.toLong())
+                while (!packet.exhausted()) {
+                    val bytes = packet.readByteArray()
+                    file.appendBytes(bytes)
+                    if (httpResponse.contentLength() !== null) {
+                        val percent = file.length() * 100 / httpResponse.contentLength()!!
+                        print("\rDownloading $percent% from $url")
+                    }
                 }
             }
-        }.bodyAsChannel().copyAndClose(file.writeChannel())
+        }
     }
     println("\rDownload success from $url")
 }
@@ -90,12 +109,6 @@ fun unzip(zipFile: String, outputDir: String) = ZipFile(zipFile).use { zip ->
                 }
             }
         }
-    }
-}
-
-fun File.mkdirIfNotExist(isDir: Boolean = false) {
-    if (!exists()) {
-        if (isDir) mkdir() else parentFile.mkdir()
     }
 }
 
