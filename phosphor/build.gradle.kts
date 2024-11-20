@@ -30,7 +30,11 @@ kotlin {
         browser()
     }
 
-    jvm("desktop")
+    jvm("desktop") {
+        compilerOptions {
+            jvmTarget = !JvmTarget.JVM_1_8
+        }
+    }
 
     iosX64()
     iosArm64()
