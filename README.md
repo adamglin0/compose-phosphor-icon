@@ -27,12 +27,20 @@ implementation("com.adamglin:phosphor-icon:$version")
 Icon(imageVector = PhosphorIcons.Bold.AirTrafficControl, contentDescription = null)
 ```
 
+## Versions
+
+| lib   | phosphor-icon | CMP   | Kotlin |
+|-------|---------------|-------|--------|
+| 1.0.0 | 2.1.0         | 1.7.1 | 2.0.21 |
+
 ## Build By Yourself
 
    ```bash
    kotlinc -script run.main.kts
    ```
+
 #### what's the script do?
+
 1. download phosphor-icons-zip
 2. unzip it
 3. reset all path's default size
