@@ -3,12 +3,12 @@ androidCompileSdk = "34"
 androidMinSdk = "21"
 androidTargetSdk = "34"
 androidGradlePlugin = "8.5.2"
-androidxActivity = "1.9.3"
+androidxActivity = "1.10.1"
 androidxAppCompat = "1.7.0"
-kotlin = "2.0.21"
-composeMultiplatform = "1.7.1"
-dokka = "1.9.20"
-maven-publish = "0.30.0"
+kotlin = "2.1.21"
+composeMultiplatform = "1.8.0"
+dokka = "2.0.0"
+maven-publish = "0.31.0"
 
 [libraries]
 androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "androidxAppCompat" }
